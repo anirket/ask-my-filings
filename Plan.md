@@ -4,14 +4,14 @@
 
 **Two things, and the first one is three hours of plumbing that three later weeks depend on.**
 
-**1. `collector` — a pipeline that quietly accumulates Indian company filings from now until February.** No LLM, no cleverness. Pull announcements and results for 10–12 listed companies you actually follow, store the raw text with ticker, quarter and date, and put it on a schedule that keeps running whether or not you remember it exists.
+**1. `collector` — one re-runnable command that pulls Indian company filings for any date window.** No LLM, no cleverness. Pull quarterly results and earnings-call transcripts for 13 large-caps, store the raw text with ticker, quarter and date, and re-run it whenever you want newer filings (Q3 in January, before Week 12). The collector code stays local (gitignored); only the filings are committed.
 
 **2. `ask-my-filings` — RAG over that corpus, with its retrieval actually measured.** Ask "what did Reliance say about capex guidance last quarter?" and get an answer with the exact cited snippet, or an honest refusal when the filing never said.
 
 ```
                  ┌──────────────────────────────────────────┐
-  BSE/NSE  ──►   │ collector (GitHub Actions, nightly cron) │
-                 │  backfill 4 quarters, then incremental   │
+  BSE      ──►   │ collector (local, run by hand)           │
+                 │  --from / --to any window, ≤365d/call    │
                  │  idempotent · run log · retries          │
                  └────────────────┬─────────────────────────┘
                                   ▼  data/filings/*.txt
@@ -35,11 +35,11 @@
 
 **What you end up with:**
 - **`ask-my-filings`**: public repo, live URL, README leading with the metrics table
-- **A corpus that grows on its own** until Week 12 needs it for the fine-tuning dataset
+- **A corpus you can top up with one command** (re-run in January for Q3) when Week 12 needs it for the fine-tuning dataset
 - **`EVAL.md`**: the four metrics, the chunking decision and why, and the RAG-vs-long-context verdict
 
 **Done when:**
-- [ ] The collector has run on schedule at least 3 nights in a row without you touching it
+- [ ] The backfill is re-runnable over any date window, and running it twice changes nothing
 - [ ] Live URL, works for a stranger
 - [ ] recall@5, MRR, faithfulness and refusal rate written down for your final config, with the before/after rerank delta
 - [ ] The rescue count for the self-correcting retry, however unimpressive it is
@@ -47,6 +47,8 @@
 - [ ] You can defend your chunk size, your top-k and your index choice with reference to how filings are actually structured
 
 **6 days, Nov 9 → Nov 14. All six are build days. There is no backup day.** Nov 9–13 are weekday evenings at ~3.5 hrs; Nov 14 is a Saturday and carries the heaviest load.
+
+⚠️ **The plan has grown about 30% since it was written** — the filing-kind classification, the PDF download-and-extract step, the bge gotchas, four videos on Day 2 — while the day budgets stayed at 3.5 hrs. Two things follow. **Day 1 and Day 2 are the overloaded ones**, so the pre-flight on Sunday now carries the PDF-URL hunt, and Day 2's video list says pick one of the first two. And since there's no backup day, **the order of sacrifice is fixed in advance**: deploy slips before the eval does, the reranker slips before the collector does, and the collector never slips at all.
 
 
 ---
@@ -75,23 +77,22 @@ Guess before you measure. Being wrong is the interesting part, and "I expected 0
 
 | Choice | Pick | Why |
 |---|---|---|
-| Where the collector runs | **GitHub Actions scheduled workflow** | Free, gives you a run log for nothing, and — the actual reason — **it survives you changing laptops**, which you are about to do. A cron on a machine you're replacing in three weeks is not a pipeline |
-| Where filings are stored | **Committed to the repo as `.txt`** under `data/filings/TICKER/YYYY-QN/<kind>-<NEWSID>.txt` + a `.json` sidecar (headline, date, category, PDF url) | A quarter has *several* filings (results, investor presentation, call transcript), so the key is BSE's `NEWSID`, not the quarter. A few hundred text files is tens of MB. Object storage is the grown-up answer and it is not worth the setup this week |
-| Source | **`bse` package only** (`bse==3.3.4`, pinned — see Sunday). **No NSE.** | `announcements` paginates, so one code path does both backfill and incremental. NSE's RSS is a rolling window that can't backfill, and NSE blocks datacenter IPs — which is what GitHub Actions runs on. Your large-caps are dual-listed, so BSE coverage is complete for this corpus |
+| Where the collector runs | **Locally, by hand. No scheduler, nothing automated committed** (decided Nov 8) | You're not putting code you can't defend into a public repo an interviewer will open. The backfill takes a date window, so pulling new filings is one command you run when you want them — including a Q3 re-run in January before Week 12 |
+| Where filings are stored | **Committed to the repo as `.txt`** under `data/filings/TICKER/FY27-Q2/<kind>-<NEWSID>.txt` + a `.json` sidecar (headline, date, category, PDF url). Quarter = **period reported** in Indian FY terms (filing date − 45 days) | A quarter has *several* filings (result, call transcript, sometimes a revised result), so the key is BSE's `NEWSID`, not the quarter. A few hundred text files is tens of MB. Object storage is the grown-up answer and it is not worth the setup this week |
+| Source | **`bse` package only** (`bse==3.3.4`, pinned — see Sunday). **No NSE.** | `announcements` paginates, so one code path handles any window. ⚠️ BSE rejects ranges over 365 days (400 Bad Request), so the collector walks long ranges in 90-day windows. NSE's RSS is a rolling window that can't backfill. Your large-caps are dual-listed, so BSE coverage is complete for this corpus |
 | Vector DB | **Qdrant**, local via Docker | Hybrid search built in, so BM25 + dense is a config change rather than a project |
 | Embeddings | **Local, `sentence-transformers` + `BAAI/bge-small-en-v1.5`** | Free, no second API key, runs on CPU, ~130MB. Also teaches you that an embedding model is just a model you can run — which matters in Week 8 |
 | Answering model | `claude-haiku-5-5` | Same as every other week. Cost comparisons stay comparable |
-| Index | **Your call, Day 3. Write the reason down.** | HNSW vs IVFFlat is a question hiring guides name specifically. Twenty minutes of reading, one line of defence |
+| Index | **Qdrant gives you HNSW — no choice to make.** Day 3 is about knowing *why*, and whether you're even hitting the index | Hiring guides name "HNSW vs IVFFlat", but that's a pgvector/FAISS question. Yours is: below `full_scan_threshold` Qdrant does exact search, so at a few thousand chunks the index may be doing nothing. Find out, then say so |
 | Deploy | **Day 4, thin and early** — Render or Railway | You have three repos and zero live URLs. Deploy before it's finished, then keep pushing to it. Cloud Run comes in Week 9 |
 | Reranker | **Local cross-encoder** (`ms-marco-MiniLM-L-6-v2`), Day 6 | Free, and usually the biggest single recall jump after chunking. Measured before and after, it's a row in your table rather than a claim |
 
 ```
 ask-my-filings/
   collector/
-    fetch.py            # bse → raw text, idempotent
-    schedule.py         # backfill vs incremental
-    runlog.py           # what was fetched, what failed, when
-  data/filings/TICKER/YYYY-QN/<kind>-<NEWSID>.txt   (+ .json sidecar)
+    classifier.py       # row → result | transcript | None      (gitignored)
+    fetch.py            # --from/--to → PDF → text, idempotent, runs.jsonl  (gitignored)
+  data/filings/TICKER/FY27-Q2/<kind>-<NEWSID>.txt   (+ .json sidecar)   ← committed
   rag/
     chunk.py            # the decision that matters most
     embed.py            # bge-small, local
@@ -103,7 +104,6 @@ ask-my-filings/
     metrics.py          # recall@k, MRR, faithfulness
     longcontext.py      # the baseline that might beat you
   app.py                # FastAPI + a thin page, hover reveals the snippet
-  .github/workflows/collect.yml
   EVAL.md  README.md  .env.example  requirements.txt
 ```
 
@@ -112,15 +112,16 @@ ask-my-filings/
 ## Before Day 1 · ~20 min (Sunday Nov 8, between festival things)
 
 - `pip install bse==3.3.4` and confirm it imports. If the package is broken or the API has moved, you want to know Sunday, not at 9pm Monday
-- ⚠️ **Pin it — `bse==3.3.4`, not `-U`.** Audited clean on Nov 6: 1,733 lines, no `eval`/`exec`/`subprocess`/`base64`, stdlib + `requests` + `mthrottle` only, and the sole network destination is `api.bseindia.com`. But it's a single-maintainer package with ~80 stars, which is precisely the profile where a compromised account ships a bad release — and your scheduled Action would pull it at 1am without you looking. Pin the version, and pin `mthrottle` too. It is GPL-3.0, so say so in your README
+- ⚠️ **Pin it — `bse==3.3.4`, not `-U`.** Audited clean on Nov 6: 1,733 lines, no `eval`/`exec`/`subprocess`/`base64`, stdlib + `requests` + `mthrottle` only, and the sole network destination is `api.bseindia.com`. But it's a single-maintainer package with ~80 stars, which is precisely the profile where a compromised account ships a bad release — and a future `pip install` would pull it without you looking. Pin the version, and pin `mthrottle` too. It is GPL-3.0, so say so in your README
 - Create the empty `anirket/ask-my-filings` repo
 - **`.env` in `.gitignore` before the first commit.** Same rule as always — the repo is public
 - Docker running, so `docker run qdrant/qdrant` works on Day 3 without a detour
 - Pick your 10–12 companies. Ones you actually follow, because you'll be writing eval questions about them from memory on Day 5
+- ⚠️ **Find the PDF URL pattern now, not Monday** (~15 min, no code). Open any announcement on bseindia.com, click through to the PDF, copy the URL from the address bar, and note how it's built from `ATTACHMENTNAME`. This is the one unknown in the whole week with no documentation behind it — `bse` returns metadata, not text, so if you can't construct that URL you have no corpus and Day 2 doesn't happen. Fifteen minutes on Sunday de-risks the day that can't fail
 
 | Day | Name | You'll walk away with |
 |---|---|---|
-| 1 (Mon Nov 9) | **The pipeline** | A collector that backfilled 4 quarters and is scheduled to keep going until February |
+| 1 (Mon Nov 9) | **The pipeline** | A re-runnable collector that backfilled 4 quarters for 13 companies |
 | 2 (Tue Nov 10) | **Chunks** | RAG understood, and a chunking strategy you chose on purpose |
 | 3 (Wed Nov 11) | **Retrieval** | Question in, relevant chunks out, in Qdrant, with an index you can defend |
 | 4 (Thu Nov 12) | **Live** | Answers with citations, deployed at a URL a stranger can open |
@@ -133,9 +134,9 @@ ask-my-filings/
 
 **Mission:** get the longest dependency in the whole roadmap *running*, tonight. Not perfect. Running.
 
-**Done when:** `data/filings/` has 4 quarters for 10–12 companies, the GitHub Action is scheduled and has fired once, and re-running the backfill adds zero duplicate files.
+**Done when:** `data/filings/` has 4 quarters for 10–12 companies, the backfill takes a date window, and re-running it adds zero duplicate files.
 
-### Phase 1: Get one filing · ~40 min
+### Phase 1: Get one filing · ~50 min (assumes you found the PDF URL pattern on Sunday)
 References. No good video exists for Indian filings specifically, so these are it:
 - **`bse` usage docs. Read this first:** https://bennythadikaran.github.io/BseIndiaApi/usage.html (the `announcements` section) and the category names at https://bennythadikaran.github.io/BseIndiaApi/Constants.html
 - **The pagination example:** https://github.com/BennyThadikaran/BseIndiaApi/blob/main/src/examples/get_all_announcements.py. It fetches *today's* announcements for *all* companies. You'll add `scripcode`, `from_date`, `to_date` and `category`
@@ -148,7 +149,7 @@ bse.announcements(page_no=1, from_date=datetime, to_date=datetime,
 bse.getScripCode("RELIANCE")  # → "500325"
 ```
 
-⚠️ **What comes back is metadata, not text.** Each row has `NEWSID`, `HEADLINE`, `NEWS_DT`, `CATEGORYNAME`, `ATTACHMENTNAME` (a `.pdf` filename). So "get one filing" is really three steps: **row → download PDF → extract text** (`pypdf` or `pdfplumber`). The docs don't give the PDF base URL. Open any announcement on bseindia.com, click the PDF, and copy the URL pattern from the address bar. That's your first five minutes.
+⚠️ **What comes back is metadata, not text.** Each row has `NEWSID`, `HEADLINE`, `NEWS_DT`, `CATEGORYNAME`, `ATTACHMENTNAME` (a `.pdf` filename). So "get one filing" is really three steps: **row → download PDF → extract text** (`pypdf` or `pdfplumber`). The docs don't give the PDF base URL, which is why finding it is on Sunday's list rather than tonight's — it's the one step in the week with no documentation behind it and no workaround if it fails.
 
 ✅ **Decided: what counts as a "filing"** (Nov 6)
 
@@ -157,7 +158,7 @@ bse.getScripCode("RELIANCE")  # → "500325"
 | Kind | Priority | Why | How to recognise it |
 |---|---|---|---|
 | `transcript` | **Must** | Analysts ask your eval questions ("capex guidance for FY27?") and management answers in prose, often across several turns. Also the source of natural unanswerable questions ("we don't give quarterly guidance"), and of question-and-answer pairs for the Week 12 fine-tuning set | `Company Update`. Check `SUBCATNAME` first, then fall back to a headline pattern like `transcript` |
-| `result` | **Must** | Tables and numbered notes, two of your three structures | `category="Result"`. Drop headlines containing `newspaper` or `intimation` |
+| `result` | **Must** | Tables and numbered notes, two of your three structures | `CATEGORYNAME == "Result"`, **or** `SUBCATNAME == "Outcome of Board Meeting"` confirmed by the PDF text mentioning "financial results" (HDFC Bank, LIC, L&T, Kotak file results only this way, often headlined "Outcome of Board Meeting held on…"; LIC also uses it for a bonus issue, which the text check rejects) |
 Rejected:
 - **Results only:** Day 5's prose questions would have nothing to retrieve.
 - **Every announcement:** thousands of trading-window and share-certificate notices would bury the signal.
@@ -165,54 +166,49 @@ Rejected:
 
 Rough size: 12 companies × 4 quarters × 2 kinds ≈ **100 documents**.
 
+**Actual (Nov 8, after removing cover letters, Kotak and L&T): 126 filings.** ⚠️ Cover-letter-only filings (a 1–10k-char letter saying "accessible at the link below") are rejected as `cover_letter_only`: transcripts under 10k chars, results under 15k. Kotak and L&T were dropped for this reason; HDFC and LIC lose some results the same way. Say so in the README, and use it for unanswerable questions on Day 5.
+
+⚠️ **Most quarters have *two* result files**: the `Result` filing and the board-meeting outcome often carry the same financial statements under different `NEWSID`s. Kept on purpose for now. Decide on Day 2 whether duplicate chunks hurt retrieval (they will crowd the top-5 with the same table) and dedupe by text similarity if so.
+
 - ⚠️ **Exclude "audio recording" announcements.** They mention "earnings call" too, but their PDF is just a link to the audio
 - **Tune the patterns from your own data.** Print every `Company Update` headline for 2 companies, read them, *then* write the patterns. Don't guess the wording
-- **Timing:** transcripts are filed several days *after* the results. The nightly incremental run picks them up whenever they land, but make the backfill window reach a week or two past the last results date
+- **Timing:** transcripts are filed several days *after* the results. Re-run a recent window (e.g. `--from` two weeks ago) to pick them up whenever they land
 
 ⚠️ Some PDFs are scanned images, so `pypdf` returns an empty string. Log them as `failed: no_text` and move on. Don't OCR on Monday.
 
 Pull one announcement for one company. Download its PDF. Print the text. That's the whole phase: find out what the data actually looks like before you design anything around it.
 
-⚠️ **Test it from GitHub Actions on Day 1, not just from your laptop.** Your laptop is a residential IP; the Action is a datacenter IP, and exchange sites treat those differently. If BSE refuses the Action, you want that failure tonight while you can still add headers or a delay — not at 1am Tuesday when the first scheduled run comes back empty. The manual `workflow_dispatch` fire in Phase 4 is exactly this test.
+⚠️ **PDFs:** `https://www.bseindia.com/xml-data/corpfiling/AttachLive/<ATTACHMENTNAME>` (older ones may move to `AttachHis/`). `NSURL` is the company's stock page, not the PDF. BSE returns **403 to the `python-requests` User-Agent**, so download through `bse.session`, and check the bytes start with `%PDF`.
 
 ### Phase 2: Backfill 4 quarters · ~1.25 hrs
-- 10–12 companies, 4 quarters each
+- 11 companies (Nov 8 picks: RELIANCE, BHARTIARTL, JPL, HDFCBANK, ICICIBANK, SBIN, TCS, BAJFINANCE, LICI, INFY, NSE; **KOTAKBANK and LT dropped**: their BSE transcripts are cover letters linking to their own sites), 4 quarters each. JPL and NSE are recent listings, so expect fewer quarters
 - **Be polite.** Rate-limit your requests, cache what you've fetched. You're pulling a few hundred documents once, not hammering an exchange
-- Backfill = one `from_date`/`to_date` window per company covering ~13 months, paged until you've seen `ROWCNT` rows. Incremental = the same function with a 3-day window (overlap is free because you're idempotent)
+- Backfill = one `from_date`/`to_date` window per company covering ~13 months (default: 400 days), split into 90-day calls because BSE caps a call at 365 days, each paged until you've seen `ROWCNT` rows
 - ⚠️ **Idempotent means re-running changes nothing.** Key on `NEWSID` (BSE's unique id per announcement) and skip if the file exists. Derive the quarter from `NEWS_DT` for the folder name. Results for Jul–Sep are *filed* in Oct–Nov, so decide whether "quarter" means the period reported or the filing date, and write it down. Test it by running the backfill twice and diffing the directory. If the second run writes anything, it's not idempotent, and Week 12 will quietly end up with duplicate training examples
 
 ### Phase 3: A run log · ~25 min
-Keep this tonight even though the rest of the hardening moves to Saturday — you need it because **you will not be watching.**
+Keep this tonight — runs are by hand, but the January re-run will be one you start and walk away from.
 
-`runs.jsonl`, one line per run: timestamp, fetched (by kind), skipped (already exists), skipped_other (not a filing kind), failed (including `no_text`), duration. Plus one command that prints the last run's line, so "did it work?" is a two-second question.
+`runs.jsonl`, one line per run: timestamp, fetched (by kind), skipped (already exists), skipped_other (not a filing kind), failed (including `no_text`), duration, and the `from`/`to` window. Plus one command (`python -m collector.fetch --last`) that prints the last run's line, so "did it work?" is a two-second question.
 
-### Phase 4: Schedule it · ~1 hr
-```yaml
-name: collect
-on:
-  schedule: [{ cron: "30 19 * * *" }]   # 01:00 IST
-  workflow_dispatch:
-jobs:
-  collect:
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - run: pip install -r requirements.txt
-      - run: python -m collector.schedule --incremental
-      - run: |
-          git config user.name "collector"
-          git config user.email "collector@users.noreply.github.com"
-          git add data/ && git diff --staged --quiet || git commit -m "filings $(date -u +%F)"
-          git push
+### Phase 4: Make it re-runnable · ~40 min
+
+**No scheduler, no GitHub Action** (decided Nov 8 — you're not committing code you can't defend to a public repo). Instead, make the backfill something you can point at any window:
+
 ```
-- ⚠️ **`workflow_dispatch` is not optional.** You need to be able to fire it by hand to test it, and you will
-- ⚠️ GitHub disables scheduled workflows on repos with no activity for 60 days. You'll be pushing through December so it won't bite — but know it exists, because it's exactly the kind of silent failure that surfaces in January with no time to recover
-- **Fire it manually before bed. Watch it run. Confirm it committed.** The week has no second chance at this before you travel
+python -m collector.fetch --from 2026-01-01 --to 2026-03-31
+```
 
-**Moved to Nov 14:** retries with backoff, and the deliberate-failure drill (point it at a dead ticker, confirm one bad company doesn't kill the night). Worth doing — just not worth Monday.
+Same function either way; the window is just an argument. Because you key on `NEWSID` and skip existing files, overlapping windows are free — you can re-run the same range as often as you like.
+
+**What this buys you:**
+- **Transcripts that land late.** Results are filed first, transcripts days or weeks later. Re-run a short recent window whenever you want them
+- **Q3 FY26 in January**, which is the biggest batch of new filings inside your roadmap and lands right before Week 12. One command, no infrastructure
+- **Nothing in the repo you didn't write**
+
+⚠️ **Put the January re-run somewhere you'll see it** — a line in the README's "how to use" section is enough. The failure mode isn't technical, it's forgetting.
+
+*If you want the scheduler later, it's ~15 lines of YAML rather than code, and Week 9 (Docker and Cloud Run) is the natural place to pick it up once deployment is already in your head.*
 
 **Before bed:** write your guess for the Day 1 scoreboard row — how many filings did you get? Then count them.
 
@@ -224,13 +220,16 @@ jobs:
 
 **Done when:** you can explain retrieval end to end in your own words, and `chunk.py` splits a real filing in a way you chose for a reason.
 
-### Phase 1: Watch · ~50 min
+### Phase 1: Watch · ~55 min as listed, **90 min if you watch all four — don't**
+
+⚠️ **Pick one of 1 and 2, not both.** They cover the same ground, and the full list is 90 minutes in a 3.5-hour day that also has two hours of chunking in it. Video 3 is the one that's actually about today's job.
+
 1. **What is RAG? Completely explained in 15 minutes** (Apna College): https://www.youtube.com/watch?v=Ty8gcCKuwNI
 2. **RAG explained in 20 minutes, with a hands-on project**: https://www.youtube.com/watch?v=RosLeHGBLoY
 
 Both are concept videos, which is fine for Day 2, but neither is about *chunking*, and chunking is the day's actual job. Add one:
 3. **Chunking Strategies for RAG** (Padho with Pratyush · Aug 2026 · 29 min · hands-on): https://www.youtube.com/watch?v=bm_0jH5ve8U. Fixed, paragraph, recursive and markdown-aware chunking, run live on the same document. It doesn't cover tables or semantic chunking, so pair it with:
-4. **Document Processing Pipeline for RAG with Docling** (Venelin Valkov · Apr 2025 · 26 min · hands-on): https://www.youtube.com/watch?v=B5XD-qpL0FU. PDF parsing with OCR, structure-aware chunking, and semantic chunking. **This is the one for keeping tables intact**, which is exactly your Day 5 fix. Watch it before you fight `pdfplumber`
+4. **Document Processing Pipeline for RAG with Docling** (Venelin Valkov · Apr 2025 · 26 min · hands-on): https://www.youtube.com/watch?v=B5XD-qpL0FU. PDF parsing with OCR, structure-aware chunking, and semantic chunking. **This is the one for keeping tables intact** — so save it for **Day 5 Phase 3**, when you have a recall number telling you the tables are the problem. Watching it tonight costs 26 minutes to solve a problem you haven't measured yet
 - *Optional classic:* Greg Kamradt, **5 Levels of Text Splitting** (Jan 2024 · 69 min · 276 comments): https://www.youtube.com/watch?v=8OJC21T2SL4. Older and long, so skip it unless you're hooked
 
 Write down, in your own words: what's stored, what's compared, and what the model actually sees at answer time. If you can't write that in four lines, rewatch rather than continuing.
@@ -281,11 +280,9 @@ Watch (~28 min):
 2. **Qdrant Essentials: HNSW Indexing** (Qdrant's own channel · Oct 2025 · 9 min · hands-on): https://www.youtube.com/watch?v=-q-pLgGDYr4. The real knobs: `m`, `ef_construct`, `hnsw_ef`
 - *If you want code:* James Briggs, **HNSW Explained and Implemented with Faiss** (2021 · 35 min): https://www.youtube.com/watch?v=QvKMwLjdK-s
 
-**Pick, and write the reason in `store.py` as a comment.**
+**Write the reason in `store.py` as a comment.**
 
-The shape of the answer: HNSW builds slower and uses more memory but gives better recall at the same latency; IVFFlat builds fast and is cheaper but needs its probe count tuned and degrades on small collections. At a few thousand chunks, one of these is obviously right.
-
-⚠️ Twenty minutes of reading, and disproportionately worth it. Hiring guides name this exact choice, and "HNSW, because at this corpus size recall matters more than build time" is the difference between having used a vector DB and having chosen something.
+Know the textbook trade-off so you can answer it when asked: HNSW builds slower and uses more memory but gives better recall at the same latency; IVFFlat builds fast and is cheaper but needs its probe count tuned and degrades on small collections. **You just won't be choosing between them here** — that choice exists in pgvector and FAISS, not Qdrant. Your defensible answer is the one above: what your corpus size makes irrelevant, and what you'd revisit at scale.
 
 ### Phase 3: Retrieve and eyeball · ~1.25 hrs
 Ask ten questions by hand. Read what comes back. Are the right chunks in the top 5? You have no metrics yet — that's Day 5 — so this is pure eyeballing, and the point is to catch anything catastrophic now rather than discover it inside a metric later.
@@ -392,18 +389,20 @@ Grade the retrieved chunks *before* answering. Weak? Rewrite the query and retry
 
 ### Phase 3: Harden the collector · ~45 min
 - **Retries with backoff** on network failure
-- **The failure drill:** point the fetcher at a ticker that doesn't exist, and at a URL that 404s. Does the run log record the failure and keep going, or does the whole night die on one bad company? Fix whichever it is
+- **The failure drill:** point the fetcher at a ticker that doesn't exist, and at a URL that 404s. Does the run log record the failure and keep going, or does the whole run die on one bad company? Fix whichever it is
 
-A pipeline that stops on the first error is a script. This is the 45 minutes that makes the word "pipeline" honest on your CV.
+Still worth doing even with no scheduler: a 12-company backfill that aborts on company 3 is a bad afternoon, and the January re-run will be unattended in practice because you'll start it and walk away.
+
+⚠️ Do this on **Day 1** if you have the hours tonight rather than leaving it for Saturday — you'll be running the backfill repeatedly all week and it's better robust from the start.
 
 ### Phase 4: Close out · ~1.5 hrs
 - **`EVAL.md`** — the metrics table across every config (baseline chunking, fixed chunking, + rerank), the chunking decision and why, the index choice and why, the rescue count, the long-context verdict
 - **README** — lead with the metrics table and the live URL, not with "this is a RAG project." State your chunk size and top-k, and defend both
 - **Scoreboard** — fill the Actual column. See how wrong you were
 
-### ⚠️ Before you fly
+### Before you fly
 
-**Check the collector has fired every night since Monday.** Everything else here can slip to Nov 23; this cannot. Every night it doesn't run is filings that won't exist in January, and Week 12 has no fine-tuning dataset without them.
+Nothing runs while you're away, by design — so there's nothing to check. Just make sure the README says how to re-run the backfill over a window, with the January Q3 pull called out. Future-you in two months is the one who needs that sentence.
 
 ---
 
@@ -412,6 +411,8 @@ A pipeline that stops on the first error is a script. This is the 45 minutes tha
 Your standing rule: one optional project video a week, built if there's time, skipped without guilt. **Pick one before Monday and write it here.**
 
 → *(fill this in)*
+
+*Deferred: vectorless RAG / PageIndex tree navigation. Parked for a later week — most likely Week 6, once there's a measured vector baseline to compare it against.*
 
 ---
 

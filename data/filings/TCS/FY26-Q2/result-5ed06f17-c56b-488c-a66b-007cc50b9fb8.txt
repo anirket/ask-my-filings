@@ -1,0 +1,1399 @@
+9th Floor Nirmal Building Nariman Point Mumbai 400 021 
+Tel 91 22 6778 9595 Fax 91 22 6630 3672 e-mail corporate.office@tcs.com website www.tcs.com 
+Registered Office 9th Floor Nirmal Building Nariman Point Mumbai 400 021 
+Corporate Identity No. (CIN): L22210MH1995PLC084781 
+TCS/BM/SE/117/2025-26 
+October 9, 2025 
+National Stock Exchange of India Limited BSE Limited 
+Exchange Plaza, C-1, Block G,         P. J. Towers,   
+Bandra Kurla Complex, Bandra (East)  Dalal Street,  
+Mumbai - 400051    Mumbai - 400001   
+Symbol - TCS    Scrip Code No. 532540 
+Dear Sirs, 
+ Sub: Financial Results for the quarter and six -month period ended September 30, 2025, and  
+declaration of second interim dividend 
+We enclose the audited standalone financial results of the Company and audited consolidated financial results 
+of the Company and its subsidiaries for the quarter and six-month period ended September 30, 2025, under 
+Indian Accounting Standards, which have been approved and taken on record at a meeting of the Board of 
+Directors of the Company held today. 
+We would like to inform you that at the Board Meeting held today, the Directors have declared second 
+interim dividend of INR 11 per Equity Share of INR 1 each of the Company. 
+The second interim dividend shall be paid on Tuesday, November 4, 2025, to the equity shareholders of the 
+Company whose names appear  on the  Register of Members  of  the  Company or  in  the  records  of the 
+Depositories as beneficial owners of the shares as on Wednesday, October 15, 2025, which  is the Record 
+Date, fixed for the purpose. 
+The above information is also available on the website of the Company www.tcs.com 
+Thanking you, 
+Yours faithfully, 
+For Tata Consultancy Services Limited 
+Yashaswin Sheth 
+Company Secretary 
+ACS 15388 
+cc: 
+1. National Securities Depository Limited
+2. Central Depository Services (India) Limited
+3. MUFG Intime India Private Limited (Formerly known as Link Intime India Private Limited)
+
+B S R & Co. LLP
+Chartered Accountants
+14th Floor, Central B Wing and North C Wing
+Nesco IT Park 4, Nesco Center
+Western Express Highway
+Goregaon (East), Mumbai – 400 063, India
+Telephone: +91 (22) 6257 1000
+Fax: +91 (22) 6257 1010
+Registered Office:
+B S R & Co. (a partnership firm with Registration No. BA61223) converted into B S R & Co. LLP (a 
+Limited Liability Partnership with LLP Registration No. AAB-8181) with effect from October 14, 2013
+14th Floor, Central B Wing and North C Wing, Nesco IT Park 4, Nesco 
+Center, Western Express Highway, Goregaon (East), Mumbai - 400063
+Page 1 of 6
+’Independent Auditor s Report
+To the Board of Directors of Tata Consultancy Services Limited
+Report on the audit of the Consolidated Financial Results
+Opinion
+We have audited the accompanying Statement of Consolidated Financial Results of Tata Consultancy 
+Services Limited (“Holding Company”) and its subsidiaries (Holding Company and its subsidiaries together 
+referred to as “the Group”), for the quarter ended 30 September 2025 and for the period from 01 April 
+2025 to 30 September 2025, (“the Statement”), being submitted by the Holding Company pursuant to the 
+requirement of Regulation 33 of the Securities and Exchange Board of India (Listing Obligations and 
+Disclosure Requirements) Regulations, 2015, as amended ("Listing Regulations").
+In our opinion and to the best of our information and according to the explanations given to us, the 
+Statement:
+a. includes the results of the entities mentioned in Annexure I to the Statement:
+b. is presented in accordance with the requirements of Regulation 33 of the Listing Regulations as 
+amended; and
+c. gives a true and fair view in conformity with the applicable accounting standards, and other accounting 
+principles generally accepted in India, of consolidated total comprehensive income (comprising of net 
+profit and other comprehensive income) and other financial information of the Group for the quarter 
+ended 30 September 2025 and for the period from 01 April 2025 to 30 September 2025.
+Basis for Opinion
+We conducted our audit in accordance with the Standards on Auditing (“SAs”) specified under section 
+143(10) of the Companies Act, 2013 (“the Act”). Our responsibilities under those SAs are further described 
+in the Auditor’s Responsibilities for the Audit of the Consolidated Financial Results  section of our report. 
+We are independent of the Group in accordance with the Code of Ethics issued by the Institute of 
+Chartered Accountants of India together with the ethical requirements that are relevant to our audit of the 
+financial statements under the provisions of the Act, and the Rules thereunder, and we have fulfilled our 
+other ethical responsibilities in accordance with these requirements and the Code of Ethics. We believe 
+that the audit evidence we have obtained, is sufficient and appropriate to provide a basis for our opinion 
+on the consolidated financial results.
+Management’s and Board of Directors’/Trustees' Responsibilities for the Consolidated Financial 
+Results
+These quarterly consolidated financial results as well as the year to date consolidated financial results 
+have been prepared on the basis of the consolidated interim financial statements.
+The Holding Company’s Management and the Board of Directors are responsible for the preparation and 
+presentation of these consolidated financial results that give a true and fair view of the consolidated net 
+profit/ loss and other comprehensive income and other financial information of the Group in accordance 
+with the recognition and measurement principles laid down in Indian Accounting Standard 34, ‘Interim 
+Financial Reporting’ prescribed under Section 133 of the Act read with relevant rules issued thereunder 
+and other accounting principles generally accepted in India and in compliance with Regulation 33 of the 
+Listing Regulations. The respective Management and Board of Directors/Trustees of the 
+companies/entities included in the Group are responsible for maintenance of adequate accounting records 
+
+B S R & Co. LLP
+Independent Auditor’s Report (Continued)
+Tata Consultancy Services Limited
+Page 2 of 6
+in accordance with the provisions of the Act for safeguarding of the assets of each company/entity and for 
+preventing and detecting frauds and other irregularities; selection and application of appropriate 
+accounting policies; making judgments and estimates that are reasonable and prudent; and the design, 
+implementation and maintenance of adequate internal financial controls, that were operating effectively 
+for ensuring accuracy and completeness of the accounting records, relevant to the preparation and 
+presentation of the consolidated financial results that give a true and fair view and are free from material 
+misstatement, whether due to fraud or error, which have been used for the purpose of preparation of the 
+consolidated financial results by the Management and the Board of Directors of the Holding Company, as 
+aforesaid.
+In preparing the consolidated financial results, the respective Management and the Board of 
+Directors/Trustees of the companies/entities included in the Group are responsible for assessing the 
+ability of each company/entity to continue as a going concern, disclosing, as applicable, matters related 
+to going concern and using the going concern basis of accounting unless the respective Board of 
+Directors/Trustees either intends to liquidate the company/entity or to cease operations, or has no realistic 
+alternative but to do so. 
+The respective Board of Directors/Trustees of the companies/entities included in the Group is responsible 
+for overseeing the financial reporting process of each company/entity.
+Auditor’s Responsibilities for the Audit of the Consolidated Financial Results
+Our objectives are to obtain reasonable assurance about whether the consolidated financial results as a 
+whole are free from material misstatement, whether due to fraud or error, and to issue an auditor’s report 
+that includes our opinion. Reasonable assurance is a high level of assurance, but is not a guarantee that 
+an audit conducted in accordance with SAs will always detect a material misstatement when it exists. 
+Misstatements can arise from fraud or error and are considered material if, individually or in the aggregate, 
+they could reasonably be expected to influence the economic decisions of users taken on the basis of 
+these consolidated financial results.
+As part of an audit in accordance with SAs, we exercise professional judgment and maintain professional 
+skepticism throughout the audit. We also:
+– Identify and assess the risks of material misstatement of the consolidated financial results, whether 
+due to fraud or error, design and perform audit procedures responsive to those risks, and obtain audit 
+evidence that is sufficient and appropriate to provide a basis for our opinion. The risk of not detecting 
+a material misstatement resulting from fraud is higher than for one resulting from error, as fraud may 
+involve collusion, forgery, intentional omissions, misrepresentations, or the override of internal control.
+– Obtain an understanding of internal control relevant to the audit in order to design audit procedures 
+that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the 
+effectiveness of the Group’s internal control.
+– Evaluate the appropriateness of accounting policies used and the reasonableness of accounting 
+estimates and related disclosures in the consolidated financial results made by the Management and 
+Board of Directors.
+– Conclude on the appropriateness of the Management’s and Board of Directors’ use of the going 
+concern basis of accounting and, based on the audit evidence obtained, whether a material 
+uncertainty exists related to events or conditions that may cast significant doubt on the 
+appropriateness of this assumption. If we conclude that a material uncertainty exists, we are required 
+to draw attention in our auditor’s report to the related disclosures in the consolidated financial results 
+or, if such disclosures are inadequate, to modify our opinion. Our conclusions are based on the audit 
+evidence obtained up to the date of our auditor’s report. However, future events or conditions may 
+cause the Group to cease to continue as a going concern.
+– Evaluate the overall presentation, structure and content of the consolidated financial results, including 
+the disclosures, and whether the consolidated financial results represent the underlying transactions 
+and events in a manner that achieves fair presentation.
+
+B S R & Co. LLP
+Independent Auditor’s Report (Continued)
+Tata Consultancy Services Limited
+Page 3 of 6
+We communicate with those charged with governance of the Holding Company and such other entities 
+included in the consolidated financial results of which we are the independent auditors regarding, among 
+other matters, the planned scope and timing of the audit and significant audit findings, including any 
+significant deficiencies in internal control that we identify during our audit.
+We also provide those charged with governance with a statement that we have complied with relevant 
+ethical requirements regarding independence, and to communicate with them all relationships and other 
+matters that may reasonably be thought to bear on our independence, and where applicable, related 
+safeguards.
+We also performed procedures in accordance with the circular issued by the Securities and Exchange 
+Board of India under Regulation 33(8) of the Listing Regulations, to the extent applicable.
+For B S R & Co. LLP
+Chartered Accountants
+Firm’s Registration No.:101248W/W-100022
+Aniruddha Godbole
+Partner
+Mumbai Membership No.: 105149
+09 October 2025 UDIN:25105149BMLXAG4142
+
+B S R & Co. LLP
+Independent Auditor’s Report (Continued)
+Tata Consultancy Services Limited
+Page 4 of 6
+Annexure I
+The consolidated financial results include financial results of the Holding Company and the following 
+entities:
+Sr. No Name of component Relationship
+1 APTOnline Limited Subsidiary
+2 C-Edge Technologies Limited Subsidiary
+3 Diligenta Limited Subsidiary
+4 MahaOnline Limited Subsidiary
+5 MP Online Limited Subsidiary
+6 Tata America International Corporation Subsidiary
+7 Tata Consultancy Services (Africa) (Proprietary) Ltd. Subsidiary
+8 Tata Consultancy Services Asia Pacific Pte Ltd. Subsidiary
+9 Tata Consultancy Services Belgium Subsidiary
+10 Tata Consultancy Services Canada Inc. Subsidiary
+11 Tata Consultancy Services Deutschland GmbH Subsidiary
+12 Tata Consultancy Services Netherlands B.V. Subsidiary
+13 Tata Consultancy Services Qatar Subsidiary
+14 Tata Consultancy Services Sverige Aktiebolag Subsidiary
+15 TCS e-Serve International Limited Subsidiary
+16 TCS FNS Pty Limited Subsidiary
+17 TCS Iberoamerica SA Subsidiary
+18 PT Tata Consultancy Services Indonesia, PT Subsidiary
+19 Tata Consultancy Services (China) Co., Ltd. Subsidiary
+20 Tata Consultancy Services (Philippines) Inc. Subsidiary
+21 Tata Consultancy Services (Thailand) Limited Subsidiary
+22 MGDC S.C. Subsidiary
+23 Tata Consultancy Services Argentina S.A. Subsidiary
+24 Tata Consultancy Services De Mexico, S.A. De C.V. Subsidiary
+25 Tata Consultancy Services Do Brasil Ltda. Subsidiary
+26 TCS Inversiones Chile Limitada Subsidiary
+
+B S R & Co. LLP
+Independent Auditor’s Report (Continued)
+Tata Consultancy Services Limited
+Page 5 of 6
+Sr. No Name of component Relationship
+27 Tata Consultancy Services France Subsidiary
+28 TCS Uruguay S.A. Subsidiary
+29 TCS Solution Center S.A. Subsidiary
+30 Tata Consultancy Services De Espana S.A. Subsidiary
+31 Tata Consultancy Services Luxembourg S.A. Subsidiary
+32 Tata Consultancy Services Osterreich GmbH Subsidiary
+33 Tata Consultancy Services Saudi Arabia Subsidiary
+34 Tata Consultancy Services Switzerland Ltd Subsidiary
+35 TCS Business Services GmbH Subsidiary
+36 Tata Consultancy Services Ireland Limited Subsidiary
+37 TCS Technology Solutions GmbH Subsidiary
+38 Tata Consultancy Services Bulgaria EOOD Subsidiary
+39 Tata Consultancy Services Guatemala, S.A. Subsidiary
+40 Tata Consultancy Services UK Limited Subsidiary
+41 Diligenta (Europe) B.V. Subsidiary
+42 TCS Foundation Subsidiary
+43 Tata Consultancy Services Japan, Ltd. Subsidiary
+44 Tata Consultancy Services Malaysia Sdn. Bhd. Subsidiary
+45 Tata Consultancy Services Italia S.R.L. Subsidiary
+46 Tata Consultancy Services (South Africa) (Proprietary) Ltd. Subsidiary
+47 Tata Consultancy Services Chile S.A. Subsidiary
+48 Tatasolution Center S.A. Subsidiary
+49 Tata Consultancy Services (Portugal), Unipessoal Lda Subsidiary
+50 TCS Financial Solutions Australia Pty Limited Subsidiary
+51 TCS Financial Solutions Beijing Co., Ltd.
+(Merged with Tata Consultancy Services (China) Co., Ltd. w.e.f. 
+01 July 2024)
+Subsidiary
+52 TRIL Bengaluru Real Estate Five Limited (Acquired w.e.f 29 
+January 2025)
+Subsidiary
+53 TRIL Bengaluru Real Estate Six Limited (Acquired w.e.f 29 
+January 2025)
+Subsidiary
+
+B S R & Co. LLP
+Independent Auditor’s Report (Continued)
+Tata Consultancy Services Limited
+Page 6 of 6
+Sr. No Name of component Relationship
+54 Tata Sons & Consultancy Services Employees’ Welfare Trust Trust
+55 TCS e-Serve International Limited - Employees’ Welfare Benefit 
+Trust
+Trust
+
+TATA CONSULTANCY SERVICES LIMITED 
+Registered Office: 9th Floor, Nirmal Building, Nariman Point, Mumbai 400 021 
+CIN: L22210MH1995PLC084781 
+Tel: +91 22 6778 9595 e-mail: investor.relations@tcs.com Website: www.tcs.com 
+Audited Consolidated Interim Statement of Financial Results 
+Three months ended Six months ended 
+September 30, June 30, September 30, September 30, September 30, 
+2025 2025 2024 2025 2024 
+Revenue from operations 65,799 63,437 64,259 1,29,236 1,26,872 
+Other i ncome 867 1,660 729 2,527 1,691 
+TOTAL INCOME 66,666 65,097 64,988 1,31,763 1,28,563 
+Expenses 
+Employee benefit expenses 38,606 37,715 36,654 76,321 73,070 
+Cost of equipment and software Ii cences 967 726 3,230 1,693 5,381 
+Finance costs 229 195 162 424 335 
+Depreciation and amortisation expense 1,413 1,361 1,266 2,774 2,486 
+Other expenses 8,248 8,121 7,644 16,369 15,028 
+TOTAL EXPENSES 49,463 48,118 48,956 97,581 96,300 
+PROFIT BEFORE EXCEPTIONAL ITEM AND TAX 17,203 16,979 16,032 34,182 32,263 
+Exceptional item 
+Re-structuring expenses 1,135 - - 1,135 -
+PROFIT BEFORE TAX 16,068 16,979 16,032 33,047 32,263 
+Tax expense 
+Current tax 3,969 4,163 4,078 8,132 8,368 
+Deferred tax (32) (3) (1) (35) (165) 
+TOTAL TAX EXPENSE 3,937 4,160 4,077 8,097 8,203 
+PROFIT FOR THE PERIOD 12,131 12,819 11,955 24,950 24,060 
+OTHER COMPREHENSIVE INCOME (OCI) 
+Items that will not be reclassified subsequently to profit or loss 
+Remeasurement of defined employee benefit plans 45 8 (38) 53 13 
+Net change in fair values of investments in equity shares - 38 (12) 38 (12) 
+carried at fair va I ue through OCI 
+Income tax on items that will not be reclassified subsequently to (7) (2) 10 (9) (8) 
+profit or loss 
+Items that will be reclassified subsequently to profit or loss 
+Net change in fairvalues of investments other than (354) 207 392 (147) 446 
+equity shares carried atfairvalue through OCI 
+Net change in intrinsic value of derivatives designated as (20) 9 (14) (11) (10) 
+cash flow hedges 
+Net change in time value of derivatives designated as 18 (40) (23) (22) (22) 
+cash flow hedges 
+Exchange differences on translation of financial statements 649 1,105 835 1,754 543 
+of foreign operations 
+Income tax on items that will be reclassified subsequently to profit or 89 (44) (89) 45 (103) 
+loss 
+TOTAL OTHER COMPREHENSIVE INCOME/ (LOSSES) 420 1,281 1,061 1,701 847 
+TOTAL COMPREHENSIVE INCOME FOR THE PERIOD 12,551 14,100 13,016 26,651 24,907 
+Profit for the period attributable to: 
+Shareholders of the Company 12,075 12,760 11,909 24,835 23,949 
+Non-controlling interests 56 59 46 115 111 
+12,131 12,819 11,955 24,950 24,060 
+Other comprehensive income for the period attributable to: 
+Shareholders of the Company 410 1,248 987 1,658 806 
+Non-controlling interests 10 33 74 43 41 
+420 1,281 1,061 1,701 847 
+Total comprehensive income for the period attributable to: 
+Shareholders of the Company 12,485 14,008 12,896 26,493 24,755 
+Non-controlling interests 66 92 120 158 152 
+12,551 14,100 13,016 26,651 24,907 
+Paid up equity share capital (Face value: ~1 per share) 362 362 362 362 362 
+Total reserves (including Non-controlling interests) 
+Earnings per equity share :- Basic and diluted (t) 33.37 35.27 32.92 68.64 66.20 
+Dividend per share (Par value fl each) 
+Interim dividend on equity shares (t) 11.00 11.00 10.00 22.00 20.00 
+Final dividend on equity shares (t) - - - - -
+Total dividend on equity shares {t) 11.00 11.00 10.00 22.00 20.00 
+Total equity dividend percentage 1,100 1,100 1,000 2,200 2,000 
+~ crore) 
+Year ended 
+March 31, 
+2025 
+2,55,324 
+3,962 
+2,59,286 
+1,45,788 
+11,648 
+796 
+5,242 
+30,481 
+1,93,955 
+65,331 
+-
+65,331 
+16,910 
+(376) 
+16,534 
+48,797 
+(106) 
+(24) 
+18 
+593 
+1 
+(9) 
+262 
+(146) 
+589 
+49,386 
+48,553 
+244 
+48,797 
+571 
+18 
+589 
+49,124 
+262 
+49,386 
+362 
+95,405 
+134.19 
+96.00 
+30.00 
+126.00 
+12,600 
+
+SEGMENT REVENUE 
+Banking, Financial Services and Insurance 
+Manufacturing 
+Consumer Business 
+Communication, Media and Technology 
+Life Sciences and Healthcare 
+Others 
+Total 
+SEGMENT RESULT 
+Banking, Financial Services and Insurance 
+Manufacturing 
+Consumer Business 
+Communication, Media and Technology 
+Life Sciences and Healthcare 
+Others 
+Total 
+Unallocable expenses* 
+Operating income 
+Other income 
+PROFIT BEFORE TAX 
+TATA CONSULTANCY SERVICES LIMITED 
+Audited Consolidated Interim Segment Information 
+Three months ended 
+September 30, June 30, September 30, 
+2025 2025 2024 
+25,717 24,736 23,785 
+6,631 6,401 6,310 
+10,351 10,155 10,025 
+9,802 9,436 12,088 
+6,884 6,422 6,630 
+6,414 6,287 5,421 
+65,799 63,437 64,259 
+6,818 6,216 6,345 
+2,021 1,998 2,063 
+2,868 2,799 2,695 
+2,833 2,655 2,357 
+1,891 1,574 1,849 
+1,547 1,633 1,422 
+17,978 16,875 16,731 
+2,777 1,556 1,428 
+15,201 15,319 15,303 
+867 1,660 729 
+16,068 16,979 16,032 
+"'crorel 
+Six months ended Year ended 
+September 30, September 30, March 31, 
+2025 2024 2025 
+50,453 46,859 94,597 
+13,032 12,581 25,170 
+20,506 20,016 40,197 
+19,238 22,882 45,893 
+13,306 13,539 26,456 
+12,701 10,995 23,011 
+1,29,236 1,26,872 2,55,324 
+13,034 12,356 25,135 
+4,019 4,153 8,225 
+5,667 5,322 11,222 
+5,488 4,816 9,582 
+3,466 3,941 7,448 
+3,180 2,805 5,795 
+34,853 33,393 67,407 
+4,333 2,821 6,038 
+30,520 30,572 61,369 
+2,527 1,691 3,962 
+33,047 32,263 65,331 
+Note: The assets and liabilities of the Group are used interchangeably amongst segments. Allocation of such assets and liabilities is not practicable and 
+any forced allocation would not result in any meaningful segregation. Hence, assets and liabilities have not been identified to any of the reportable 
+segments. 
+*Includes re-structuring expenses ofn,135 crore in the three and six months ended September 30, 2025. 
+
+ASSETS 
+Non-current assets 
+Property, plant and equipment 
+Capital work-in-progress 
+Right-of-use assets 
+Goodwill 
+Other intangible assets 
+Financial assets 
+Investments 
+Trade receivables 
+Billed 
+Unbilled 
+Loans 
+Otherfinancial assets 
+Deferred tax assets (net) 
+Income tax assets (net) 
+Other assets 
+Total non-current assets 
+Current assets 
+Inventories 
+Financial assets 
+Investments 
+Trade receivables 
+Billed 
+Unbilled 
+Cash and cash equivalents 
+Other balances with banks 
+Loans 
+Otherfinancial assets 
+Income tax assets (net) 
+Other assets 
+Total current assets 
+TOTAL ASSETS 
+EQUITY AND LIABILITIES 
+Equity 
+Share capital 
+Other equity 
+TATA CONSULTANCY SERVICES LIMITED 
+Audited Consolidated Interim Balance Sheet 
+As at 
+September 30, 2025 
+10,886 
+2,221 
+10,692 
+2,032 
+539 
+233 
+119 
+177 
+777 
+3,629 
+3,817 
+1,566 
+4,032 
+40,720 
+26 
+38,829 
+54,182 
+9,122 
+6,358 
+8,095 
+9 
+1,951 
+676 
+15,251 
+1,34,499 
+1,75,219 
+362 
+106 053 
+Equity attributable to shareholders of the Company 1,06,415 
+Non-controlling interests 1,046 
+Total equity 1,07,461 
+Liabilities 
+Non-current liabilities 
+Financial liabilities 
+Lease liabilities 9,192 
+Otherfinancial liabilities 579 
+Employee benefit obligations 913 
+Deferred tax liabilities (net) 1,081 
+Unearned and deferred revenue 709 
+Total non-current liabilities 12,474 
+Current liabilities 
+Financial liabilities 
+Lease liabilities 1,740 
+Trade payables 14,246 
+Otherfinancial liabilities 8,632 
+Unearned and deferred revenue 3,501 
+Other I ia bi I ities 7,293 
+Provisions 203 
+Employee benefit obligations 5,169 
+Income tax liabilities (net) 14,500 
+Total current liabilities 55,284 
+TOTAL EQUITY AND LIABILITIES 1,75,219 
+~ crorel 
+As at 
+March 31, 2025 
+10,978 
+1,546 
+9,275 
+1,860 
+940 
+275 
+91 
+38 
+25 
+2,731 
+3,578 
+1,569 
+3,712 
+36,618 
+21 
+30,689 
+50,142 
+8,904 
+8,342 
+7,121 
+9 
+2,742 
+257 
+14,784 
+1,23,011 
+1,59,629 
+362 
+94,394 
+94,756 
+1,015 
+95,771 
+7,838 
+680 
+841 
+980 
+518 
+10,857 
+1,554 
+13,909 
+8,542 
+4,028 
+7,188 
+180 
+4,885 
+12,715 
+53,001 
+1,59,629 
+
+Select explanatory notes to the Statement of Audited Consolidated Interim Financial Results for three months and six-months ended 
+September 30, 2025 
+1. Audited Consolidated Interim Statement of Financial Results for the three months and six-months ended September 30, 2025 have been prepared 
+in accordance with the Indian Accounting Standard (referred to as "Ind AS") 34 - Interim Financial Reporting prescribed under 
+Section 133 of the Companies Act, 2013 read with Companies (Indian Accounting Standards) Rules as amended from time to time. These results 
+have been reviewed by the Audit Committee and approved by the Board of Directors at its meeting held on October 9, 2025. The statutory auditors 
+have expressed an unmodified audit opinion on these results. 
+2. Audited Consolidated Interim Statement of Cash Flows is attached in Annexure I. 
+3. In July 2025, the Group announced re-structuring initiatives. As a part of this initiative, the Group released / will release certain associates from the 
+organisation whose deployment may not be feasible. Termination benefits have been provided as per policy devised for this purpose. Such 
+termination benefits, due to their size, nature or occurrence are disclosed as "Exceptional item" in the audited consolidated interim financial results. 
+4. The Board of Directors at its meeting held on October 9, 2025, has declared an interim dividend of n1.oo per equity share. 
+5. The results for three months and six months ended September 30, 2025, are available on the BSE Limited website 
+(URL: www.bseindia.com). the National Stock Exchange of India Limited website (URL: www .nseindia.com) and on the Company's website (URL: 
+www .tcs.com/investors ). 
+Mumbai 
+October 9, 2025 
+For and on behalf of the Board of Directors 
+KU N(H ITHAM Dlgltal~slgned byKUNCHITHAM 
+KRITHIVASAN 
+KRITHIVASAN Date,2025.10.09142321+05 '30' 
+K Krithivasan 
+CEO and Managing Director 
+DIN: 10106739 
+
+Annexure I 
+CASH FLOWS FROM OPERATING ACTIVITIES 
+Profit for the period 
+Adjustments for: 
+Depreciation and amortisation expense 
+TATA CONSULTANCY SERVICES LIMITED 
+Audited Consolidated Interim Statement of Cash Flows 
+Bad debts and advances written off, allowance for expected credit losses and doubtful advances 
+Tax expense 
+Net gain on lease modification 
+Unrealised foreign exchange gain 
+Net gain on disposal of property, plant and equipment 
+Net gain on disposal /fairvaluation of investments 
+Net gain on fairvaluation of call option 
+Interest income 
+Dividend income 
+Fina nee costs 
+Operating profit before working capital changes 
+Net change in 
+Inventories 
+Trade receivables 
+Billed 
+Unbilled 
+Loans and other financial assets 
+Other assets 
+Trade payables 
+Unearned and deferred revenue 
+Otherfinancial liabilities 
+Other liabilities and provisions 
+Cash flows generated from operations 
+Taxes paid (net of refunds) 
+Net cash flows generated from operating activities 
+CASH FLOWS FROM INVESTING ACTIVITIES 
+Bank deposits placed 
+Inter-corporate deposits placed 
+Purchase of investments 
+Payment for purchase of property, plant and equipment 
+Payment including advances for acquiring right-of-use assets 
+Payment for purchase of intangible assets 
+Loan given 
+Acquisition of assets 
+Advance towards acquisition of investment 
+Proceeds from bank deposits 
+Proceeds from inter-corporate deposits 
+Proceeds from disposal/ redemption of investments 
+Proceeds from sub-lease receivable 
+Proceeds from disposal of property, plant and equipment 
+Interest received 
+Dividend received 
+Loan recovered 
+Net cash flows used in investing activities 
+Six months ended 
+September 30, 
+2025 
+24,950 
+2,774 
+63 
+8,097 
+(15) 
+{99) 
+(1) 
+{251) 
+(43) 
+(2,152) 
+(18) 
+424 
+33,729 
+(5) 
+{2,258) 
+134 
+583 
+(395) 
+(1,046) 
+(499) 
+623 
+161 
+31,027 
+{6,083) 
+24,944 
+(4,563) 
+(750) 
+(73,527) 
+(1,868) 
+{56) 
+(137) 
+(554) 
+(250) 
+3,293 
+65,796 
+2 
+10 
+1,403 
+36 
+(11,165) 
+September 30, 
+2024 
+24,060 
+2,486 
+62 
+8,203 
+(12) 
+{20) 
+(8) 
+{118) 
+(1,586) 
+(23) 
+335 
+33,379 
+(1) 
+(4,618) 
+1,075 
+(385) 
+(918) 
+2,537 
+(346) 
+(770) 
+758 
+30,711 
+{8,712) 
+21,999 
+{3,930) 
+(68,972) 
+(1,491) 
+{91) 
+(108) 
+404 
+60 
+64,732 
+2 
+9 
+1,302 
+15 
+(8,068) 
+(" crore) 
+Year ended 
+March 31, 
+2025 
+48,797 
+5,242 
+128 
+16,534 
+(15) 
+(1) 
+(20) 
+(269) 
+(3,296) 
+(43) 
+796 
+67,853 
+7 
+(5,519) 
+291 
+(738) 
+(2,552) 
+3,718 
+395 
+(119) 
+1,158 
+64,494 
+(15,586) 
+48,908 
+{10,496) 
+(145,962) 
+(2,917) 
+{76) 
+(944) 
+(29) 
+(1,063) 
+8,177 
+170 
+1,47,695 
+5 
+23 
+3,056 
+40 
+3 
+(2,318) 
+
+CASH FLOWS FROM FINANCING ACTIVITIES 
+Repayment of lease liabilities 
+Interest paid 
+Dividend paid 
+Dividend paid to non-controlling interests 
+Sale of shares to non-controlling interests 
+Net cash flows used in financing activities 
+Net change in cash and cash equivalents 
+TATA CONSULTANCY SERVICES LIMITED 
+Audited Consolidated Interim Statement of cash Flows 
+Cash and cash equivalents at the beginning of the period 
+Exchange difference on translation of foreign currency cash and cash equivalents 
+cash and cash equivalents at the end of the period 
+Components of cash and cash equivalents 
+Balances with banks 
+In current accounts 
+In deposit accounts 
+Cheques on hand 
+Cash on hand 
+Remittances intra nsit 
+*Represents value less than ~0.50crore. 
+(' crore) 
+Six months ended Year ended 
+September 30, September 30, March 31, 
+2025 2024 2025 
+(892) (835) (1,664) 
+(452) (333) (840) 
+(14,834) (13,749) (44,864) 
+(127) (94) (98) 
+- - 28 
+(16,305) (15,011) (47,438) 
+(2,526) (1,080) (848) 
+8,342 9,016 9,016 
+542 219 174 
+6,358 8,155 8,342 
+3,090 2,711 3,421 
+3,266 5,443 4,907 
+-* -.. -* 
+* * * - - -
+2 1 14 
+6,358 8,155 8,342 
+
+B S R & Co. LLP
+Chartered Accountants
+14th Floor, Central B Wing and North C Wing
+Nesco IT Park 4, Nesco Center
+Western Express Highway
+Goregaon (East), Mumbai – 400 063, India
+Telephone: +91 (22) 6257 1000
+Fax: +91 (22) 6257 1010
+Registered Office:
+B S R & Co. (a partnership firm with Registration No. BA61223) converted into B S R & Co. LLP (a 
+Limited Liability Partnership with LLP Registration No. AAB-8181) with effect from October 14, 2013
+14th Floor, Central B Wing and North C Wing, Nesco IT Park 4, Nesco 
+Center, Western Express Highway, Goregaon (East), Mumbai - 400063
+Page 1 of 3
+’Independent Auditor s Report
+To the Board of Directors of Tata Consultancy Services Limited
+Report on the audit of the Standalone Financial Results
+Opinion
+We have audited the accompanying standalone quarterly financial results of Tata Consultancy Services 
+Limited (“the Company”) for the quarter ended 30 September 2025 and the year-to-date results for the 
+period from 01 April 2025 to 30 September 2025, attached herewith, being submitted by the Company 
+pursuant to the requirement of Regulation 33 of the Securities and Exchange Board of India (Listing 
+Obligations and Disclosure Requirements) Regulations, 2015, as amended ("Listing Regulations").
+In our opinion and to the best of our information and according to the explanations given to us, these 
+standalone financial results:
+a. are presented in accordance with the requirements of Regulation 33 of the Listing Regulations in this 
+regard; and
+b. give a true and fair view in conformity with the recognition and measurement principles laid down in 
+the applicable accounting standards, and other accounting principles generally accepted in India, of 
+the net profit and other comprehensive loss and other financial information for the quarter ended 30 
+September 2025 as well as for the year to date results for the period from 01 April 2025 to 30 
+September 2025.
+Basis for Opinion
+We conducted our audit in accordance with the Standards on Auditing (“SAs”) specified under section 
+143(10) of the Companies Act, 2013 (“the Act”). Our responsibilities under those SAs are further described 
+in the Auditor’s Responsibilities for the Audit of the Standalone Financial Results section of our report. We 
+are independent of the Company, in accordance with the Code of Ethics issued by the Institute of 
+Chartered Accountants of India together with the ethical requirements that are relevant to our audit of the 
+financial statements under the provisions of the Act, and the Rules thereunder, and we have fulfilled our 
+other ethical responsibilities in accordance with these requirements and the Code of Ethics. We believe 
+that the audit evidence we have obtained, is sufficient and appropriate to provide a basis for our opinion.
+Management’s and Board of Directors’ Responsibilities for the Standalone Financial Results
+These quarterly financial results as well as the year to date standalone financial results have been 
+prepared on the basis of the interim financial statements.
+The Company’s Management and the Board of Directors are responsible for the preparation of these 
+standalone financial results that give a true and fair view of the net profit/ loss and other comprehensive 
+income and other financial information in accordance with the recognition and measurement principles 
+laid down in Indian Accounting Standard 34, ‘Interim Financial Reporting’ prescribed under Section 133 
+of the Act read with relevant rules issued thereunder and other accounting principles generally accepted 
+in India and in compliance with Regulation 33 of the Listing Regulations. This responsibility also includes 
+maintenance of adequate accounting records in accordance with the provisions of the Act for safeguarding 
+of the assets of the Company and for preventing and detecting frauds and other irregularities; selection 
+and application of appropriate accounting policies; making judgments and estimates that are reasonable 
+and prudent; and the design, implementation and maintenance of adequate internal financial controls, that 
+were operating effectively for ensuring accuracy and completeness of the accounting records, relevant to 
+the preparation and presentation of the standalone financial results that give a true and fair view and are 
+
+B S R & Co. LLP
+Independent Auditor’s Report (Continued)
+Tata Consultancy Services Limited
+Page 2 of 3
+free from material misstatement, whether due to fraud or error.
+In preparing the standalone financial results, the Management and the Board of Directors are responsible 
+for assessing the Company’s ability to continue as a going concern, disclosing, as applicable, matters 
+related to going concern and using the going concern basis of accounting unless the Board of Directors 
+either intends to liquidate the Company or to cease operations, or has no realistic alternative but to do so. 
+The Board of Directors are also responsible for overseeing the Company’s financial reporting process.
+Auditor’s Responsibilities for the Audit of the Standalone Financial Results
+Our objectives are to obtain reasonable assurance about whether the standalone financial results as a 
+whole are free from material misstatement, whether due to fraud or error, and to issue an auditor’s report 
+that includes our opinion. Reasonable assurance is a high level of assurance, but is not a guarantee that 
+an audit conducted in accordance with SAs will always detect a material misstatement when it exists. 
+Misstatements can arise from fraud or error and are considered material if, individually or in the aggregate, 
+they could reasonably be expected to influence the economic decisions of users taken on the basis of 
+these standalone financial results.
+As part of an audit in accordance with SAs, we exercise professional judgment and maintain professional 
+skepticism throughout the audit. We also:
+– Identify and assess the risks of material misstatement of the standalone financial results, whether due 
+to fraud or error, design and perform audit procedures responsive to those risks, and obtain audit 
+evidence that is sufficient and appropriate to provide a basis for our opinion. The risk of not detecting 
+a material misstatement resulting from fraud is higher than for one resulting from error, as fraud may 
+involve collusion, forgery, intentional omissions, misrepresentations, or the override of internal control.
+– Obtain an understanding of internal control relevant to the audit in order to design audit procedures 
+that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the 
+effectiveness of the company’s internal control.
+– Evaluate the appropriateness of accounting policies used and the reasonableness of accounting 
+estimates and related disclosures in the standalone financial results made by the Management and 
+Board of Directors.
+– Conclude on the appropriateness of the Management’s and Board of Directors’ use of the going 
+concern basis of accounting and, based on the audit evidence obtained, whether a material 
+uncertainty exists related to events or conditions that may cast significant doubt on the Company's 
+ability to continue as a going concern. If we conclude that a material uncertainty exists, we are 
+required to draw attention in our auditor’s report to the related disclosures in the standalone financial 
+results or, if such disclosures are inadequate, to modify our opinion. Our conclusions are based on 
+the audit evidence obtained up to the date of our auditor’s report. However, future events or conditions 
+may cause the Company to cease to continue as a going concern.
+– Evaluate the overall presentation, structure and content of the standalone financial results, including 
+the disclosures, and whether the standalone financial results represent the underlying transactions 
+and events in a manner that achieves fair presentation.
+We communicate with those charged with governance regarding, among other matters, the planned scope 
+and timing of the audit and significant audit findings, including any significant deficiencies in internal control 
+that we identify during our audit.
+
+B S R & Co. LLP
+Independent Auditor’s Report (Continued)
+Tata Consultancy Services Limited
+Page 3 of 3
+We also provide those charged with governance with a statement that we have complied with relevant 
+ethical requirements regarding independence, and to communicate with them all relationships and other 
+matters that may reasonably be thought to bear on our independence, and where applicable, related 
+safeguards.
+For B S R & Co. LLP
+Chartered Accountants
+Firm’s Registration No.:101248W/W-100022
+Aniruddha Godbole
+Partner
+Mumbai Membership No.: 105149
+09 October 2025 UDIN:25105149BMLXAF2156
+
+TATA CONSULTANCY SERVICES LIMITED 
+Registered Office : 9th Floor, Nirmal Building, Nariman Point, Mumbai 400 021 
+CIN: l22210MH 1995PLC084781 
+Tel : +91 22 6778 9595 e-mail : investor,relations@tcs.com Webs ite: www.tcs.com 
+Audited Standalone Interim Statement of Financial Results 
+Three months ended Six months ended 
+September 30, June 30, September 30, September 30, September 30, 
+2025 2025 2024 2025 2024 
+Revenue from operations 54,531 52,788 53,990 1,07,319 1,06,834 
+Other income 1,768 2,703 3,185 4,471 5,602 
+TOTAL INCOME 56,299 55,491 57,175 1,11,790 1,12,436 
+Expenses 
+Employee benefit expenses 28,030 27,640 26,815 55,670 53,472 
+Cost of equipment and software I i cences 775 623 3,163 1,398 5,236 
+Fina nee costs 203 171 146 374 291 
+Depreciation and amortisation expense 1,139 1,103 1,008 2,242 1,977 
+Othe r expenses 10,058 9,768 9,454 19,826 18,993 
+TOTAL EXPENSES 40,205 39,305 40,586 79,510 79,969 
+PROFIT BEFORE EXCEPTIONAL ITEM AND TAX 16,094 16,186 16,589 32,280 32,467 
+Exceptional item 
+Re-structuring expenses 850 - - 850 -
+PROFIT BEFORE TAX 15,244 16,186 16,589 31,430 32,467 
+Tax Expense 
+Current tax 3,437 3,660 3,602 7,097 7,411 
+Deferred tax (21) (26) (7) (47) (53) 
+TOTAL TAX EXPENSE 3,416 3,634 3,595 7,050 7,358 
+PROFIT FOR THE PERIOD 11,828 12,552 12,994 24,380 25,109 
+OTHER COMPREHENSIVE INCOME (OCI) 
+Items that will not be reclassified subsequently to profit or loss 
+Remeasurement of defined employee benefit plans 2 (1) (35) 1 (SO) 
+Income tax on items that will not be reclassified subsequently to profit - - 9 - 13 
+or loss 
+Items that will be reclassified subsequently to profit or loss 
+Net change in fair values of investments other than {354) 207 392 (147) 446 
+equity shares carried at fair value through OCI 
+Net change in intrinsic value of derivatives designated as (20) 9 (14) (11) (10) 
+cash flow hedges 
+Net change in time value of derivatives designated as 18 (40) (23) (22) (22) 
+cash flow hedges 
+Income tax on items that will be reclassified subsequently to profit or 89 (44) (89) 45 (103) 
+loss 
+TOTAL OTHER COMPREHENSIVE INCOME/ (LOSSES) (265) 131 240 (134) 274 
+TOTAL COMPREHENSIVE INCOME FOR THE PERIOD 11,563 12,683 13,234 24,246 25,383 
+Paid up equity share ca pita I (Face va I ue : ~1 per share) 362 362 362 362 362 
+Total reserves 
+Earnings perequityshare:-Basicand diluted (t) 32.70 34.69 35.91 67.38 69.40 
+Dividend per share (Par value fl each) 
+Interim dividend on equity shares (t) 11.00 11.00 10.00 22.00 20.00 
+Final dividend on equity shares (t) - - - - -
+Total dividend on equity shares (t) 11.00 11.00 10.00 22.00 20.00 
+Total equity dividend percentage 1,100 1,100 1,000 2,200 2,000 
+I' crore) 
+Year ended 
+March 31, 
+2025 
+2,14,853 
+9,642 
+2,24,495 
+1,07,300 
+11,372 
+703 
+4,220 
+38,252 
+1,61,847 
+62,648 
+-
+62,648 
+14,823 
+(232) 
+14,591 
+48,057 
+(180) 
+45 
+593 
+1 
+(9) 
+(146) 
+304 
+48,361 
+362 
+75,255 
+132.83 
+96.00 
+30.00 
+126.00 
+12,600 
+
+ASSETS 
+Non-current assets 
+Property, plant and equipment 
+capital work-in-progress 
+Right-of-use assets 
+Intangible assets 
+Financial assets 
+Investments 
+Trade receivables 
+Billed 
+Unbilled 
+Loans 
+Otherfinancial assets 
+Deferred tax assets (net) 
+Income tax assets (net) 
+Other assets 
+Total non-current assets 
+Current assets 
+Inventories 
+Financial assets 
+Investments 
+Trade receivables 
+Billed 
+Unbilled 
+Cash and cash equivalents 
+Other balances with banks 
+Loans 
+Otherfinancial assets 
+Income tax assets (net) 
+Other assets 
+Total current assets 
+TOTAL ASSETS 
+EQUITY AND LIABILITIES 
+Equity 
+Share capital 
+Other equity 
+Total equity 
+Liabilities 
+Non-current liabilities 
+Financial liabilities 
+Lease liabilities 
+Otherfinancial liabilities 
+Employee benefit obligations 
+Deferred tax liabilities (net) 
+Unearned and deferred revenue 
+Total non-current liabilities 
+Current liabilities 
+Financial liabilities 
+Lease liabilities 
+Trade payables 
+TATA CONSULTANCY SERVICES LIMITED 
+Audited Standalone Interim Balance Sheet 
+Dues of small enterprises and micro enterprises 
+Dues of creditors otherthan small enterprises and micro enterprises 
+Otherfinancial liabilities 
+Unearned and deferred revenue 
+Other liabilities 
+Provisions 
+Employee benefit obligations 
+Income tax liabilities (net) 
+Total current liabilities 
+TOTAL EQUITY AND LIABILITIES 
+11" crore) 
+As at As at 
+September 30, 202S March 31, 2025 
+8,189 8,346 
+1,952 1,318 
+8,887 7,601 
+480 878 
+3,999 3,999 
+119 91 
+150 44 
+752 2 
+1,160 657 
+2,801 2,658 
+781 1,131 
+3,042 2,900 
+32,312 29,625 
+25 20 
+35,202 28,803 
+47,118 44,392 
+7,440 7,375 
+1,602 2,610 
+5,441 4,542 
+41 42 
+1,772 2,455 
+642 226 
+13,026 12,698 
+1,12,309 1,03,163 
+1,44,621 1,32,788 
+362 362 
+84,667 75,255 
+85,029 75,617 
+7,763 6,486 
+521 626 
+188 186 
+253 202 
+655 489 
+9,380 7,989 
+1,207 1,091 
+130 156 
+17,533 17,327 
+6,203 6,551 
+2,881 3,377 
+5,013 5,110 
+79 92 
+3,767 3,621 
+13,399 11,857 
+50,212 49,182 
+1,44,621 1,32,788 
+
+Select explanatory notes to the Statement of Audited Standalone Interim Financial Results for three months and six-months ended 
+September 30, 2025 
+1. Audited Standalone Interim Statement of Financial Results for the three months and six-months ended September 30, 2025 have been 
+prepared in accordance with the Indian Accounting Standard (referred to as "Ind AS") 34 - Interim Financial Reporting prescribed under 
+Section 133 of the Companies Act, 2013 read with Companies (Indian Accounting Standards) Rules as amended from time to time. These 
+results have been reviewed by the Audit Committee and approved by the Board of Directors at its meeting held on October 9, 2025. The 
+statutory auditors have expressed an unmodified audit opinion on these results. 
+2. Audited Standalone Interim Statement of Cash Flows is attached in Annexure A. 
+3. In July 2025, the Company announced re-structuring initiatives . As a part of this initiative, the Company released / will release certain 
+associates from the organisation whose deployment may not be feasible. Termination benefits have been provided as per policy devised for 
+this purpose. Such termination benefits, due to their size, nature or occurrence are disclosed as "Exceptional item" in the audited standalone 
+interim financial results. 
+4. The Board of Directors at its meeting held on October 9, 2025, has declared an interim dividend of~ll.00 per equity share. 
+5. The results for three months and six months ended September 30, 2025, are available on the BSE Limited website 
+(URL: www .bseindia.com), the National Stock Exchange of India Limited website (URL: www.nseindia.com ) and on the Company's website 
+(URL: www.tcs .com/investors ). 
+Mumbai 
+October 9, 2025 
+For and on behalf of the Board of Directors 
+KU NCH 1TH AM °'''"'~'''""' byKUNCHITHAM 
+KRITHIVASAN 
+KRITHIVASAN °'"""·"·'.,.,,.,,, ... ,.,. 
+K Krithivasan 
+CEO and Managing Director 
+DIN: 10106739 
+
+Annexure A 
+CASH FLOWS FROM OPERATING ACTIVITIES 
+Profit for the period 
+Adjustments for: 
+Depreciation and amortisation expense 
+TATA CONSULTANCY SERVICES LIMITED 
+Audited Standalone Interim Statement of Cash Flows 
+Bad debts and advances written off, allowance for expected credit losses and doubtful advances 
+Tax expense 
+Net gain on lease modification 
+Unrealised foreign exchange gain 
+Net gain on disposal of property, plant and equipment 
+Net gain on disposal /fairvaluation of investments 
+Net gain on fairvaluation of call option 
+Interest income 
+Dividend income (Including exchange impact) 
+Finance costs 
+Operating profit before working capital changes 
+Net change in 
+Inventories 
+Trade receivables 
+Billed 
+Unbilled 
+Loans and other financial assets 
+Other assets 
+Trade payables 
+Unearned and deferred revenue 
+Otherfinancial liabilities 
+Other liabilities and provisions 
+Cash flows generated from operations 
+Taxes paid (net of refunds) 
+Net cash flows generated from operating activities 
+CASH FLOWS FROM INVESTING ACTIVITIES 
+Bank deposits placed 
+Inter-corporate deposits placed 
+Purchase of investments 
+Payment for purchase of property, plant and equipment 
+Payment including advances for acquiring right-of-use assets 
+Payment for purchase of intangible assets 
+Acquisition of subsidiaries 
+Advance towards acquisition of investment 
+Proceeds from bank deposits 
+Proceeds from disposal/ redemption of investments 
+Proceeds from sub-lease receivable 
+Proceeds from disposal of property, plant and equipment 
+Interest received 
+Dividend received from subsidiaries 
+Net cash flows used in investing activities 
+Six months ended 
+September 30, 
+2025 
+24,380 
+2,242 
+71 
+7,050 
+(3) 
+(87) 
+(9) 
+{208) 
+(43) 
+{1,942) 
+(2,141) 
+374 
+29,684 
+(5) 
+(2,814) 
+(171) 
+555 
+(401) 
+180 
+(330) 
+197 
+41 
+26,936 
+(4,946) 
+21,990 
+{2,880) 
+{750) 
+(58,081) 
+(1,578) 
+{49) 
+(128) 
+(554) 
+(250) 
+1,980 
+51,740 
+3 
+10 
+1,128 
+2,141 
+(7,268) 
+September 30, 
+2024 
+25,109 
+1,977 
+50 
+7,358 
+(8) 
+(34) 
+(7) 
+{92) 
+-
+{1,359) 
+{4,103) 
+291 
+29,182 
+(1) 
+{4,540) 
+746 
+{368) 
+(666) 
+1,005 
+47 
+{968) 
+663 
+25,100 
+(7,756) 
+17,344 
+(3,492) 
+-
+{61,470) 
+(1,274) 
+(90) 
+(89) 
+-
+-
+-
+57,147 
+4 
+8 
+1,185 
+4,103 
+(3,968) 
+(" crore) 
+Year ended 
+March 31, 
+2025 
+48,057 
+4,220 
+78 
+14,591 
+(10) 
+(18) 
+{20) 
+(225) 
+-
+{2,865) 
+(6,133) 
+703 
+58,378 
+7 
+(5,828) 
+123 
+{732) 
+(2,238) 
+2,884 
+829 
+(17) 
+1,002 
+54,408 
+(13,592) 
+40,816 
+(8,842) 
+(36) 
+{132,458) 
+(2,388) 
+{94) 
+(902) 
+(1,036) 
+-
+7,262 
+1,34,383 
+10 
+23 
+2,770 
+6,133 
+4,825 
+
+CASH FLOWS FROM FINANCING ACTIVITIES 
+Repayment of lease liabilities 
+Interest paid 
+Dividend paid 
+Net cash flows used in financing activities 
+Net change in cash and cash equivalents 
+TATA CONSULTANCY SERVICES LIMITED 
+Audited Standalone Interim Statement of Cash Flows 
+Cash and cash equivalents at the beginning ofthe period 
+Exchange difference on translation of foreign currency cash and cash equivalents 
+Cash and cash equivalents at the end of the period 
+Components of cash and cash equivalents 
+Balances with banks 
+In current accounts 
+In deposit accounts 
+Cheques on hand 
+Cash on hand 
+Remittances in transit 
+*Represents value less than ~.50crore. 
+(" crore) 
+Six months ended Year ended 
+September 30, September 30, March 31, 
+2025 2024 2025 
+(641) (568) (1,112) 
+(403) (290) (748) 
+(14,834) (13,749) (44,864) 
+(15,878) (14,607) (46,724) 
+(1,156) (1,231) (1,083) 
+2,610 3,644 3,644 
+148 71 49 
+1,602 2,484 2,610 
+1354 1,204 1,89( 
+247 1,280 712 
+-* -* -* 
+* * * - - -
+1 -* 8 
+1,602 2,484 2,61(] 
+
+9th Floor Nirmal Building Nariman Point Mumbai 400 021 
+Tel 91 22 6778 9595 Fax 91 22 6630 3672 e-mail corporate.office@tcs.com website www.tcs.com 
+Registered Office 9th Floor Nirmal Building Nariman Point Mumbai 400 021 
+Corporate Identity No. (CIN): L22210MH1995PLC084781 
+Intimation as per NSE and BSE circulars dated July 14, 2023 
+This is to inform you that pursuant to NSE circular no. NSE/CML/2023/57 and BSE Circular no. 
+20230714- 34 dated July 14, 2023, the meeting of the Board of Directors of the Company was 
+held today, October 9, 2025, at 9.00 a.m. and concluded at 3.40 p.m. 
+Thanking you, 
+Yours faithfully, 
+For Tata Consultancy Services Limited
+Yashaswin Sheth
+Company Secretary
+ACS 15388

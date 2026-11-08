@@ -1,2 +1,11 @@
 SESSION-CONTEXT.md
 .env
+.venv/
+__pycache__/
+.cache/
+
+# collector code + its local artifacts stay local (Plan: Nov 8)
+collector/
+runs.jsonl
+announcements.json
+data.py

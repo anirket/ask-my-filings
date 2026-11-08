@@ -1,0 +1,1269 @@
+   
+ 
+ 
+CC/S&B/AND/2026-27/516                        07.11.2026 
+ 
+ 
+Madam / Sir, 
+ 
+Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2015  
+Transcript of Analyst Meet 
+ 
+Pursuant to Regulation 30 read with Para A Part A of Schedule III to SEBI (Listing 
+Obligations and Disclosure Requirements) Regulations, 2015 , we submit the 
+transcript of the Q2FY27 post results Analyst Meet held on 03.11.2026. 
+ 
+Yours faithfully, 
+   
+                                                                                          
+                    
+                                                                                          
+(Aruna N Dak) 
+DGM (Compliance & Company Secretary)  
+Encl: A/a 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Listing Department,   
+BSE Limited,  
+Phiroje Jeejeebhoy Towers,  
+25th Floor, Dalal Street,  
+Mumbai – 400001  
+The Listing Department, 
+National Stock Exchange of India Limited,  
+Exchange Plaza, 5th Floor, ‘G’ Block,  
+Bandra Kurla Complex, Bandra (East),  
+Mumbai – 400051  
+ 
+BSE SCRIP Code: 500112 
+ 
+NSE SCRIP Code: SBIN 
+
+
+ 
+ 
+ 
+Q2FY27 
+ANALYST MEET 
+TRANSCRIPT 
+03.11.2026 
+ 
+MANAGEMENT   MR. C S SETTY 
+CHAIRMAN, STATE BANK OF INDIA 
+ 
+MR. ASHWINI KUMAR TEWARI 
+MANAGING DIRECTOR (CORPORATE BANKING AND SUBSIDIARIES) 
+ 
+MR. RANA ASHUTOSH KUMAR SINGH 
+MANAGING DIRECTOR (INTERNATIONAL BANKING, GLOBAL MARKETS & 
+TECHNOLOGY) 
+ 
+MR. RAMA MOHAN RAO AMARA  
+MANAGING DIRECTOR (RETAIL BUSINESS AND OPERATIONS) 
+ 
+MR. RAVI RANJAN  
+MANAGING DIRECTOR (RISK, COMPLIANCE AND STRESSED ASSETS 
+RESOLUTION GROUP) 
+ 
+MR. ANINDYA SUNDER PAUL 
+DEPUTY MANAGING DIRECTOR (FINANCE) 
+ 
+MR. A RAVI SHANKAR 
+CHIEF GENERAL MANAGER (FINANCIAL CONTROL) 
+ 
+MR. PAWAN KUMAR 
+GENERAL MANAGER (PERFORMANCE, PLANNING & REVIEW) 
+
+State Bank of India 
+3rd November, 2026 
+ 
+2 
+ 
+ 
+Mr. Pawan Kumar - General Manager (Performance, Planning and Review), 
+State Bank of India 
+Good evening, ladies and gentlemen. I am Pawan Kumar, General Manager, 
+Performance, Planning and Review Department of the bank. On behalf of State Bank 
+of India, I extend a warm welcome to our analysts, investors, colleagues, and 
+everyone gathered here following the declaration of bank’s Q2 FY2027 results. I also 
+welcome all the participants joining us through the LIVE webcast. 
+ 
+It is my privilege to extend a  respectful welcome to our Chairman, Shri. C.S. Setty, 
+and our top management on the dais. 
+ 
+• Our Managing Director, Corporate Banking and Subsidiaries, Shri Ashwini 
+Kumar Tewari. 
+• Our Managing Director, International Banking, Global Markets and 
+Technology, Shri Rana Ashutosh Kumar Singh. 
+• Our Managing Director, Retail Banking and Operations, Shri Rama Mohan 
+Rao Amara. 
+• Our Managing Director, Risk, Compliance and SARG, Shri Ravi Ranjan. 
+• Our Deputy Managing Director, Finance, Shri A.S. Paul. 
+ 
+Seated in the fro nt rows are our Deputy Managing Directors heading various 
+verticals and the Managing Director of our subsidiaries. 
+ 
+We also welcome the CGMs representing various verticals and business groups, as 
+well as other senior functionaries from the circles and various officers joining us 
+through our LIVE webcast. 
+ 
+Our chairman will present an overview of the Bank’s Q2 FY2027 performance and 
+the strategic initiatives undertaken during the period. His address will be followed by 
+a question-and-answer session. 
+ 
+Before inviting Chairman Sir to address the gathering, I will read out the safe harbor 
+statement. Certain statements in today’s presentation may be forward -looking 
+statements. These statements are based on the management’s current expectations 
+and are subject to uncertainty and changes in circumstances. Actual outcomes may 
+differ materially from those included in these statements due to a variety of factors. 
+Thank you. 
+ 
+May I now invite Chairman Sir to deliver his opening remarks. Chairman Sir, please. 
+
+State Bank of India 
+3rd November, 2026 
+ 
+3 
+ 
+ 
+Mr. C.S. Setty – Chairman, State Bank of India 
+ 
+Thank you. Good evening, ladies and gentlemen. It is a pleasure to welcome you to 
+SBI’s Analyst Meet following the announcement of our second quarter results. Thank 
+you for joining us in this Analyst Meet. 
+ 
+The quarter went by reflects the continued resilience of the Indian economy and the 
+underlying strength of SBI’s franchise. While our financial results provide an 
+immediate measure of performance, I would like to use this opportunity to focus also 
+on the drivers that  will determine the quality, efficiency, and sustainability of our 
+growth over the medium term. The global environment remains uncertain with the 
+geopolitical developments, shifts in trade policy, energy prices, and financial market 
+volatility continuing to influence the outlook. 
+ 
+India, however, remains on a strong growth trajectory. Domestic demand, 
+investment, and sustained activity across manufacturing and services continue to 
+support economic momentum. The RBI’s October assessment places FY2027 real 
+GDP growth at 7.1%. 
+ 
+For the banking sector, this provides a supportive environment for credit growth and 
+the productive deployment of capital. At the same time, evolving liquidity conditions, 
+funding costs, inflation, and currency movements call for a continued financial 
+discipline. We see significant opportunities ahead, but our approach remains firmly 
+anchored in the quality of growth, prudent underwriting, and strong risk 
+management.  
+ 
+At SBI, our objective is to build on the strength of our franchise, wh ile continuously 
+improving the way we serve customers and deploy our resources. A key priority is to 
+enhance productivity across our extensive branch network by progressively shifting 
+routine banking transactions to digital and self -service channels. This allows our 
+branches and employees to devote greater attention to customer engagement, 
+relationship building, and business generation. 
+ 
+I had mentioned some of the initiative under Project SARAL. Two major initiatives 
+which have undertaken –  
+ 
+• Re-KYC Program and 
+• Seva Sarathi. 
+ 
+
+State Bank of India 
+3rd November, 2026 
+ 
+4 
+ 
+I would like to share a few thoughts on that. Our Re -KYC program illustrates the 
+progress we are making on simplification of journeys. Since its launch in June, more 
+than 1.2 crore, Re-KYC updates have been completed digitally reducing branch 
+intervention by more than 50%, translating into 50,000 man -hours saved every day. 
+These are meaningful productivity gains that can be redirected towards higher value 
+customer engagement and business activities. 
+ 
+We are seeing similar benefits from our Seva Sarathi initiative. More than 9,500 
+Seva Sarathis are now deployed across high footfall branches, helping customers 
+access routine services and migrate progressively towards digital and self -service 
+channels. This is reducing branch -based servicing of routine transactions while 
+delivering meaningful savings in servicing costs. 
+ 
+Importantly, these initiatives are being implemented at scale, and their impact is 
+being measured through tangible operating outcomes. This gives us a replicable 
+framework for driving productivity and efficiency across other areas of the bank. 
+ 
+Cyber resilience is another area where we are investing for the future. The recently 
+inaugurated SBI CyRIS, our Cyber Resilience, Integrity, and Security Center of 
+Excellence, will strengthen our capabilities while facilitating greater collaboration and 
+knowledge sharing across the BFSI ecosystem. Collectively, these initiatives are 
+aimed at building a more productive, technology -led, and scalable operating model 
+for SBI. 
+ 
+Let me now turn to our business and financial performance. 
+ 
+ 
+• Net Profit for the quarter was at ₹23,038 crore. 
+• Operating Profit was ₹34,226 crore, registering a year -on-year change of 
+7.28%. 
+• Domestic Net Interest Margin improved to 3.11% for the quarter. 
+ 
+For the half year-  
+ 
+• Return on Assets remained healthy at 1.14% and 
+• Return on Equity stood at 18.68%, sustaining performance comfortably 
+above our long-term guidance. 
+• Total business aggregated ₹115 trillion, with the deposits amounting to 
+₹63 trillion and advances crossing ₹52 trillion. 
+• Credit growth remained well -diversified, with the Retail, Agriculture, 
+MSME, and corporate advances all recording double-digit growth. 
+
+State Bank of India 
+3rd November, 2026 
+ 
+5 
+ 
+• Our overseas operations also recorded healthy growth in both deposits 
+and advances. 
+• Our liability franc hise remains a core strength and a key competitive 
+advantage.  
+• Deposits grew by 12.27% year -on-year, with the term deposits growing by 
+14.26%. 
+• Our strong CASA franchise provides a stable funding base and positions 
+us well to support further Balance Sheet growth. 
+• Asset quality remains strong, supported by disciplined underwriting, closer 
+credit monitoring, and improved recovery mechanisms. 
+• At 1.39%, the Gross NPA ratio is at its lowest level in more than two 
+decades, while the Provision Coverage Ratio remained robust at 74%. 
+ 
+Our capital position provides additional strength. Capital Adequacy stood at 16.09%, 
+improving by 147 basis points year -on-year, and is comfortably above regulatory 
+requirements. This provides us with adequate capacity to support growth while 
+preserving appropriate capital buffers. 
+ 
+Technology is increasingly becoming integral to the way we serve our customers and 
+run the bank. YONO continues to deepen our digital relationship with customers, 
+with total registration now exceeding 11 crores. We are also developing YONO 
+Bharat, a device -neutral mobile banking platform designed to extend secure digital 
+banking to financial inclusion customers, feature phone users, and customers using 
+devices across the variants. 
+ 
+Alongside customer -facing tec hnology, we are deploying analytics, Artificial 
+Intelligence, and process automation to strengthen decision -making, enhance 
+productivity, and improve service delivery. Our focus is not technology adoption for 
+its own sake, but its measurable impact on customer experience, operating 
+efficiency, risk management, and productivity. Over time, we expect these 
+investments to contribute increasingly to the efficiency and scalability of the 
+franchise. 
+ 
+Our group businesses also continue to perform strongly. The lis ting of SBI Funds 
+Management Limited during the quarter is an important milestone and underscores 
+the value being created across the SBI Group. 
+ 
+Going forward, we see a strong runway for SBI to participate in India’s continued 
+economic expansion. Our focus will remain on delivering sustainable and profitable 
+growth while steadily improving productivity, efficiency, and the quality of our 
+
+State Bank of India 
+3rd November, 2026 
+ 
+6 
+ 
+franchise. We remain confident in SBI’s ability to build on its strengths and create 
+sustainable value for all our stakeholders. 
+ 
+My colleagues and I will now be happy to take your questions. Thank you. 
+ 
+Question and Answer Session: 
+  
+Mr. Pawan Kumar - General Manager (Performance, Planning and Review), 
+State Bank of India 
+ 
+Thank you, Chairman Sir. We will now take questions from the audience. For the 
+benefit of all participants, please state your name and company before asking your 
+questions. To accommodate as many participants as possible, we request you to 
+limit yourself to 2 questions at a time. Kindly confine your questi ons to the bank’s 
+financial results and refrain from queries relating to specific accounts. Any additional 
+questions may be raised at the end of the session, if time permits. Let us now 
+proceed with the question-and-answer session, please. 
+ 
+Mr. Ashok Ajmera - Chairman, AjconGlobal: 
+ 
+I am Ashok Ajmera, Chairman, AjconGlobal. Good evening to all of you. And, yes, 
+congratulations to you, Sir, for the good set of numbers, especially in this quarter. 
+Good business growth, credit growth and, I think, the Net Prof it is a real benchmark 
+of ₹23,038 crore. 
+ 
+Having said that, as usual, I have a couple of observations and some questions, Sir. 
+Our credit growth for the half year, if you look at, I mean, this quarter it is 3.19% but, 
+overall, if you look, it is ₹2,76,000 crore, higher than the year end 2026. So, in order 
+to attain the target of 15% or so, we will have to have the credit growth of ₹4,60,000 
+crore, more in the remaining 6months or 5.5 months. So, how do you look to achieve 
+that, looking at the pipelines in t he sanction or the projects which are in the 
+sanctioning stage? And from which sector and industries this kind of growth will 
+come? Because the first half overall, the credit growth has not been so encouraging 
+overall, if you look at it. 
+ 
+Now, my other thing on the profitability of this quarter, which has a couple of other 
+items also. There is an exceptional profit of SBI Funds, part of the 6.35% stake sale, 
+which is ₹7,288 crore, because of that, the Operating Profit has still been shown as 
+
+State Bank of India 
+3rd November, 2026 
+ 
+7 
+ 
+₹34,226 crore, whereas in the results it is some ₹26,000 odd crore, But, yeah, in the 
+presentation, this exceptional item also has been added into Operating Profit. 
+ 
+My second observation, Sir, is on the Other Income side in the financial results which 
+are published. For this quarter is ₹11,077 crore, as against ₹15,922 crore. Now, here 
+it seems that in the Other Income in this quarter, the Treasury income like profit, 
+loss, sale, and revaluation of investment has not been included in the results in 
+Other Income. So, I do not know the reason. I do not think there is any such directive 
+from anywhere but maybe a presentation or accounting representation. So, if you 
+can elaborate where that ₹6,011 crore of profit on revaluation has been otherwise 
+put into. It is in the regular operations, it means it has gone. 
+ 
+Another one is, Sir, on the NSE stakes, that small portion of sale of shares, which 
+has gone to the capital reserves of ₹2,500 crore, whereas some of the other banks, 
+they have taken it straight away into the bottom line, the Profit and Loss. 
+ 
+Mr. C.S. Setty – Chairman, State Bank of India 
+ 
+Which one? 
+ 
+Mr. Ashok Ajmera - Chairman, AjconGlobal: 
+ 
+National Stock Exchange (NSE). NSE stake sale. So, that is another thing that RBI 
+directive which has been quoted for this, I think November’25, because of that it has 
+been taken in capital reserves. But why then in that case the other bank could take it 
+to their P&L? 
+ 
+And, similarly, in the Operating Expenses also in this quarter have gone up 
+substantially to ₹15,531 crore, as against ₹11,962 crore, in the last quarter, which 
+has a miscellaneous item of ₹6,697 crore, ₹2,000 crore, higher than the last quarter. 
+Because these are all big numbers, big figures, and that is why it needs some details 
+and explanations on that, if it can be given. 
+ 
+Similarly, the acquisition cost and the cost of the Other Businesses and other thing 
+have gone up substantially by ₹600 -₹700 crore, higher to ₹2,004 crore, because of 
+that, the other operating expenses have gone up by almost about, I think, ₹3,700 -
+₹3,800 crore.  
+ 
+
+State Bank of India 
+3rd November, 2026 
+ 
+8 
+ 
+So, these are few points on the Profit and Loss account, and this is on the business 
+front, if you can. 
+ 
+And if I add one more thing is on this  YES Bank episode or I will say that final 
+decision which has come. We have still  this substantial holding, like we have taken 
+last year a good profit on YES Bank stake sale of, I think, 13% odd. I mean, how are 
+we treating it? How are we looking at it, this stake? 
+ 
+These are some couple of points and observations, if you can give in this round, Sir. 
+Thank you. 
+ 
+Mr. C.S. Setty – Chairman, State Bank of India 
+ 
+Yeah. First thing, I think the question about NSE and SBI Mutual Fund divestment, 
+let me clarify so that we can keep that question addressed for all the people. The 
+treatment of any such divestment depends on where we are holding that investment 
+in our books.  NSE, we have classified under Available For Sale category. If it is 
+AFS, the divestment will go to AFS reserve. It is not routed through the P&L. In case 
+of mutual fund, it is shown under Associates & Subsidiaries, FVTPL basically. So, 
+which means that it is booked through the P&L. 
+ 
+There is another difference which we must understand. The rest of the portion of 
+NSE is also mark-to-market. That is also helping us to strengthen our capital. In fact, 
+the mark-to-market gain on post-listing, the current valuation of the remaining portion 
+of holding is ₹11,000 crore, which gets augmented in our AFS reserve. 
+ 
+As far as SBI Mutual Fund is concerned, whatever has been sold is being routed 
+through the P&L. And why you don’t see that ₹6,000 crore post-tax here , is 
+essentially because of the Treasury losses. We didn’t have any Treasury gains 
+because of the sig nificant movement in the bond yields. We not only have , not had 
+the similar gains of the previous quarter, but we had also almost ₹1,300 crore, loss.  
+ 
+Mr. Anindya - Deputy Managing Director, Finance, State Bank of India:  
+ 
+Yes, 1275. 
+ 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+ 
+1275; almost ₹1,300 crore, MTM loss.  
+ 
+
+State Bank of India 
+3rd November, 2026 
+ 
+9 
+ 
+Mr. Ashok Ajmera - Chairman, Ajcon Global: 
+ 
+MTM? Okay. 
+ 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+ 
+MTM. So, that is the reason why you don’t see  the Treasury income. It is very much 
+part of the Other Income, Non -Interest Income. It is shown. But it is combined with 
+the sale of AMC, the gain on the AMC sale and the loss on the Treasury portfolio. 
+That is how it is not appearing here. 
+ 
+And NSE, as I mentioned, is not routed through the P&L, it has gone directly into the 
+AFS reserve. Probably that is also why people got confused. In fact, if we did not 
+have the Treasury losses, the way we had this quarter, our profit would have been 
+much higher. So, I think this need to be understood. Even if you, account for the one-
+offs, you must also realize that there has been a similar one -off in the Q2 of FY 2026 
+because of the YES Bank sale. 
+ 
+So, in all, the core parameters have done very well, as you mentioned, in terms of 
+the Net Interest Margin, Net Interest Income, credit growth. All of those core 
+parameters, I believe, we have done extremely well. I think we have to look beyond 
+the bottom-line number. 
+ 
+On the half-yearly growth, rest of the year, generally, I beg to differ, Ajmera Sahab, I 
+think we have had one of the best first half year in the credit growth because 
+normally the Q1 and Q2 are tepid. The whole banking system is seeing a good, 
+robust credit growth in the Q1, Q2. And I believe that H2, generally, which is a busy 
+season, we will be able to have that 14% -15% guidance for the full year easily 
+achieved. There is no doubt on the credit growth side.  
+ 
+On the expenses, I will ask the DMD Finance to respond. 
+ 
+And on the YES Bank stake sale, we do not have any plans to exit at this moment. 
+On the Operating Costs,  some of the costs we have booked upfront . If you have 
+seen over the years, we used to have a bump -up of expenses in the Q4 and 
+suddenly Cost-to-Income ratio will go up. So, we wanted to smoothen this Cost -to-
+Income ratio. Some of the  expenses which would have otherwise booked in the Q4 
+have been booked in the Q2. And we will be doing a similar thing in the Q3 also. 
+ 
+Mr. Anindya - Deputy Managing Director, Finance, State Bank of India:  
+ 
+
+State Bank of India 
+3rd November, 2026 
+ 
+10 
+ 
+Operating expenses, it consists of staff expense s and overheads. Staff expenses, if 
+you see, Q2, ₹17,452  crore as against ₹16,606 crore in Q2 of last year. Overheads, 
+as Sir rightly said, ₹16,531  crore as against ₹14,393 crore in Q2 of last year. In this 
+₹16,531 crore, ₹850 crore, approximately, expenses are what we have upfronted. 
+So, if we exclude that, our Q2 YoY growth actually comes down to 9%. 
+ 
+But, as Sir already said, instead of booking everything in Q4, we are trying to book 
+some of those eligible expenses in Q2, Q3, and then Q4. 
+ 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+ 
+And also, to account for the seasonality, the best way to compare is not sequentially 
+but year-on-year. Expenses vary from one quarter to another. 
+ 
+Anything, Ajmera Sahab, we left out? 
+ 
+Mr. Ashok Ajmera - Chairman, AjconGlobal: 
+ 
+No, Sir, only on this credit growth, because all the banks, public sector banks 
+especially, and even private banks, they have announced already their results. So, 
+first half and the second half, the differentiation is not so much. And, secondly, in the 
+first half because of this FCNR(B) and that special window which was opened, 
+everybody has made very good deposits, and they were lent also against that. So, 
+the book of everyone is good and, comparatively, their growth for the remaining half 
+six months is not, I mean, that much differential of, say, 60 -40 or 65-35, which is our 
+case. That is why I pointed that, I made that point. 
+ 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+ 
+No, no, you don’t worry. I think our 14% -15% guidance is based on our calculation in 
+terms of what is the visibility  and in terms of the pipeline , which you asked, we have 
+about almost ₹7 lakh crore pipeline on the corporate side  and we are seeing robust 
+growth in across the segments whether it is gold loan, home loans, auto loans and 
+I'm sure that a lot of people asked me to increase the guidance. I said 14 to 15% is a 
+good guidance for me and with a book what we have. As far as FCNR(B) leverage is 
+concerned we have not played too large on that. We mobilized around $10.9 billion, 
+and the leverage is 8.83  billion dollars net, which is there. So that also on e of the 
+reasons why you don't see the significant 20% or 21% growth rate.  
+Mr. Ashok Ajmera - Chairman, AjconGlobal: 
+
+State Bank of India 
+3rd November, 2026 
+ 
+11 
+ 
+Yeah, some of these smaller banks, you know, 26% ….. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+And our base is also fairly large. 
+Mr. Ashok Ajmera - Chairman, AjconGlobal: 
+Thank you. 
+Mr. Manoj Alimchandani - Analyst: 
+Chairman, Board Members, SBI Team . Exceptional set of numbers for last 2 years 
+and for the last quarter. So many things, FCNR, you mentioned $10 billion, 
+wonderful risk -free liabilities coming in with good huge opportunities, Yes Bank 
+transaction last year, excellent timing, the way, you know, visionary, the way you 
+book profits at the right price and holding the balance and also SBI AMC listing NSE, 
+excellent set coming, credit growth, ROE, ROA everything so far so good.  
+Now couple of points, our results seem to be actually much better than they have 
+been optically seen by the market. I would like you to clearly walk us through, I will 
+refer to couple of slides, slide numb er 24 read along with slide number 19. Looking 
+at the optics, if you can walk us through the operating profit numbers, how do you 
+read the number? How do we see the operating profit growth for the year when we 
+look at the year end? And the way the swings can take place, looking at our 
+benchmarks and record performance, obviously operating profit growth should be far 
+better than the guidance we talk about nominal GDP growth plus 4%. Treasury is 
+apart, we know the geopolitical issues, in spite of challenges y ou have done really 
+well. 
+If you can also besides that let us know how the current situation you foresee and 
+particularly the current festive season? GDP numbers have been very good and now 
+current festive season how it has taken off and how do we see it panning out?   
+And next is Yes Bank, the best time we talk about being a technology savvy bank 
+and MDR coming, the growth in that should be far, far better. It has been deferred by 
+the government mainly because of the festive season benefit to the whole 
+consumers of India and that should also come. But what has happened, I would like 
+you to share your thoughts. We talked about Yes Bank briefly. Now Yes Bank, our 
+team, our previous CFO Prashant Kumar, as an administrator and as a CEO of Yes 
+Bank, he did an exceptionally wonderful job. But apparently from what perceptions 
+have been created in the last few weeks, it is becoming a governance issue. And if 
+you can highlight and clarify if SMBC is a great partner, one of the best banks in the 
+world and also, they are very, very bullish on India. What are the thought process we 
+had when we brought SMBC to India and we got them as a great partner for long 
+
+State Bank of India 
+3rd November, 2026 
+ 
+12 
+ 
+term and what are the agreements, covenants with them and how do we foresee the 
+future relationship and it should become a large bank and we can continue holding 
+and see the value of Yes Bank grow. If you can share your thoughts on that would 
+be very nice. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Thank you.  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+SBI numbers have to be seen from a different perspective in terms of what we have 
+done. I believe , phenomenally well, in terms of margin improvement, containing the 
+cost of deposits, ensuring that yield on advances is improved and more importantly 
+we have manag ed to maintain our risk weighted asset density. That means we are 
+not acquiring too much risk to show the profits. A Bank which has got ₹18 lakh crore, 
+treasury portfolio, the swings are inevitable. We move with the market.  
+But what is important to realiz e, you keep aside this treasury gains, losses for a 
+moment. We are focusing on the core operating parameters. And core operating 
+parameters is that you use your franchise to book good quality advances across the 
+segments, whether it is retail, SME, agriculture or corporate and I think we have 
+done very well. You can't have a book of ₹52 lakh crore and have a credit cost of 22 
+basis points. And that doesn't come naturally. It has to be worked on. We have 
+improved our underwriting process, monitoring and the use of analytics, data. So, 
+these are very important strengths which we need to recognize while quarter to 
+quarter performance is important. 
+So, I stick to my guidance, an annual guidance of return on assets of 1%, net interest 
+margin not less than 3% and ROE of 15% , through the cycles you are assured of. 
+And these numbers what you look at from a spectrum , that some costs have gone 
+up, some income has come down, I think it is important to discuss those points, but 
+at the upfront , want to say that these guidance’s have not changed . We have done 
+our homework, and we are confident that all three important guidance parameters 
+what we have given, we are sticking to that. And we are also sticking to our guidance 
+on credit growth 14 to 15% and a quality credit growth. We will not compromise on 
+the asset quality to earn more. And I think , to run through the operating profit , it is 
+while a good set of numbers are there in NIM and NII , to the extent what is impacted 
+by the global market or the treasury losses, it is impacting the operating profit. 
+But if you see the overall , the core parameters, I believe we have done extremely 
+well. And as Yes Bank thing, Manoj ji you have asked many things which I cannot 
+comment. One thing what I definitely would say that on the legal process we cannot 
+comment because it is sub judice. The strategic partner , I don’t think we can have 
+
+State Bank of India 
+3rd November, 2026 
+ 
+13 
+ 
+any better partner than SMBC coming in there. So, I think from a customer point of 
+view as you mentioned it is a technologically robust bank and I am sure  that it is a 
+good franchise. This part of the issue of AT1, we will have to wait for the finality of 
+the case. Beyond that it is very difficult for me to say. Anything I missed out Manoj. 
+Mr. Manoj Alimchandani - Analyst: 
+No….. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Okay, thank you. 
+Mr. Manoj Alimchandani - Analyst: 
+I think you answered very well. I would just like to say, now a proper communication 
+is going on, and we need to do about a very  conservative accounting we have had. 
+Because normally o ne would look at a number and initially it went over 1000 plus. 
+Then there was a knee jerk reaction and now suddenly people say buy private sector 
+banks, sell PSU bank. It is not the case. But people look at optics and then you say 
+in spite of whether this number includes the abnormal we have had, NSE etc. It is 
+still not seen and neither it came out very clearly in the press release. Now since we 
+know the matter deep dive then it is coming out. I think it is essential because if it 
+comes out clearly there would be stronger buy ratings and higher targets. So, wish 
+you all the best. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+No, I note your point, but I think we always refrain from talking about our accounting 
+treatments. If you have noticed, I think over the years we never spell out accounting 
+treatments unless asked for , and we stick to our accounting integrity. I think that is 
+very important to realize. 
+Mr. Manoj Alimchandani - Analyst: 
+Right. Wish you all the best for the coming year. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Thank you. 
+Mr. Manoj Alimchandani - Analyst: 
+Thanks. 
+Ms. Mahrukh Adajania – Tara Capital:  
+ 
+
+State Bank of India 
+3rd November, 2026 
+ 
+14 
+ 
+Good evening, sir. I have a couple of questions. First is on margins. 
+So, your guidance for margins I believe is domestic. You are already higher than 
+your guidance. That’s why if you could clarify. Means we are already at 3.11, and 
+your guidance is 3 or at least 3. So where will we actually land up?  
+And then on OpEx, what was the cost that was upfronted? I mean of course 
+business acquisition expenses have gone up a lot. So, what was the cost that was 
+upfronted and how much of FCNR related costs are also included in OpEx, if any? 
+But what cost was upfronted if you could quantify? I mean what kind of cost was 
+upfronted? 
+And if you could give us the breakup of your EBLR loans, that is repo linked 
+separately, T-Bill separately and then also if you could give MCLR? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Okay. On the NIM guidance, I am refraining from changing my guidance. It could be 
+even higher than 3% obviously , because we have some tailwinds, 25 bas is point 
+EBLR and 15 bas is point MCLR, obviously , that also going to further augment our 
+NIM. And if there is any repo action in the December quarter, again that will get 
+added. But if there is any significant movement in the credit growth and if we have to 
+increase the deposit rates, how it plays out, we are not very sure at this juncture. 
+So, I am going by what is the conservative estimate. So, if you have noticed, I think 
+we have been conservative in our guidance and sticking to achieving that guidance. 
+But I can tell you that it not less than 3% is an important guidance which I am giving 
+to you. So as far as business expenses is concerned, Anindya, you would like to 
+come in there in the expenses? 
+Mr. Anindya Sunder Paul - Deputy Managing Director (Finance), State Bank of 
+India: 
+Yeah. Basically, we have upfronted approximately ₹850 crore. Some of the major 
+heads are like IT services, the eligible bills which we can pay now without waiting for 
+quarter 3 or quarter 4, somewhere around ₹250 crore. Others including some vendor 
+payments around ₹150 crore, and one major payment to the map services that we 
+do is around ₹450 crore. So, the total is approximately ₹850 crore. This trend will 
+continue in the n ext quarter as well so that the bump up in quarter 4 in the 
+overheads, is minimized. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+But we can give the detailed breakup separately also. 
+
+State Bank of India 
+3rd November, 2026 
+ 
+15 
+ 
+Ms. Mahrukh Adajania – Tara Capital:  
+ 
+So, sir, what is the run rate of operating expenses in terms of year-on-year growth 
+that you could expect from now on? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+So, our target is, overheads not to go beyond 10%. So, the other expenses, see the 
+business acquisition expenses are basically PSLC  (Priority Sector Loans 
+Certificates) which we buy , and we used to buy t hat in the second half of the year. 
+We realized that if you buy later part of the year, you get only average of PSL C only 
+for that period. If you buy early on, the PSL C average is available for 3 quarters or 4 
+quarters. So that is the reason some of this PSLC is purchased both in Q1 and Q2. 
+That is adding to the business expenses apart from the upfronting what he has 
+spoken about. 
+Ms. Mahrukh Adajania – Tara Capital:  
+ 
+Got it sir. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+And the EBLR and …you can mention? 
+Mr. Ashwini Kumar Tewari - Managing Director (Corporate Banking and 
+Subsidiaries), State Bank of India: 
+Yeah. So, we have MCLR linked loans of 27%, EBLR is 32%, T-Bill is 17% and fixed 
+rate is 21%, these are the major heads. 
+Ms. Mahrukh Adajania – Tara Capital:  
+ 
+Okay, sir. Thanks a lot. Thank you. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Thank you. 
+Mr. Sushil Choksey - Indus Equity: 
+Congratulations, team SBI.  
+Mr. Sushil Choksey - Indus Equity: 
+Sir, you have answered many questions to previous  questioners about repo rate, G - 
+Sec, the treatment which you have done for subsidiary and others. You also 
+indicated that you have a pipeline for ₹7 lakh crore of credit. Today, the globe is 
+
+State Bank of India 
+3rd November, 2026 
+ 
+16 
+ 
+transforming led by war and many other challenges and India needs to transform 
+also because of the situation which is prevailing in the world. Now this ₹7 lakh crore, 
+pipeline, I am sure that you say Data Centre, Renewable, Hydrogen, all these are 
+mix of your ongoing expansion growth plans. How do you see this , if you give up the 
+top 10 industrial houses, how is India visible from the 100th to the 1,000th rated 
+companies from the credit pipeline or expansion because the capital market is 
+indicating that it is not the top 10 which is driving the India market but the total credit 
+portfolio also is getting lot of support from there?  
+In a similar way, the middle -income consumer group, be it SBI cards or mutual fund, 
+how is that participation visible? Is that segment showing an accelerated growth? Is 
+India really transformin g from besides that upper layer, if you have some indication 
+from that? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+It is a very philosophical question. But anyway, see obviously the major capital 
+expenditure programs are by the larger groups. We are seeing, credit growth coming 
+from mid corporate and SME may not necessarily be the capital expenditure. It is 
+actually happening in the working capital loans and a bit of brownfield expansion 
+what they are undertaking. The migration that we have to see is that small becoming 
+medium, medium becoming larger. And that transformation is slightly slowed down , 
+but I think it is happening. And whenever we talk about capital expenditure, we seem 
+to be talking only about infrastructure. I think beyond infrastructure, we have seen a 
+significant amount of investment happening in the non -infra, whether it is 
+hydrocarbons or in terms of Data Centre , which is still not classified as infra , but it is 
+still an important infrastructure which is happening. As far as participat ion of 
+insurance and mutual fund companies, in the overall CapEx programme is still not 
+there yet. I think we have spoken enough on that. The robust bond programme has 
+to develop and bond programme participation by insurance and mutual fund 
+companies is still a little away.  
+So, one of the things what I have been suggesting is that whether banks who have 
+visibility of infrastructure funding and managing the escrow accounts, Trust & 
+Retention accounts can give the cash flow visibility to these insurance and mutual 
+funds and say that we are sure of this cash being available to you, structure your 
+bond programme accordingly. The corporates have to structure, and the insurance 
+and mutual funds can participate without worrying about what is the assessment, 
+whether the cash will come, who is managing the Trust & Retention Account . These 
+are some of the things which we are working , but the short answer is that I think the 
+participation from these insurance and mutual fund companies is still a long way to 
+go on this. 
+
+State Bank of India 
+3rd November, 2026 
+ 
+17 
+ 
+Mr. Sushil Choksey - Indus Equity: 
+I think you had explained in the previous quarter about down selling  and 
+securitization of this paper to mutual fund and pension funds. I think that it is a long -
+term story which India still needs to figure out because G -Sec market also retail is 
+yet to participate.  
+Sir, second thing is our house view on the weekend on the bond market was 
+indicating that G-Sec can get to 6.75. I am not elaborating; you must be aware of the 
+paper which is written by SBI economist. Do you have any view on that and repo 
+both? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+So, definitely we have our house views on this. I think we believe that the 50 base 
+point hike in December is something we not only expect , but we also recommend , 
+and whatever end rate on the repo should be achieved in December itself without 
+having overhang in the Q4 of the current financial year. This is one thing what our 
+house views, which is well published. 
+The second thing in terms of G -Sec yields, again it has low, s o many variants and 
+influences of geopolitical developments and what happens to the US treasury yields, 
+what happens to the midterm elections, many other dimensions are there and oil 
+prices. But our view is that by the end of the financial year, the yield should come 
+below 7.  
+Any of you would like to say, Shamsher? 
+Mr. Shamsher Singh – DMD (Global Markets), State Bank of India: 
+So, we feel that 50 basis hike which is probably expected in the December , as rightly 
+sir said, is already more or less built into  the yields and it is not something which we 
+will be seeing any further hikes by yields going up. So, more probably towards 7, 
+lesser than 7. So, that is our view as well, sir. 
+Mr. Sushil Choksey - Indus Equity: 
+Thank you for answering all my questions and good luck for the year. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Thank you. 
+Mr. Jai Mundhra - ICICI Securities: 
+Sir, hi, this is Jai Mundra from ICICI Securities. Congratulations on a steady quarter, 
+sir.  If you can explain on ECLGS, sir, how much  have you disbursed? And it looks 
+
+State Bank of India 
+3rd November, 2026 
+ 
+18 
+ 
+like that ECLGS 5.0 has been fully utilized at ₹2.5 lakh crore. Is that a sign of a worry 
+or how do you see that, you know, that this entire scheme has been utilized by the 
+system? Is that a sign of worry or there is some interest rate arbitrage that is why it 
+has been fully subscribed? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+You would like to take Ram? 
+Mr. Rama Mohan Rao Amara - Managing Director (Retail Business & 
+Operations), State Bank of India: 
+Yes. ECLGS accounts for around ₹28,800 crore, as on date, almost like 50% of our 
+SME growth is contributed by ECLGS. I think the sensitization among the 
+participants is much higher as compared to the previous schemes , because it 
+provides capital relief and, I mean, of cou rse, we are providing to the performing 
+accounts, etc. It was perceived as a good opportunity to lend. 
+And from a risk angle, if you look at, initially, despite disbursing most of it almost 2, 3 
+months back, it did not result in corresponding increase in t he growth as well. That 
+means customers were conservative, they were using it for reducing their borrowing, 
+which is at high cost, and as and when they saw the demand, then they started using 
+it. So, that way, it does not connote any additional risk or anything. 
+And the participation was overwhelming, that was the reason that entire kitty was 
+exhausted. And now, some of the industry lobbies are also demanding further 
+extension and maybe further enhancement, etc. That is a different story. 
+Mr. Jai Mundhra - ICICI Securities: 
+Is there any interest rate arbitrage, like you charge less than 9% or is it a standard 
+rate or higher rate? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+It is a standard rate, 9% we charge. I think to answer your question whether it is 
+indicative of any stress, definitely ECLGS is aimed at prevention of stress. So, some 
+of them are pre-empted that by borrowing and creating the liquidity pool which is 
+available. Most of them have drawn the facility and put in their working capital. So, 
+while it is definitely a proactive measure, we need not be seen as a stress. 
+Mr. Jai Mundhra - ICICI Securities: 
+All right. And sir, I think in your media interview, you have given some disclosure on 
+ECL, what could be the transition impact and maybe the recurring. If you can sort of 
+
+State Bank of India 
+3rd November, 2026 
+ 
+19 
+ 
+elaborate what could be the transition impact and is that a gross number or net 
+number, net of whatever standard assets provisioning that the bank is holding on? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+So, first of all, the number which I have mentioned ₹19,500 crore, is ECL impact on 
+the loans net of taxes. There is a tax , DTA adjustment which is there and this is after 
+adjusting all the existing provisions. There is a gross amount of expected credit loss 
+provision and then you adjust for the exi sting provisions and also adjust for the DTA 
+and that is how this number has come. 
+But let me also give a caveat that there are a few things in the master direction which 
+have not been finalized yet. For example, HTM portfolio being fair valued, crop loans 
+to be brought under ECL. So, a lot of discussion is happening. But if you take only 
+my loan portfolio on a standalone basis, this is the impact of ECL. And as we have 
+indicated earlier, we would like to use the regulatory dispensation of transitioning thi s 
+provision. Even assuming that there are other elements which will be finalized and 
+there is an increase, because of the transition impact, I don’t think we should really 
+worry about having any growth capital issues. 
+Mr. Jai Mundhra - ICICI Securities: 
+No, capital is sorted, sir. And any, let’s say standard assets provisioning, your loan 
+loss provision is 25 basis point thereabout.  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Correct. 
+Mr. Jai Mundhra – ICICI Securities: 
+Your loan loss provision is 25 b asis points thereabout, that is subject to or that is 
+dependent on the slippages, right, but is there any bump up expected in the standard 
+assets provision?  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+No, we will have to see, Jai, I think how it plays out, we need to, because there is a 
+parallel run for almost nine months in the next financial year, so we will see how it 
+plays out. There could be, as I mentioned earlier also, there could be some volatility 
+in earnings, whether it is positive, negative,  we will have to see as we go forward. 
+We are now currently focusing on what would be the impact on the date of 
+implementation and the impact on the capital. 
+There could be a volatility, I am not able to put a number, because it is a fairly large 
+book and very diversified book, how it is going to play out, we will watch for a 
+
+State Bank of India 
+3rd November, 2026 
+ 
+20 
+ 
+quarter, because 01/04/2027 is implemented, but the numbers will be measured only 
+on the 30th of  June, that is what the dispensation has been given. So, 30th June 
+2027 probably will give some idea how the earnings are playing out on the go, while 
+the stock is fairly known to us and as you mentioned is not a worry, because it is 
+going to the capital. 
+The P&L impact of ECL on implementation from 1st April, we need to be seeing for a 
+couple of quarters before we give a guidance on the earnings.  
+Mr. Jai Mundhra – ICICI Securities: 
+Sure, sir. Lastly, sir, on Agri stress, have you started seeing restructuring requests, 
+at least in the states which have been impacted by drought by SLBC, or eve n if you 
+have started receiving, what could be the quantum of let’s say restructuring in Agri, if 
+any? And if you have said the Agri gold loan also? 
+Mr. Rama Mohan Rao Amara – Managing Director (Retail Business & 
+Operations), State Bank of India: 
+Agri gold loan, to begin with, we have a very conservative LTV, just around 60 -61%, 
+so the portion exceeding the regulatory LTV 85% is very low. NPAs anyway we have 
+disclosed, the quality continues to be good.  
+With regard to the three states which have declared a drought, I think SLBCs have 
+passed necessary resolutions , so we have assessed something around ₹10,000 
+crore, as a potential portfolio for restructuring. But it all depends upon the farmers 
+coming forward and then, of course, taking a consent from them, et c. But the 
+process will happen over a period of time.  
+Mr. Jai Mundhra – ICICI Securities:  
+₹10,000 crore, across the portfolios? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Across the portfolio s involved, but see, our past experience shows that not ma ny 
+come for the restructuring. State Level Bankers Committees generally give that 
+dispensation of restructuring because that is mandatory to give. The moment it is 
+declared as natural calamity, drought, flood, the SLBC is required to give what is a 
+restructuring package, which is available to everyone who are impacted. So, many 
+people may come, may not come, we will have to see how it is, but our past 
+experience is that, not many people avail the restructuring.  
+Mr. Nitin Agarwal – Motilal Oswal: 
+Hi, sir, Nitin Agarwal from Motilal. 
+
+State Bank of India 
+3rd November, 2026 
+ 
+21 
+ 
+Sir, few questions, one is on margins again, while you have talked about that you do 
+not want to change the guidance, but when you look forward, do you feel more 
+comfortable about margins over 2H ex of rate hike versus the 1H. And if you can 
+also share some details about the margin drivers for this quarter, like we have seen 
+11 basis points expansion in domestic margins, so what has actually driven that? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+So first let me answer o n the NIM front. NIM expansion has come both on improved 
+yield on advances, as well also mainly from the reduction in the cost of resources, 
+particularly deposits. The impact of cost of deposits is that we have primarily used 
+the FCNR(B) flows to reduce our wholesale deposits, which has been an important 
+driver. And the other one is overall focus on the Daily Average Balances (DAB) in the 
+savings bank; it is not a month end or quarter end balance. The DAB both in the 
+current account and savings account have been  robust, which has helped us in 
+reducing the cost of deposits. So, the uptick which you see in the NIM has come 
+primarily focusing on the management of liabilities, which we have been doing 
+quarter after quarter.  
+On the yield on advances, yes, we did miss out on certain working capital loans, T -
+Bill linked loans, because we have mentioned last quarter also, if pricing is not 
+acceptable, probably we will slow down on that. In fact, our working capital utilization 
+on the corporates has come down, because we have not been participating in some 
+of the finer priced loans. So that is the reason why the NIM expansion has 
+happened. And in whatever manner you ask, Mr. Agarwal, I am not going to give any 
+guidance beyond 3% what you mentioned, but I would like to say that there are 
+definitely tailwinds to make NIM better than 3% guidance. The tailwinds are mainly 
+coming because as I mentioned 25 basis points EBLR which has already happened, 
+and the full benefit will be available in the half year, and 15 basis points MC LR which 
+we have increased, that also is going to contribute as the loans get repriced. And if 
+what Shamsher mentioned in terms of 50 basis points hike, it will immediately benefit 
+the repricing of the loans, so these are some of the tailwinds.  
+Headwinds could be in terms of what happens on the deposit side, will we be forced 
+to increase our deposit rates, I do not see a greater pressure for us, because as we 
+speak, we have excess SLR, almost ₹3.5 lakh to ₹3.7 lakh crore, as on date, and as 
+on September we had ₹4.8 lakh crore, excess SLR. That provides enough liquidity 
+for us without really competing for the deposits. 
+Mr. Nitin Agarwal – Motilal Oswal: 
+Right. And, sir, second question on the co rporate growth, we are talking about 14 to 
+15% growth, and some other banks have reported stronger growth on the corporate 
+side also. But if I look for SBI, the 1H growth is by and large flat in that segment. So, 
+
+State Bank of India 
+3rd November, 2026 
+ 
+22 
+ 
+how are you looking at the overall corporat e demand and participation of this 
+segment in growth as you are looking for a bigger trajectory going ahead?  
+Mr. C.S. Setty – Chairman, State Bank of India: So, we had a 16% corporate loan 
+growth this quarter, right. 
+Mr. Nitin Agarwal – Motilal Oswal: 
+Sorry sir, I am talking about mainly from the March level till September, so we have 
+seen a 1% growth in the portfolio.  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Oh, YTD growth?  
+Mr. Nitin Agarwal – Motilal Oswal: 
+Yeah, YTD growth. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+YTD growth generally is slower. In fact, if you see the YTD growth of previous year, 
+we had almost negative growth in corporate loan. We had first quarter negative and 
+second quarter 7% year -on-year growth. When compared to that, I think we had a 
+very robust second half last year. So, from that angle, YTD will always look slower 
+growth. But I believe we should continue to have 16% growth rate in the rest of the 
+half year also in the corporate loan, we have a good visibility of th e pipeline, which 
+we mentioned about ₹7.8 lakh crore. All of them may not immediately materialize, 
+but the withdrawals-disbursement gives us visibility of 16% corporate credit growth. 
+Mr. Ashwini Kumar Tewari – Managing Director (Corporate Banking & 
+Subsidiaries), State Bank of India: 
+Actually, sir, I will just add, that we have let go of quite a few, like sir was mentioning, 
+of deals or refinances where the yields are very low to protect the overall yield on 
+advances. So had we taken up all those opportunities, we would have seen a much 
+higher growth. We are not looking just growth for the sake of growth; it is also 
+profitable growth. 
+Mr. Nitin Agarwal – Motilal Oswal: 
+Sir, last question is on FCNR deposits that we have raised, while we indicated about 
+the number that we are targeting in the 1 Q results in August when we had the 
+Analyst Meet, and we came close to that, but system has seen a massive pickup 
+after that. So, how do you look at what SBI did versus what the other banks did? 
+Should we have done more? Some thoughts on that. And what do you feel about the 
+
+State Bank of India 
+3rd November, 2026 
+ 
+23 
+ 
+leverage also that we have provided for those deposits versus how some of the other 
+peer banks have done?  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+So, we have set out a $10 billion target, I think we have exceeded the target, 10. 9 
+was the final number, and we are fine with that. Because various people had various 
+reasons to mobilize higher FCNR(B) deposits, and for us, this is a commitment which 
+we have given to ourselves and to the government that we will do FCNR (B) - 10 
+billion dollars, and I think that was a good number to have.  
+On the leverage, we have not overdone anything. I think much of the leverage is also 
+provided through our foreign offices. We have about $8.83 billion leveraged loans 
+from our foreign offices out of 10.9 billion dollars. Some of them have not even taken 
+leverage, and some of them have taken very low leverage. So, while it is not 
+appropriate to say that how much leverage has been given, I can tell you that it is a 
+moderate leverage what we have provided. And provided through our foreign offices, 
+because we had significant lines of credit available to us, and our ability to raise the 
+funds has been good. If you see, it did not impact our NIM at all. Our foreign offices 
+NIM, despite $8.83 billion funding, ju st came down by 2 basis points. That is not 
+required to be attributed to FCNR (B). There are other reasons why that 2 basis 
+points has come down. So, we played, I believe, very carefully on FCNR(B), we have 
+not taken additional liability but  significantly contributed our might to the FCNR(B) 
+mobilization. Anything else on that? 
+Mr. Nitin Agarwal – Motilal Oswal: 
+No, that's it, sir. Thank you so much.  
+Mr. Anand – Nuvama:  
+Sir, Anand from Nuvama. 
+Sir, taking your question again from what Nitin asked, so secon d half you expect 
+very strong corporate credit growth as such. In that case, 14 -15% growth is a base 
+case growth that we should assume, similar to your 3% margin guidance as such, 
+and possibly you should overshoot the overall credit growth.  
+Secondly, how should we look at the growth from next year perspective? Next year 
+we will not have as much of FCNR deposits, possibly we will deploy, the system will 
+largely deploy the FCNR deposits maybe by June or so. Then next year also we 
+should have a similar kind o f a growth of about 14 -15%, or it could be lower than 
+that?  
+
+State Bank of India 
+3rd November, 2026 
+ 
+24 
+ 
+Secondly, on the retail front, when we look at, I think the mortgage growth this 
+quarter again was relatively lower for you. Any thoughts over there, whether you 
+expect any acceleration over there? I know that the interest rate cycle doesn't favo ur 
+us, but particularly that's a floating rate book, right. So there, with the growth you can 
+also get better margins as basically the repo rate hikes happen. So, your thoughts 
+over there, that will be helpful. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+First on the home loans, I think there is some slowdown in the overall market, and 
+despite our lower growth, we have acquired the market share. That means others 
+are going even lower. So, there could be several reasons, not necessarily interest 
+rate alone. I think there have been like some new projects have not come in some 
+areas, inventory build -up in certain areas. So overall, I think it will take some time. 
+But what I have seen is that they are not ex tremely sensitive to rate, while lower 
+rates will favor the mortgages, higher rate doesn't stop that mortgage completely. 
+And there are a lot of first -time home buyers who would like to own a house. And 
+incidentally, in this month, we have crossed ₹10 lakh crore, home and home-related 
+portfolio. So, this is a very significant portfolio we built. 
+Just to answer your concern that yes, it is an EBLR linked in an increasing rate of 
+interest scenario, I think we get benefited, and it is a capital efficient produ ct also. 
+We will continue to focus on home loans, we build the infrastructure, we believe that 
+we continue to be market leader on the home loans. But it cannot be outpacing the 
+industry growth anyway. 
+On the 14 to 15% credit growth, I would like to stick to this guidance for the current 
+year. Let us see how it plays out as we generally give guidance in the first quarter for 
+the full year. And that practice will continue. But 14 to 15% growth rate can be easily 
+funded, there is no problem, we have enough liq uidity I mentioned earlier also. We 
+have excess SLR, and I am sure that with a ₹63 lakh crore, base, even if I go grow 
+at 10%, it gives me ₹6.3 lakh crore deposit, even adjusted for CRR and SLR , is not 
+really to be adjusted. We have enough deployable funds going forward. Is there 
+anything I missed out? 
+Mr. Anand – Nuvama: 
+So, I was asking for next year growth guidance, I think it should be similar 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Yeah, that anyway I said I will give next year. 
+Mr. Anand – Nuvama: 
+
+State Bank of India 
+3rd November, 2026 
+ 
+25 
+ 
+Yeah, okay. And secondly, one of the public sector banks said that because of the 
+yield movements, they had an increase in the ECL. If you can just tell us like this 
+₹19,500 crore, that you have... 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+No, this does not include, as I mentioned, the fair valuation of HTM. And when we 
+take up probably it will, the overall allocation of the capital may go up. 
+Mr. Anand – Nuvama: 
+Okay, so that could basically have some upside risk. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+It is. 
+Mr. Anand – Nuvama: 
+Okay. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+But as I mentioned, the loan portfolio, ECL anyway is permitted to be spr ead over 
+four years. To that extent, I think overall impact on the capital availability may not be 
+a concern. 
+Mr. Anand – Nuvama: 
+Obviously, I mean, ₹19,500 crore, does not matter as much, but I think analyzed 
+credit cost is what we are more concerned about, whether that can bring down your 
+ROA below 1%, because I think you keep giving guidance about 1%, but if 10 to 15 
+basis points credit cost goes up , and margins do not inch up as much, then how do 
+you offset that and sustain your... 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+See, our 1% guidance is through the cycles. And we have factored in the ECL 
+impact, unless of course there is a violent movement in the asset quality itself, which 
+we have not foreseen, not foreseeing. So, that 1% guidance on the RO A is through 
+the cycles. 
+Mr. Anand – Nuvama:  
+Thanks, sir. That's assuring.  
+Mr. Mahesh – Kotak:  
+
+State Bank of India 
+3rd November, 2026 
+ 
+26 
+ 
+Good afternoon, sir. Mahesh from Kotak.  
+A coupl e of questions on the NSE stake sale and revaluation. You indicated that 
+₹11,000 crore, has gone through the net worth, right. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Yes.  
+Mr. Mahesh – Kotak:  
+See, the net worth change for the quarter has been about 9,700. 7,000 odd you have 
+indicated through the gains. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+There are some MTM losses also which go through the AFS Reserve.  
+Mr. Mahesh – Kotak:  
+Correct. So, there was an MTM loss for the quarter.  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Correct, which has gone accounted into AFS Reserve. 
+Mr. Mahesh – Kotak:  
+And if I were to go to the next quarter, and assuming Yes Bank remains at where it is 
+today, do you also have to book a loss in the...  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Yes Bank is not mark ed-to-market. It's A&S.  It is similar to SBI Mutual Fund. We 
+don't mark-to-market both of them. 
+Mr. Mahesh – Kotak:  
+Okay. Second question on the provisioning line. There's about ₹1250 crore of 
+provisions which is sitting in the P&L on the provisioning line. Last quarter, you 
+indicated that you had made some adjustments for the staff costs. How does the 
+₹1250 crore, for this quarter look like?  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+You have the number? There is a PLI provision. I think it's ₹940 crore, or something. 
+That out of ₹1250 crore, ₹940 crore is for the PLI. 
+Mr. Mahesh – Kotak:  
+
+State Bank of India 
+3rd November, 2026 
+ 
+27 
+ 
+For the quarter. And this continues for the next quarter?  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Four quarters. We make every quarter.  
+Mr. Mahesh – Kotak:  
+Okay. Last question, sir. 
+You've kind of indicated that the slowdown in retail growth is more from the supply 
+side, which is developers not building projects.  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Not retail, home loans.  
+Mr. Mahesh – Kotak:  
+Yeah, the retail side. You don't attribute this from the consumer side, the confidence 
+not being there. Is that the way you want to look at this problem? Because it's not 
+like your auto loans has  grown faster. Your PL is also not growing that faster. So, 
+across the segment, there seems to be some weakness in the retail products. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+No, each of them has a different reason. If you come to auto loans, this earlier 
+quarter also I mentioned, we have been a little cautious on the pricing front. Let me 
+answer that easy question first , t he auto loans, we have tweaked the pricing. We 
+realized that auto loan is a hook product. Even on a standalone basis, it may no t 
+make a profitable one. But it's a hook product. I can get a customer relationship. We 
+also have seen a lot of new to bank customers come through the auto loans. So, we 
+can sell other products. That's the reason we have tweaked our interest rate. We 
+have seen very robust growth in October month. So, I believe that we are back in the 
+game in the auto loans. As far as personal loan is concerned, we would have loved 
+to have double digit growth. But this 7.48% itself is a good growth when compared to 
+what we h ave done in the gold loan. Some momentum is happening from Xpress 
+credit to gold loans. And this is a very high churning product. We get paid very fast. 
+Xpress credit doesn't run more than 3-3.5 years. That means the net growth of 
+7.48%, if we take to double digit, is really good. But we are moving progressively 
+there. There must be some movement from Xpress credit to gold loan, you have to 
+see them together. As far as home loans is concerned, I did not say that this is not 
+about consumer not buying. I thin k it's a combination of, particularly in some sectors 
+like Bangalore, we have seen that some slowdown in the purchases also, apart from 
+inventory build-up. 
+
+State Bank of India 
+3rd November, 2026 
+ 
+28 
+ 
+Mr. Mahesh – Kotak:  
+Just a clarification on this. If you look at your corporate salaried side, the credits that 
+are happening on the corporate salaried side continues to remain unchanged. 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Continues to remain? 
+Mr. Mahesh – Kotak:  
+Unchanged. Let's say if it's growing at about X%, let's say 12 to 14%. That h as 
+changed or even you are seeing a slowdown in corporate salary credits? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+No, corporate salary credit means, loan given to corporate salary package.  
+Mr. Mahesh – Kotak:  
+Corporate is giving salaries to their employees. Have you started seeing any 
+slowdown on that side? 
+Mr. C.S. Setty – Chairman, State Bank of India: 
+No, we have not seen it.  
+Mr. Mahesh – Kotak:  
+That's also not happening. Okay, thank you. 
+Mr. Pawan Kumar – General Manager, Performance Plannin g & Review 
+Department, State Bank of India: 
+Due to paucity of time, we'll now take up a few questions coming in through the 
+online webcast, which will be addressed by Chairman sir.  
+Mr. C.S. Setty – Chairman, State Bank of India: 
+Q) The question is on how much PSLC cost has been taken in Q1 and Q2. 
+A) It is ₹118 crore, and ₹583 crore. 
+Q) What would explain the positive NIM movement sequentially? 
+A) I think we have spoken enough on the NIM. This was, as I said, driven by 
+higher yield on advances and lower deposit costs. NII growth of 4.65%, also 
+outpaced our a verage domestic earning asset growth of 1.03%. This also has 
+contributed to the NIM trajectory.  
+
+State Bank of India 
+3rd November, 2026 
+ 
+29 
+ 
+Q) Dhaval Motilal Gala from Aditya Birla Capital : What is the breakup of 
+EBLR-MCLR book mix?  
+A) We have given that, but I can repeat the answer again. EBLR lo an book is 
+32%, and MCLR loan book is 27% of domestic advances. We also have T -Bill linked 
+loan in the portfolio. 
+Q)  Excluding one -off gains, how does core treasury income compare with past 
+year?  
+A) Treasury revenue income stood at ₹6,000 crore, in Q2 FY27 compared with 
+₹7,470 crore. Excluding one -off items in both periods due to adverse market 
+movement, Q2 FY27 recorded a loss of ₹1,277 crore, as I mentioned, compared with 
+a gain of ₹ 2,877 crore in the previous quarter. 
+Q)  Whether our Bank is having plans to list out more subsidiaries in FY28?  
+A) I think recently we have launched one. Let us wait for some time to comment 
+on this, but for the next couple of years, nothing on the cards. 
+Q) What is your ROA without SBI funds management stake sale?  
+A) ROA without SBI funds stake sale would come to approximately 0.98% for the 
+half year.  
+Q) How do you see the NIM outlook going forward with squeezing liquidity?  
+A) We assume that the liquidity will be made available adequately as promised 
+by the RBI from time to time. Assuming that that liquidity is available, system liquidity 
+improves as we go forward. So, our NIM trajectory, as I mentioned, will continue to 
+be more than 3%. 
+Q) Comment on the muted growth in operating profit.  
+A) Operating profit grew by 7% year on year, as operating expenses increased 
+by 9%, outpacing operating income growth of 8.44%. I think, again, we have talked 
+about, essentially on the treasury  losses as well as a bit of higher overheads which 
+we have provided upfront. 
+Q) SMA1 and SMA2 have gone up by 15%, quarter-on-quarter, driven by SMA1. 
+A) So, out of this SMA1, more than half of that has been pulled back, moved to 
+standard asset category. And we hope that the one, except small ₹50 crore, loan 
+which has slipped, all others are standard as we speak.  
+Thank you very much. 
+
+State Bank of India 
+3rd November, 2026 
+ 
+30 
+ 
+Mr. Pawan Kumar – General Manager, Performance Planning & Review 
+Department, State Bank of India: 
+I trust all the questions have been addressed. We would be pleas ed to respond to 
+any other further queries offline.  
+As we conclude this evening's proceedings, I express my sincere gratitude to 
+Chairman Sir, our Managing Directors, Deputy Managing Directors, and the senior 
+leadership. 
+I also thank the officials from th e circles and various office rs joining us through the 
+webcast and our analysts and investors and all esteemed invitees present here. 
+Thank you for your time and participation.  
+We now invite everyone present here to join us for hi gh tea, arranged just outside 
+the hall. 
+Thank you. Thank you so much. 
+ 
+End of Transcript 
+ 

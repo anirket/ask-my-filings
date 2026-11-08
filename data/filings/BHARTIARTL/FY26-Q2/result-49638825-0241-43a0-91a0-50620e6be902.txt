@@ -1,0 +1,1494 @@
+bharti 
+November 03, 2025 
+National Stock Exchange of India Limited 
+Exchange Plaza, C-1 Block G 
+Sandra Kurla Complex, Sandra (E) 
+Mumbai - 400051, India 
+Symbol: BHARTIARTU AIRTELPP 
+BSE Limited 
+Phiroze Jeejeebhoy Towers 
+Dalal Street, Mumbai - 400001, India 
+Scrip Code: 532454/ 890157 
+Sub: Financial results for the second quarter (Q2) and six months ended 
+September 30, 2025 
+Dear Sir/ Madam, 
+In compliance with Regulations 30 and 33 of the SEBI (Listing Obligations and Disclosure 
+Requirements) Regulations, 2015 ('SEBI Listing Regulations'), we are enclosing herewith 
+the following for the second quarter (02) and six months ended September 30, 2025: 
+► Audited consolidated financial results as per Ind AS 
+► Audited standalone financial results as per Ind AS 
+► Auditor's reports on the aforesaid financial results 
+The above financial results have been reviewed by the Audit Committee in its meeting 
+held on Monday, November 03, 2025, and based on its recommendation, approved by 
+the Board of Directors in its meeting being held on Monday, November 03, 2025. 
+The Board meeting commenced at 1ST 1430 Hrs. and is still in progress. 
+Kindly take the same on record. 
+Thanking you, 
+Sincerely yours, 
+Bharti Airtel Limited 
+(a Bharti Enterprise) 
+Regd. Office: Airtel Center, Plot No. 16, Udyog Vihar, Phase-IV, Gurugram -122015, India 
+Corporate Office: Bharti Crescent, 1, Nelson Mandela Road, Vasant Kunj, Phase II, New Delhi• 110070, India 
+T.: +91-124-4222222, F.: +91-124-4248063, Email: compliance.officer@bharti.in, Website: www.airtel.in 
+CIN: l74899HR1995PLC095967 
+
+I 
+airtel Bharti Airtel Limited 
+CIN: L74899HR1995PLC095 967 
+Registered Office: Airtel Center, Plot no. 16, Udyog Vihar, Phase IV, Gurugram - 122015, India 
+T.: +91-124-4222222 , F.: +91-124-4248063 , Email id: compliance.officer@bharti.in 
+Statem ent of Audit ed Cons olid ated Financ ial Results for the quarter and six months ended September 30, 2025 
+(Rs. in Milaons; empt per share data 
+Quarter ended Six months ended Previous year ended 
+Particulars September June September September September March 
+30, 2025 30, 2025 30, 2024 30, 2025 30, 2024 31, 2025 
+Aud"lted Audited Aud"ited Audited Aulflted Aud",ted 
+Income 
+RP1enue from operabons 521,454 494,626 414,733 1,016,080 799,797 1,n.9,852 
+Other income 1,m 5,088 2,547 12,365 6,182 15,737 
+528,731 499,714 417,280 1,028,445 805,979 1,745,58'1 
+Expenses 
+r IEtwork operating eicpenses 101,178 95,456 80,115 196,634 157,721 335,043 
+Access charges 13,215 12,571 18,211 25,786 37,295 71,713 
+License fee f Spectrum diarges 38,249 37,200 34,658 75,449 66,222 138,290 
+Emplcr;ee benefits eJ<!lense 18,571 17,380 14,966 35,951 28,69-1 63,089 
+Sales and markebng e,qienses 31,824 29,659 28,824 61,483 55,981 114,601 
+Other eJ<pEnses 22,S03 23,973 19,497 46,m 38,346 75,524 
+225,840 216,239 196,271 442,079 384,259 798,260 
+Profit before deyreciatiln, amortisaoon, finance costs, share of profit/ (loss) of 302,891 283,475 221,009 586,366 421,720 947,329 associates and joint ventures, exceyti>nal items and tax 
+DEpredabon and amortisabon expenses 131,821 124,651 110,000 256,472 215,401 455,703 
+Rnance costs 48,657 54,608 54,237 103,265 105,761 217,539 
+Share of profit of associates and joint ventures (net) (BIO (828) (10,739) (1,638] (19,856 (37,030 
+Proft before exceptional items and tax 123,223 105,044 67,511 228,267 120,414 311,117 
+Exceptional items (nEl) 8,537 1,187 (72,868 
+Profit before tax 123,223 105,044 58,974 228,267 119;227 383,985 
+Tax expense / ( cn!dit} 
+Current tax 18,514 18,657 8,491 37,171 16,374 41,12.1 
+Deferred tax 18,201 12,169 8,949 30,370 14,144 (31,949 
+36,715 30,826 17,440 67,541 30,518 9,ln 
+Profit for the period /year 86,508 74,218 41,534 160,726 88,709 374,813 
+Other comprehensive income ('OCI') 
+ftElllS to be redassified to profit or loss : 
+- Net gain/ Qoss) due to foreign currency translal!cn differences 17,869 3,158 (2n) 21,027 200 26,626 
+• Jiet gain/ Ooss) on net investment hedge 357 (820) 357 (1,405} {2,946) 
+- Tax (diarge) / credit on above (105) 277 (105) 468 832 
+ttems not to be redassfied to profit or loss : 
+- Gain/ Poss) on ,n...,estment at fa.r va!ue through OCI 2,354 1,256 (118) 3,610 (118) 1,338 
+- Re-measurement ga:n / (loss) on defined benefit plans 253 (385) (57) (132) (342) (167) 
+- Tax (charge) / credit on above (390) (297) 9 (687) 82 36 
+- Share of other comp¥ehen= income/ (loss) of assooates and 10:nt ventures (net) 49 I 32 50 37 (25) 
+Other comprehensive income / (loss) for the period / year 20,135 3,985 (954] 24,120 (1,078 25,694 
+Total coraprehensive income for the period / year 106,643 78,203 40,580 184,8'16 87,631 400,507 
+Profit for the period / year attributable to : 86,508 74,218 41,534 160,726 88,709 374,813 
+Owners of the Parent 67,917 59,479 35,932 127,396 77,531 335,561 
+Uon·controfog ,nter~ 18,591 14,739 5,602 33,330 11,178 39,252 
+Other comprehensive income / (loss) for the period / year attributable to : 20,135 3,985 (954 ) 24,120 (1,078) 25,694 
+owners of the Parent 10,020 2,758 (843} 12,m (1,222} 8,913 
+tlon-contro!ling interests 10,115 1,227 (111} 11,342 144 16,781 
+Total comprehensive income for the period / year attributable to : 106,643 78,203 40,580 184,846 87,631 400,507 
+(}Nners of the Parent 77,937 62,237 35,089 140,174 76,309 344,474 
+llon·contro!J,ng Interests 28,706 15,966 5,491 44,672 11,322 56,033 
+Earnings per shareA 
+(Face value: Rs. 5 each) 
+Basic 11.72 10.26 6.21 21.98 13.41 58.00 
+Diluted 11.30 9.90 6.00 21.20 12.98 56.04 
+Paid-up equity share capital (Face value : Rs. 5 each) - 29,001 29,001 28,956 29,001 28,956 29,001 Other equity /1/"'-l<in-~ 1,148,959 1,168,235 842,018 1,148,959 842,018 1,107,718 
+-
+~ffi
+- cf.~ -~• ~\ ~'t9e ( _hare are not annualised for the periods. <Z> 1/ (fl 
+-8" ~ 3 
+I !: Ch* red I~ j 
+1 ~1) 
+•0 Ace ta s ;j 
+"'(>') ~ pl 
+tP ai:el ~ 0 -i'1- b' ~ 
+- :,/ 
+
+Aud ited Conso lidated Balance Sheet as of Septembe r 30, 2025 
+Particulars 
+Assets 
+Hon-current assets 
+Property, plant and equipment 
+Capital work-in-progress 
+Right-of-use assets 
+Goodwill 
+Other intangible assets 
+Intangib le assets under development 
+Investment in joi nt ventures and associates 
+rmancial assets 
+- Investments 
+- Trade receivables 
+- Loans 
+- Other financial assets 
+Income tax assets (net) 
+Deferred tax assets ( net) 
+Other non-current assets 
+Current assets 
+Inventories 
+rmancial assets 
+- Investme nts 
+- Derivative instruments 
+- Trade receivables 
+- Loans 
+- Cash and cash equivalents 
+- Other bank balances 
+- Other financial assets 
+Other current assets 
+Assets held for sale 
+Total assets 
+Equity and riabi6ties 
+Equity 
+Equit>/ share capital 
+Other equity 
+Equity attributable to owners of the parent 
+Non-controll ing interests 
+Hon-OJrrent riabirlties 
+rmancial riabi6ties 
+- Borrov,ings 
+- Lease liabilities 
+- Other financial liabilities 
+Deferred revenue 
+Provisions 
+Deferred tax liabilities (net) 
+Other non-current liabilities 
+Current raabifities 
+Financial riabi6ties 
+- Borrowing s 
+- Lease liabilities 
+- Derivative instruments 
+- Trade payables 
+- Other financial liabilities 
+Deferred revenue 
+Provisions 
+Current tax liabilities (net) 
+Other current liabilities 
+Tota l raabifities 
+Tota l equity and raabi6ties 
+Asof 
+Se tember 30, 2025 
+Audited 
+1,484,396 
+102,192 
+628,893 
+538,980 
+1,295,653 
+2,681 
+37,332 
+9,511 
+2,373 
+39,018 
+22,921 
+221,361 
+114,096 
+4,499 ,407 
+4,296 
+47,749 
+1,796 
+89,089 
+897 
+62,982 
+126,857 
+282,225 
+122,584 
+747 
+739,222 
+5, 238,629 
+29,001 
+1,148,959 
+1, 1n, 960 
+425,580 
+1,603, 540 
+1,062,669 
+595,781 
+27,156 
+32,935 
+32,595 
+94,953 
+1,133 
+1,847,222 
+336,810 
+84,837 
+1,541 
+452,326 
+339,973 
+109,815 
+375,632 
+24,453 
+62,480 
+1,787,867 
+3, 635,089 
+5, 238,629 
+Rs. in M1ll1ons 
+March 31, 2025 
+Audited 
+1,432,724 
+105,962 
+602,415 
+516,974 
+1,332,569 
+4,027 
+36,416 
+5,435 
+2,131 
+865 
+37,471 
+24,978 
+249,111 
+116,638 
+4,467,716 
+4,517 
+16,532 
+813 
+74,557 
+61,056 
+106,143 
+267,662 
+144,608 
+675,888 
+5143,604 
+29,001 
+1,107,718 
+1,136,719 
+397,958 
+1,534, 677 
+1,048,638 
+556,701 
+38,642 
+35,185 
+30,396 
+93,549 
+1,414 
+1,804,525 
+434,485 
+96,597 
+1,921 
+381,537 
+333,024 
+97,729 
+361,552 
+20,035 
+77,522 
+1,804,402 
+3,608,927 
+5,143,604 
+
+Aud ited Consolidated Segment -w ise Revenue, Resu lts, Assets and Liabilit ies as of and for the quarter and six months 
+ended September 30, 2025 
+Rs. in Millions) 
+Previous 
+Quarter ended / As of Six months ended / As of year ended/ 
+Particulars 
+Asof 
+September June September September September March 
+30,2025 30,2025 30, 2024 30, 2025 30, 2024 31, 2025 
+Audited Audited Audited Aucfited Audited Au<fited 
+1. Segment Revenue 
+- Mobile Services India 281,167 273,966 248,371 555,133 473,645 1,002,500 
+- Mobile Services Africa• 136,795 120,834 101,631 257,629 198,000 418,795 
+- Mobile Services South Asia~ 941 941 
+- Airtel Business 52,760 50,571 56,555 103,331 111,320 220,935 
+- PasS1Ve Infrastructure Serlice? 82,222 80,913 163,135 112,920 
+- Homes Services 18,646 17,179 14,321 35,825 27,991 59,044 
+- Digital TV Services 7,532 7,628 7,586 15,160 15,357 30,608 
+- Others 934 1,078 898 2,012 1,714 3,478 
+Total segme nt revenue 580,056 552,169 429,362 1,132,225 828,968 1,849,221 
+Less: Inter-seoment eliminations 58,602 57,543 14,629 116,145 29,171 119,369 
+Total revenue 521,454 494,626 414,733 1,016,080 799,797 1,729,852 
+2. Segment Results A 
+Profit / (loss) before finance costs (net), chant'( and donabon, excepbonal 
+items (net) and tax 
+- Mobile Services India 88,150 84,254 61,892 172,404 110,305 264,000 
+- Mobile Ser/ices Africa• 44,892 38,261 31,113 83,153 s9,on 124,733 
+- Mobile Services South Asia~ - - (503} (503) 
+- Airtel Business 15,667 15,567 14,392 31,234 29,129 59,611 
+- Passive Infrastructure Serlice? 28,944 27,630 10,304 56,574 18,883 74,6n 
+- Homes Services 3,014 2,957 3,383 5,971 6,866 13,378 
+- Digital TV Services (606} 23 12 (583) 845 1,156 
+- Others 657 662 516 1,319 811 2,039 
+Total 180,718 169,354 121,612 350,072 225,413 539,086 
+- Unallocated (632} (512) (494) (1,144) (993} (2,128) 
+- Inter-segment eliminations (11,908) (10,997) (170) (22,905) (316) (13,139) 
+Total segment results 168,178 157,845 120,948 326,023 224,104 523,819 
+Less: 
+(1) Rnance costs (net)" 44,279 51,991 53,189 96,270 102,952 210,187 
+(ti) Charity and donation 676 810 248 1,486 738 2,515 
+ltii) Exceptional items fnct) - 8,537 - 1,187 (72,868' 
+Profit before tax 123,223 105,044 58,974 228,267 119,227 383,985 
+3. Segment Assets " 
+- Mobile Services India 2,764,876 2,798,122 2,857,693 2,764,876 2,857,693 2,856,265 
+- Mobile Services Africa• 1,103,858 1,020,810 836,499 1,103,858 836,499 975,878 
+- Airtel Business 295,064 285,276 281,019 295,064 281,019 282,039 
+- Passive rnfrastructure Service? 1,009,844 991,775 303,299 1,009,844 303,299 981,809 
+• Homes Services 142,524 123,852 88,815 142,524 88,815 108,653 
+- Digital TV Services 62,164 57,939 54,441 62,164 54,441 55,198 
+- Others 33,630 31,942 45,491 33,630 45,491 34,943 
+Total segment assets 5,411,960 5,309,716 4,467,257 5,411,960 4,467,257 5,294,785 
+• Unallocated 267,943 282,765 204,235 267,943 204,235 285,674 
+- Inter-seament eliminations (441,274 (442,114' (61,671 (441,274 161.671 1436,855 
+Tota l assets 5,238,629 5,150,367 4,609,821 5,238,629 4,609,821 5,143,604 
+4. Segment Liabiities 
+- Mobile Services India 1,365,401 1,371,379 1,238,070 1,365,401 1,238,070 1,359,574 
+- Mobile Services Africa• 642,559 592,212 502,624 642,559 502,624 569,004 
+- Airtel Business 152,417 146,421 145,654 152,417 145,654 142,900 
+- PaSS1Ve rnfrastructure Servtce? 288,000 283,206 288,000 278,690 
+- Homes Services 83,414 79,646 68,145 83,414 68,145 76,103 
+- Digital TV Services 71,418 70,185 66,618 71,418 66,618 66,522 
+• Others 5,849 5,262 2,820 5,849 2,820 4,740 
+Total segmen t riabifities 2,609,058 2,548,311 2,023,931 2,609,058 2,023,931 2,497,533 
+- Unallocated% 1,532,572 1,500,248 1,549,521 1,532,572 1,549,521 1,611,875 
+- Inter-segment eliminations (506,541 (505,674 (66,661 /506,541 (66,661 (500,481 
+Total riabifities 3,635,089 3,542,885 3,506,791 3,635,089 3,506,791 3,608,927 
+• Including Mobile Money Services. 
+Cl Mobile Services South Asia segment has been disposed, effective June 26, 2024. 
+s Passive Infrastructure Services represents operations of Indus Towers Limited. It became a subsidiary of the Group w.e.f. November 18, 2024, prior to which it was 
+a joint venture. 
+• Includes share of results I net assets of associates and joint ventures. 
+'This is net of dividend.income. interest income, income on FVTPL investments and gain/ loss (net) on derivative financial instruments. 
+"' Mainly includes borrowings • . rred payment liabilities) 
+~\\' I ( . 
+.¢ If/) /-;:. ~ ",J 
+1 ~)' IP Q. 
+-
+
+Audited Consolidated Statement of Cash Flows for the six months ended September 30, 2025 
+Pa rticulars 
+cash flows from operating a ctivit ies 
+Profit before tax 
+Adjustm ents for : 
+Depreciation and amort isation expenses 
+Finance costs 
+DMdend Income 
+Net gain on fair value through profit or loss instruments 
+Interest Income 
+Net loss on denvatrve financial instrumen ts 
+Share of profit of associa tes and joint ventures (net} 
+Exceptional items (net) 
+Employee sha re based pa•1ment expense 
+Profit on sale of property, plant and equipment 
+Provision for doubtful debts / bad debts written off 
+Other non-cash items 
+Operating cash flow s befor e cha nges in assets and liabi&ties 
+Chang es in assets and riabilities 
+Trade receivables 
+Trade payables 
+Inventorie s 
+Provisions 
+Other financial and non-financia l liabilities 
+Other financial and non-financial assets 
+!le t cash generated from opera tions before tax 
+Income tax paid (net) 
+lfet cash generat ed from operating activit;es (a) 
+cash flo ws from investing activities 
+Purchase of property, plant and equipme nt and capital work-In-progress 
+Proceed s from sale of propert'f, plant and equipment 
+Purchase of Intangible assets and intang ible assets under development 
+Payment tow ards spectrum (lnduding deferred payment t,abilltyr 
+(Purchase of) / proceeds from current Investmen ts (net) 
+Purchase of non-current Investments 
+Proceeds from sale of non-current investments 
+Cash disposed off on sate of subsidiaries 
+Investment in joint venture and associate 
+DMdend received 
+Interest received 
+rtet cash used in investing activit.ies (b) 
+cas h flow 5 from finan cing a ctivit ies 
+Proceeds from borrowmgs 
+Repayment of borrowings 
+Paymen t of lease liabll ibes 
+Proceeds from short-term borrow ings (net) 
+Purchase of treasury shares 
+Interest and other finance charges paid• 
+Proceeds from exercise of share options 
+Dividend paid 
+Net proc eeds from issuance of equity shares to Non-controlling interests 
+Purchase of shares from non-controlling Interests 
+Payment on maturity of denvatives (net) 
+Proceeds from sale of shares of subsidiary to non-controlling interests 
+lle t cash u5ed in financing activities ( c) 
+(Rs. In M111ions} 
+Six month s e nded 
+Se ptember 30, 2025 Septembe r 30, 2024 
+Audited Audited 
+228,267 119,227 
+256,472 215,401 
+101,680 104,496 
+(272 ) 
+( 1,231 ) (n9) 
+(5,492 ) (2,030 } 
+1,489 1, 126 
+(1,638) (19,856 ) 
+1,187 
+1,664 829 
+(1,217 ) (9) 
+1,520 4,595 
+(281 ) 434 
+580, 961 4 24,621 
+( 15,2.10) (13,791 ) 
+54,361 36,006 
+216 (1,078) 
+7,950 9,564 
+1,574 31,039 
+10,693 (2,457 ) 
+640,.545 483,904 
+(31,633 ) (16,563 ) 
+608, 912 467,341 
+(223 ,325) (194,79 5) 
+3,675 482 
+(6,554) (10,761 ) 
+( 1,073) (116,604} 
+(31,579 ) 34,790 
+(536) (276 ) 
+72 9 
+(69) 
+(8,788) 
+1,813 1,085 
+1,673 2,656 
+( 255,834) (292,271) 
+83,6 19 81,110 
+(2.34,634) (113,367 ) 
+(32,917 ) (38,138 ) 
+31,080 63,882 
+(1,260 ) (2,240 } 
+(59,292 ) (105,324 ) 
+15 3 
+(103,797 ) (59,111 } 
+75 
+{14,219 ) (6,7 61) 
+(2,674 ) (9,723 ) 
+149 
+(334,004) (189,520) 
+!let increa5e / (decrea5e) in the ca5h and ca sh equivalents during the pe riod (a+ b+c) 19,074 (14, 450) 
+Effect of exchange rate on the cash and cash equivalents 
+Cash and cash equivalents as at beginning of the peri od 
+cash and cash equivalents as at end of the period 
+spectrum acquisrtion are paid to Department of T 
+ards payment of deferred liabilities pertaining to 
+10,298 
+106,53 1 
+135,903 
+front I deferred I prepaid payments. 
+of year 2012, 2015, 2016 and 2022. 
+1,253 
+90,521 
+77,324 
+
+For the purpose of Audited Consolidated Statement of Cash Flows, cash and cash equivalents comprise of following: 
+(Rs. in Millions) 
+Asof 
+Particulars September 30, 2025 September 30, 2024 
+Audited Audited 
+Cash and cash equivalents as per Audited Consolidated Balance Sheet 62,982 47,380 
+Add : Balance held under mobile money trust" 102,508 69,445 
+Less : Bank overdraft (29,587) (39,501) 
+Cash and cash equivalents as per Audited Consorldated Statement of Cash Flows 135,903 77,324 
+•it represents cash received from subscribers of mobile commerce services relating to its subsidiaries in Africa and the same is not available for general use by the 
+Group. 
+Notes to the Audited Consolidated Financial Results 
+1. The Audited Consolidated Financial Results for the quarter and six months ended September 30, 2025 have been reviewed 
+by the Audit Committee and approved by the Board of Directors at their respective meetings held on November 3, 2025 . 
+2. These Audited Consolidated Financial Results are compiled from the Audited Interim Condensed Consol idated Financial 
+Statements for the quarter and six months ended September 30, 2025, the Audited Interim Condensed Consolidated 
+Financial Statements for the quarter ended June 30, 2025 and the Audited Consolidated Financial Statements for the year 
+ended March 31, 2025. The Audited Interim Condensed Consolidated Financial Statements for the quarter and six months 
+ended Septembe r 30, 2025 have been prepared in accordance with Indian Accounting Standard ('Ind AS') 34, 'Interim 
+Financial Reporting' as prescribed under Section 133 of the Compan ies Act, 2013 read together with Rule 3 of the 
+Companies (Indian Accounting Standards) Rules, 2015 (as amended from time to time) and other accounting principles 
+generally accepted in India. The said Audited Consolidated Financial Results represent results of the Group , and its share 
+in the results of associa tes and joint ventures. 
+3. Indus Towers Limited, a Subsidiary Company, in its audited conso lidated financial results for the quarter and six months 
+ended September 30, 2025 reported financ ial status relating to one of its large customers ('customer'). The said customer 
+accounts for significant part of subsidiary's revenue from operations for the quarter and six months ended September 30, 
+2025 and constitutes a significant part of subsidiary's trade receivables outstanding and unbilled revenue as at September 
+30, 2025. The statutory audito rs of the said customer have reported material uncertainty related to going concern in its report 
+to the latest published unaudited results for the quarter ended June 30, 2025. The said customer stated that its ability to 
+settle its liabilities is dependen t on support from the Department of Telecommun ications (DoT) regarding the AGR matter, 
+fund raise through equity and debt, and generation of cash flow from operations . Further, it stated that, based on current 
+efforts, it believes that it would be able to get DoT support, successfully arrange funding and gene rate cash flow from 
+operations . Accordingly , the said customer prepared its financial statements on a going concern basis . 
+The Group has receivables , certain property, plant & equipment and intangible assets with respect to the said customer , 
+recoverability of which is dependent on the said customer's ability to continue as a going concern and the Subsidiary 
+Company's ability to attract new customers. The Group will conti nue to monitor the financial condition of the customer. 
+4. During the quarter ended September 30, 2025, Airtel Africa pie ('Airtel Africa '), a subsidiary of the Group in continuation to 
+its existing second share buy-back programm e for USO 100 mill ion, further bought back USO 18 million worth of shares. 
+This resulted in an increase in the Group's effective shareholding from 62.47% to 62.60%. 
+{This space has been intentionally left blank) 
+
+5. The disclosure required as per the provisions of Regulation 52(4) of SEBI (Listing Obligations and Disclosure Requirements) 
+Regulations, 2015 is given below: 
+Quarter ended Six months ended Year ended 
+September June September September September Mardi 
+S.flo. Particulars• 30, 2025 30, 2025 30, 2024 30, 2025 30, 2024 31, 2025 
+Audited Aucfited Audited Audited Audited Audited 
+(1) Debt· equity ratio· [no. of times) 0.82 0.30 1.28 0.82 1.28 0.91 
+(n) net worth • [Rs. M1lhon) 1,159,733 1,179,009 852,747 1,159,733 852,747 1,118,492 
+(m) current ratio· [no. of bmes) 0.41 0.42 0.36 0.41 0.36 0.37 
+(IV) Long term debt to v1orking capital· [no. of times)" (1.01) (1.11) (1.18) (1.01) (1.18} (0.93) 
+(v) Current hab1hty ratio· [no. of !imesj 0.49 0.47 0.44 0.49 0.44 0.50 
+(V1) Tatel debts to total assets· [no. of times) 0.40 0.39 0.49 0.40 0.49 0.42 
+(v11) Debtors turnover· [no. of days] 15 JS 12 15 12 13 
+(V111) Debt service coverage ratio ('DSC"R') • [no. of limes) 3.52 1.75 2.54 2.36 1.89 2.43 
+(ix) Interest selvice coverage ratio ('ISCR') • [no. of times) 6.69 6.35 4.93 6.52 4.84 5.38 
+(x) Bad debts to acco1Jnl rece1Vable ratio (%) 0.1% 0.3% 0.1% 0.4% 0.4% 4.0% 
+(xi) Operating margin (%) 31.4% 31.lo/c 26.2% 31.3% 25.0% 27.5% 
+(xii) Net prof rt margin (%) 16.6% 15.0% 10.0% 15.8% 11.1% 21.7% 
+(Xiii) Debenture redemption reserve· [Rs. M1lhon) tl.A. Ii.A. tl.A. 11.A. II.A. IJ.A. 
+(xiv) Caprtal redemption reserve· [Rs. Milhon) N.A. II.A. ILA. II.A. ti.A. N.A. 
+(xv) Outstanding redeemable preference shares· [Rs. M1lhon] II.A. II.A. ILA. N.A. ti.A. H.A. 
+* As the principal activities of the Group are in the nature of services, hence inventory turnover ratio is not relevant. 
+A Net working capital is negative 
+The basis of computat ion of above parameters is provided in the table below : 
+(i) Debt• equity ratio# (Non-cur rent borrowings (+) current borrowings (-) cash and cash equivalents 
+(-) term deposits with bank)/ equity 
+• excludina lease liabilities 
+(ii) Net worth Basis Section 2(57) of the Companies Act, 2013 and does not include capital 
+reseNe, debenture redemption reseNe and non-controlling interests . 
+(iii) Current ratio Current assets / current liabilities 
+(iv) Long term debt to working Non-current borrowings/ (current assets (-) current liabilities) 
+capital 
+(v) Current liability ratio Current liabilities / total liabilities 
+(vi) Total debts to total assets (Non-current borrowings(+) current borrowings(+) lease liabilities)/ total assets 
+(vii) Debtors turnover Average trade receivables/ (revenue from operat ions/ no. of days for the periods) 
+(viii) DSCR Profit before depreciation, amortisation, finance costs, share of profit / (loss) of 
+associates and joint ventures , exceptional items and tax / (interest expenses (+) 
+principa l repayments of long-term debt (excluding pre-payment of deferred payment 
+liabilities)(+) payment of lease liabilities) 
+(ix) ISCR Profit before depreciatio n, amortisation , finance costs, share of profit / (loss) of 
+associates and joint ventures , exceptional items and tax / interest exoenses 
+(x) Bad debts to account Bad debts written off / average trade receivable (gross of allowances for doubtful 
+receivable receivables) 
+(xi) Operating margin (Profit before depreciation , amortisation, finance costs, share of profit / (loss) of 
+assoc iates and joint ventures , exceptiona l items and tax (-) depreciation and 
+amortisation expenses(-) other income) I revenue from operations 
+(xii) Net profit margin Profit after tax / revenue from operations 
+
+6. All the amounts included in the Audited Consolidated Financial Results are rounded off to the nearest million, except per 
+share data and unless stated otherwise. 
+For Bharti Airtel Limited 
+Gopal Vittal 
+Vice Chairman & Managing Director 
+DIN: 02291778 
+November 3, 2025 
+Notes: 
+a) 'Bharti Airtel' or 'Company' stands for Bharti Airtel Limited 
+b) 'Group' or 'Consolidated ' stands for Bharti Airtel Limited together with its subsidiar ies 
+c) For more details on the Audited Consolidated Financial Results, please visit our website 'www.airtel.in' 
+
+~ 
+airtel 
+Bharti Airtel Limited 
+CIN: L74899HR1995PLC095967 
+Registered Office: Airtel Center , Plot no. 16, Udyog Vihar, Phase IV, Gurugram - 122015, India 
+T.: +91-124-4222222 , F .: +91-124-4248063, Email id compliance.officer@bharti.in 
+Statement of Audited Standalone Financial Results for the quarter and six months ended September 30, 2025 
+(Rs. in Millions; except per share data} 
+Quarter ended Six months ended Previous year ended 
+Particulars September June September September September March 
+30, 2025 30, 2025 30, 2024 30, 2025 30, 2024 31, 2025 
+Audited Audited Audited Audited Audited Audited 
+Income 
+Revenue from operations 300,923 292,492. 269,845 593,415 519,016 1,089,439 
+Other income 10,791 3,319 4,080 14,110 7,031 13,647 
+311,714 295,811 273,925 607,525 526,047 1,103,086 
+Expenses 
+lletwork operating expenses 59,105 57,046 54,933 116,151 107,496 219,387 
+Access charges 9,134 8,994 10,876 18,128 22,251 44,488 
+license fee/ Spectrum charges 28,363 27,629 26,015 55,992 49,275 103,102 
+Emplo'{ee benefits expense 5,742 5,230 5,543 10,972 11,422 23,937 
+Sales and marketing expenses 12,500 12,293 13,548 24,793 26,053 52,504 
+Other expenses 11,324 12,853 9,402 24,177 18,734 38,432 
+126,168 124,045 120,317 250,213 235,231 481,850 
+Profit before depreciation, amortisation, finance costs, 185,546 171,766 153,608 357,312 290,816 621,236 
+exceptional items and tax 
+Depreciation and amortisation expenses 86,232 92,787 81,366 169,019 160,646 325,111 
+Rnance costs 38,538 38,349 38,723 76,887 75,398 152,396 
+Profit before exceptional items and tax 6o,n6 50,630 33,519 111,406 54,n2 143,729 
+Exceptional items (net} (8,771 (34,915 
+Profit before tax 60,776 50,630 33,519 111,406 63,543 178,644 
+Tax expense 
+current tax - - -
+Deferred tax 15,328 12,985 8,343 28,313 13,675 (56,374 
+15,328 12,985 8,343 28,313 13,675 (56,374) 
+Profit for the period / year 45,448 37,645 25,176 83,093 49,868 235,018 
+Other comprehensive income (OCI} 
+Items not to be redassified to profit or loss : 
+- Gain / (loss} on investment at fair value through 00 2,354 1,256 (118} 3,610 (118} 1,338 
+- Re-measurement gain/ (loss) on defined benefit plans 69 (208} (12} (139) (250) (ln] 
+-Tax (charge} / credit (353 (319 3 (672 63 44 
+Other comprehensive income/ (loss} for the period/ year 2,070 729 (127 2,799 (305 1,205 
+Total romprehensive income for the period / year 47,518 38,374 25,049 85,892 49,563 236,223 
+Earnings per shareA 
+(Face value : Rs. s each} 
+Basic 7.84 6.49 4.35 14.33 8.62 40.60 
+Diluted 7.56 6.26 4.21 13.82 8.36 39.26 
+Paid-up equity share capital (Face value : Rs. 5 each} 29,001 29,001 28,956 29,001 28,956 29,001 
+other equity 1,364,642 1,410,999 1,005,887 1,364,642 1,005,887 1,372,310 
+' Earnings per share are not annualised for the periods. 
+
+Audited Standalone Balance Sheet as of September 30, 2025 
+Particulars 
+Assets 
+lion-current assets 
+Property, plant and equipment 
+Capital work-in-progress 
+Right-of-use assets 
+Goodv:ill 
+Other intangible assets 
+Intangible assets under development 
+Investments in subsidiaries, associates and joint ventures 
+Financial assets 
+- Investments 
+- other financial assets 
+Income tax assets (net) 
+Deferred tax assets ( net) 
+other non-current assets 
+Current assets 
+Financial assets 
+- Investments 
+- Derivative instruments 
+- Trade receivables 
+- Cash and cash equivalents 
+- Other bank balances 
+- Loans 
+- Other financial assets 
+other current assets 
+Total assets 
+Equity and liabilities 
+Equity 
+Equity share capital 
+other equity 
+!Ion-current riabmties 
+Financial riabilities 
+- Borrowings 
+- Lease hab1hties 
+- Other financial habiht1es 
+Deferred revenue 
+Provisions 
+Current liabilities 
+Financial riabilities 
+- Borrowings 
+- Lease liabilities 
+- Derivative instruments 
+- Trade payables 
+- Total outstanding dues of micro enterprises 
+and small enterprises 
+- Total outstanding dues of creditors other 
+than micro enterprises and small enterprises 
+- other financial liabilities 
+Deferred revenue 
+Provisions 
+Current tax liabilities (net) 
+Other current liabilities 
+(Rs. in Millions 
+Asof 
+Se tember 30, 2025 March 31, 2025 
+Audited Audited 
+843,467 827,599 
+51,497 50,946 
+435,546 448,142 
+1,083 1,083 
+1,027,137 1,066,057 
+587 1,629 
+889,242 878,287 
+9,219 5,235 
+18,586 18,199 
+5,068 5,731 
+161,259 190,412 
+65,178 64,044 
+3,507,869 3,557,364 
+6,454 0 
+1,662 736 
+37,131 31,715 
+1,394 6,628 
+249 403 
+75,442 410 
+246,307 234,993 
+70,579 92,539 
+439,218 367,424 
+3,947, 087 3,924,788 
+29,001 29,001 
+1,364,642 1,372,310 
+1,393,643 1,401,311 
+910,956 902,801 
+417,623 427,261 
+5,969 19,551 
+16,892 17,005 
+2,679 2,703 
+1,354, 119 1,369, 321 
+200,111 205,595 
+81,520 78,917 
+50 999 
+464 822 
+374,583 322,655 
+119,263 127,926 
+78,973 70,152 
+313,104 300,699 
+4,941 4,737 
+26,316 41,654 
+1,199,325 1,154,156 
+2,553,444 2,523,477 
+3,947,08 7 3,924,788 
+:Y 
+
+Audited Standa lone Statement of Cash Flows for the six months ended September 30, 2025 
+Particulars 
+Cash flows from operating activities 
+Profit before tax 
+Adjustments for: 
+Depreciation and amortisation expenses 
+Finance costs 
+Interest income 
+Dividend income 
+Net (gain)/ loss on derivative financial instruments 
+Net gain on fair value through profit or loss investments 
+Exceptional items (net) 
+Loss on sale of property, plant and equipment 
+Employee share based payment expense 
+Provision for doubtful debts / bad debts written off 
+other non - cash items 
+Operating cash flows before changes in assets and liabir.ties 
+chang es in assets and riabir.ties 
+Trade receivables 
+Trade payables 
+Provisions 
+Other financial and non-financial liabilities 
+other financial and non-financial assets 
+!let cash generated from operations before tax 
+Income tax refund (net) 
+flet cash generated from opera ting activi ties (a) 
+Cash flows from investing activities 
+Purchase of property, plant and equipment and capital-work-in-progress 
+Proceeds from sale of property, plant and equipment 
+Purchase of intangible assets and intangible assets under development 
+Proceeds from sale of intangible assets 
+Payment towards spectrum (including deferred payment liability)" 
+(Purchase of)/ proceeds from sale of current investments (net) 
+Purchase of non-current investments 
+Proceeds from sale of non-current investments 
+Investment m subsidiary 
+Investment in joint venture and associate 
+Loan given to subs1d1anes 
+Loan repayment by subsidiaries 
+Dividend received 
+Interest received 
+Het cash used in investing activities (b) 
+Cash flows from financing activities 
+Proceeds from borrowings 
+Repayment of borrowings 
+Payment of lease liabilities 
+Proceeds from short-term borrowings (net) 
+Interest and other finance charges paid= 
+Proceeds from exercise of share options 
+Dividend paid 
+!let cash used in financing activitie s ( c) 
+Uet decrease in cash and cash equivalen ts during the period (a + b+c) 
+d cash equivalents as at the beginning of the period 
+:(f) equiv alents as at the end of the period 
+"3 
+s towards payment of deferred liabilities pertaining to spe 
+Rs. in Millions 
+Six months ended 
+September 30, 2025 September 30, 2024 
+Audited Audit e d 
+111,406 63, 543 
+169,019 160,646 
+76,811 75,28 3 
+(4,499 ) (1,929) 
+(3,772) (1,400) 
+(1,521) 105 
+(556) (645) 
+{8,771) 
+311 1 
+1,008 518 
+3,703 2,750 
+(717) (164) 
+351,193 289,9 37 
+(9,070) (10,363) 
+40,017 30,325 
+8,229 7,857 
+(7,394) 18,642 
+10,960 (10,280) 
+393,935 326,118 
+1,223 5,447 
+395,158 331,5 65 
+(135, 446} (137,544) 
+450 2,965 
+(3,142) (2,394) 
+3,598 
+(115,143) 
+(5,912) 9,126 
+(432) (20) 
+72 9 
+{10,955) (20,0 43) 
+(8,788) 
+(74,503} (17,044) 
+2,247 46,100 
+3,772 1,400 
+90 2,484 
+(223 ,759) ( 235,294) 
+37,700 11,186 
+(104,043) (16,102) 
+(28, 141) (24,447) 
+35,682 52,265 
+(25,040) (75,133) 
+8 3 
+92,799 46,324 
+176,6 33 98,552 
+(5,234) (2,281) 
+6,628 5,344 
+1,394 3,063 
+eferred I prepaid payments 
+fyear 2012, 2015 and 2016 
+
+For the purpose of Aud ited Standalone Statement of Cash Flows, cas h and cash equivalents comprise of the following: 
+{Rs. in Millions) 
+As of 
+Particulars September 30, 2025 September 30, 2024 
+Audited Audited 
+cash and cash equivalents as per Audited Standalone Balance Sheet 1,394 3,063 
+Less : Bank overdraft - 0 
+cash and cash equivalents as per Audited Standalone Statement of cash Flows 1,394 3,063 
+Notes to the Audited Standalone Financial Results 
+1. The Audited Standalone Financial Results for the quarter and six months ended September 30, 2025 have been reviewed by 
+the Audit Committee and approved by the Board of Directors at their respective meetings held on November 3, 2025. 
+2. These Audited Standalone Financial Results are compiled from the Audited Interim Condensed Standalone Financial 
+Statements for the quarter and six months ended September 30, 2025, the Audited Interim Condensed Standalone Financial 
+Statements for the quarter ended June 30, 2025 and the Audited Standalone Financial Statements for the year ended March 
+31, 2025. The Audited Interim Condensed Standalone Financial Statements for the quarter and six months ended September 
+30, 2025 have been prepared in accordance with Indian Accounting Standard ('Ind AS') 34, 'Interim Financial Reporting' as 
+prescribed under Section 133 of the Companies Act, 2013 read together with Rule 3 of the Companies (Indian Accounting 
+Standards} Rules, 2015 (as amended from time to time) and other accounting principles generally accepted in India. 
+3. The Company publishes these Audited Standalone Financial Results along with the Audited Consolidated Financial Results. 
+In accordance with Ind AS 108, 'Operating Segments', the Company has disclosed the segment information in the Audited 
+Consolidated Financial Results. 
+4. The disclosure required as per the provisions of Regulation 52(4) of SEBI (Listing Obligations and Disclosure Requirements) 
+Regulations, 2015 is given below: 
+Quarter ended Six months ended 
+S.llo. Particulars'· September June September September September 
+30, 2025 30, 2025 30, 2024 30, 2025 30, 2024 
+Audited Audited Audited Audited Audited 
+(t) 0€bt • equity rat,o • [no. of times] 0.80 0.74 1.17 0.80 1.17 
+(11) IIEI worth· [Rs. M,11,cn] 1,110,029 1,156,366 924,965 1,110,029 924,965 
+(111) Current rabo • [no. of times] 0.37 0.38 0.33 0.37 0.33 
+(iv) Long term debt to working C3p1tal • [no. of t,mes]A (1.20) (1.27) (1.44) (1.20) {1.44) 
+(v) Current h.ib,h~/ r.ibo • [no. of bmes) 0.47 0.46 0.42 0.47 0.42 
+(11) Total debts to total assets· [no. of times) 0.41 0.40 0.47 0.41 0.47 
+(w) Debtors turnover · [no. of days] 11 10 11 11 10 
+(1111) Debt servtee coverage ratio ('DSCR') · [no.cf times] 2.99 1.33 2.86 1.87 2.96 
+(1x) Interest se1V1ce coverage ratio ('!SCR') • [no. of t,mes] 6.27 5.S9 4.84 6.08 4.71 
+(x) Bad cebts to Account recetvable rct10 (%) O.!'i', O.!S, 0.0% 0.2¼ 0.3% 
+(Xi) OpEraMg margin (¼) 29.4½ 29,3:,, 25.3',o 29.4°n 23.~, 
+(Xlt) lie\ profit margin (%) 15.1½ 12.91', 9.3% 14.0'.o 9.64 
+(rm) Debenture redemption re,erve • [Rs. Mtl'ion] II.A. II.'\. IV .. II.A. ll.A. 
+(xr✓) Capital redemption reserve • [Rs. Mtlhon] N.A. fl.A. ti.A. U.A. H.A. 
+(,v) Outstanding redeemable preference shares· [Rs. Mtlhon] II.A. II.A. fl.P- fLA .. 11.;. 
+• As the principal activities of the Company are in the nature of services, hence inventory turnover ratio is not relevant. 
+A Net working capital is negative 
+The basis of computation of above parameters is provided in the table below: 
+Previous year 
+ended 
+Mardi 
+31, 2025 
+Audited 
+0.79 
+1,117,529 
+0.32 
+(1.15} 
+0.46 
+0.41 
+10 
+3.10 
+5.20 
+S.fo 
+25.9½ 
+21.6% 
+llA 
+II.A. 
+IIA 
+(i) Debt • equity ratio# (Non-current borrowings(+) current borrowings (-) cash and cash equivalents 
+(-) term deposits with bank)/ equity 
+• excludin !ease liabilities 
+(ii) Net worth Basis Section 2(57) of the Companies Act, 2013 and does not include capital 
+reserve and common control reserve. 
+Current assets/ current liabilities 
+debt to worki ng Non-current borrowings/ (current assets(-) current liabilities) 
+
+(v) Current liability ratio Current liabilities / total liabilities 
+(vi) Total debts to total assets (Non-current borrowings(+) current borrowings(+) lease liabilities)/ total assets 
+(vii) Debtors turnover Average trade receivables / (revenue from operations/ no. of days for the periods) 
+(viii) DSCR Profit before depreciation, amortisation, finance costs, exceptional items and tax / 
+(interest expenses (+) principal repayments of long-term debt (excluding pre-
+pavment of deferred pavment liabilities)(+) pavment of lease liabilities) 
+(ix) ISCR Profit before depreciation, amortisation, finance costs, exceptional items and tax / 
+interest expenses 
+(x) Bad debts to account Bad debts written off I average trade receivable (gross of allowances for doubtful 
+receivable receivables) 
+(xi) Operating margin (Profit before depreciation, amortisation, finance costs, exceptional items and tax 
+(-) depreciation and amortisation expenses (-) other income) I revenue from 
+operations 
+(xii) Net profit margin Profit after tax / revenue from operations 
+5. All the amounts included in the Audited Standalone Financial Results are rounded off to the nearest million, except per share 
+data and unless stated otherwise. Further, due to rounding off, certain amounts are appearing as 'O'. 
+For Bharti Airtel Limited 
+Gopal Vittal 
+Vice Chairman & Managing Director 
+DIN:02291778 
+November 3, 2025 
+Notes: 
+a) 'Bharti Airtel' or 'Company' stands for Bharti Airtel Limited 
+b) For more details on the Audited Standalone Financial Results, please visit our website 'www.airtel.in' 
+
+Deloitte 
+Haskins & Sells LLP 
+Chartered Accountants 
+7th Floor Building 10 
+Tower B 
+DLF Cyber City Comp lex 
+DLF City Phase 11 
+Gurugram-122 002 
+Haryana. India 
+Tel: +91 124 679 2000 
+Fax: +91 124 679 2012 
+INDEPENDENT AUDITOR'S REPORT ON AUDIT OF INTERIM CONSOLIDATED FINANCIAL 
+RESULTS 
+TO THE BOARD OF DIRECTORS OF 
+BHARTI AIRTEL LIMITED 
+Opinion 
+We have audited the accompanying Statement of Audited Consolidated Financial Results for the 
+quarter and six months ended September 30, 2025 of BHARTI AIRTEL LIMITED ("the 
+Parent/Company") and its subsidiaries (the Parent and its subsidiaries together referred to as "the 
+Group"), and its sha re of the net profit afte r tax and other comprehens ive income of its joint ventures 
+and assoc iates for the quarter and six months ended September 30, 2025, ("the Consolid ated 
+Financial Results"), being submitted by the Parent pursuant to the requirements of Regulation 33 
+and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, 
+as amended ("the LODR Regulations"). 
+In our opinion and to the best of our information and according to the explanations given to us, and 
+based on the consideration of the audit reports of the other auditors on interim consolidated and 
+standalone financial information of a subsidiary and an associate, respectively, referred to in Other 
+Matter section below, the Consolidated Financial Results: 
+(i) include the financial results of the entities as given in Annexure to this report; 
+(ii) are presented in accordance with the requirements of the LODR Regulations; and 
+(iii) give a true and fair view in conformity with the recognition and measurement principles 
+laid down in the Ind ian Accounting Standard 34 "Inter im Financial Reporting" ("Ind AS 
+34"), prescribed under Section 133 of the Companies Act, 2013 ("Act"), read with 
+relevant rules issued thereunder and other accounting principles generally accepted in 
+India of the consolidated net profit and consolidated other comprehensive income and 
+other financial information of the Group, its associates and joint ventures for the quarter 
+and six months ended September 30, 2025. 
+Basis for Opinion 
+We cond ucted our audit in accordance with the Standards on Auditing ("SAs") specified under Section 
+143(10) of the Act. Our responsibil ities under those Standards are further described in Auditor's 
+Responsibil ities for audit of the Consolidated Financial Results section below. We are independent of 
+the Group, its associates and joint ventures in accordance with the Code of Ethics issued by the 
+Institute of Chartered Accountants of India (''ICAI") together with the eth ical requirements that are 
+relevant to our audit of the Consolidated Financial Results under the provisions of the Act and the 
+Rules thereunder, and we have fulfilled our other ethical responsibilities in accordance with these 
+requirements and the ICAI's Code of Ethics. We believe that the audit evidence obta ined by us and 
+the audit evidence obta ined by the other auditors in terms of their reports referred to in Other Matter 
+section below, is sufficient and appropriate to provide a basis for our audi t opinion. 
+Regd. Office: One International Center, Towe r 3, 31st floor, Senapati Ba pat Marg, Elphinstone Road (West), M~u ~rt:::zrc~ 
+Deloitte Haskins & Sells LLP is registered with Limited Liability having LLP identification No: AAB-8737 
+Page 1 of 7 
+
+Deloitte 
+Haskins & Sells LLP 
+Emphasis of Matte r 
+Mater ia l uncertainty at one of the largest customers of Indus Towers limited, a Subsidiary 
+Company and its consequential impact on the Group's receivable, property, plant and 
+equipment and intangible assets in relation to such customer 
+We draw attention to note 3 of the Consolidated Financial Results, which describes the potent ial 
+impact on certain receivab les, property, plant and equipment and intang ible assets, arising from the 
+financial condition of one of the largest customers of the Subs idiary Company and the uncertainty 
+re lating to that customer's abil ity to continue as a going concern. 
+Our opinion is not modified in respect of the above matter. 
+Responsibilities of Manageme nt and Those Charged With Governance for the Consolidated 
+Financ ial Results 
+This Conso lidat ed Financ ial Results are the responsibility of the Company's management and have 
+been approved by the Board of Directors for issuance. The Consolidated Financia l Results have been 
+compiled from the Audited Interim Condensed Consolidated Financia l Statements for the quarter 
+and six months ended September 30, 2025, the Audited Inte rim Condensed Consolidated Financial 
+Statements for the quarter ended June 30, 2025 and the Audited Consolidated Financial Stat ements 
+for the year ended March 31, 2025. This responsibility includes the preparation and presentation of 
+the Consol idated Financia l Results that give a true and fair view of the conso lid ated net profit/(loss) 
+and consolidated other comprehensive income/( loss) and other financial information of the Group 
+includ ing its associates and joint ventures in accorda nce with the recognition and measurement 
+principles laid down in Ind AS 34 prescribed under Section 133 of the Act read with relevant rules 
+issued thereunder and other accoun ting principles genera lly accepted in India and in compliance 
+with the LODR Regulat ions. 
+The respective Board of Directors of the companies included in the Group and of its associates and 
+joint ventures are respons ible for maintenance of adequate accounting records in accordance with 
+the prov isions of the Act for safeguarding th e assets of the Group and its associates and joint 
+ventures and for preventing and detecting frauds and other irregularities; selection and application 
+of appropriate account ing polic ies; making judgments and est imates that are reasonable and 
+prudent; and the design, implementat ion and maintenance of adequate internal financial controls, 
+that were operating effective ly for ensur ing the accuracy and comp leteness of the accounting 
+records, relevant to the preparation and presentation of the respect ive financial results that give a 
+true and fair view and are free from materia l misstatement, whether due to fraud or error, which 
+have been used for the purpose of preparation of this Conso lidated Financial Results by the Directors 
+of the Parent, as aforesaid . 
+In preparing the Consolidated Financ ial Results, the respective management and the Board of 
+Directors/Those Charged With Governance of the entities included in the Group and of its associates 
+and joint ventures are respons ibl e for assessing the ability of the respective entities to continue as 
+a goi ng concern, disclosing, as app licable, matters related to going concern and using the going 
+concern basis of account ing unless the respective Board of Directo rs/Those Charged With 
+Governance either intends to liquidate the ir respect ive entities or to cease operat ions, or has no 
+realistic alternative but to do so. 
+The respect ive Board of Directors/Those Charged With Governance of the ent itie s included in the 
+Group and of its associates and joint ventu res are responsible for ove rseeing the financial reporting 
+process of the Group and of its associates and joint ventures . 
+Auditor's Responsibilities for the audit of the Consolidated Financial Results 
+Our objectives are to obtain reasonable assurance about whether the Consolidated Financial Results 
+as a whole are free from material misstatement, whether due to fraud or error, and to issue an 
+aud itor's report that includes our opinion. Reasonable assurance is a high level of assurance, but is 
+not a guarantee that an audit conducted in accordance with SAs will always detect a materia l 
+misstatement when it exists. Misstatements can arise from fraud or error e cons idered 
+material if, ind ividua lly or in the agg regate, they could reasonably be exp k!fn ence the 
+economic decisions of users taken on the basis of this Consolidated Financ i 
+( 
+of 7 
+
+Deloitte 
+Haskins & Sells LLP 
+As part of an audit in accordance with SAs, we exercise professional judgment and maintain 
+professional skepticism throughout the audit. We also: 
+• Identify and assess the risks of material misstatement of the Consolidated Financial Results, 
+whether due to fraud or error, design and perform audit procedures responsive to those 
+risks, and obtain audit evidence that is sufficient and appropriate to provide a basis for our 
+opinion . The risk of not detecting a material misstatement resulting from fraud is higher 
+than for one resulting from error, as fraud may involve collusion, forgery, intentional 
+omissions, misrepresentations, or the override of internal control. 
+• Obtain an understanding of internal financial controls relevant to the audit in order to design 
+audit procedures that are appropriate in the circumstances, but not for the purpose of 
+expressing an opinion on the effectiveness of the Group's internal financial controls . 
+• Evaluate the appropriateness of accounting policies used and the reasonableness of 
+accounting estimates made by the management and approved by the Board of Directors. 
+• Evaluate the appropriateness and reasonableness of disclosures made by the Board of 
+Directors in terms of the requirements specified under the LODR Regulations . 
+• Conclude on the appropriateness of the Board of Directors' use of the going concern basis of 
+accounting and, based on the audit evidence obtained, whether a material uncertainty exists 
+related to events or conditions that may cast significant doubt on the ability of the Group 
+and its associates and joint ventures to continue as a going concern. If we conclude that a 
+material uncertainty exists, we are required to draw attention in our auditor's report to the 
+related disclosures in the Consolidated Financial Results or, if such disclosures are 
+inadequate, to modify our opinion. Our conclusions are based on the audit evidence obtained 
+up to the date of our auditor's report. However, future events or conditions may cause the 
+Group and its associates and joint ventures to cease to continue as a going concern. 
+• Evaluate the overall presentation, structure and content of the Consolidated Financial 
+Results, including the disclosures, and whether the Consolidated Financial Results represent 
+the underlying transactions and events in a manner that achieves fair presentation. 
+• Perform procedures in accordance with the circular issued by the SEBI under Regulation 
+33(8) of the LODR Regulations to the extent applicable. 
+• Obtain sufficient appropriate audit evidence regarding the standalone financial results, 
+entities within the Group and its associates and joint ventures to express an opinion on the 
+Consolidated Financial Results. We are responsible for the direction, supervision and 
+performance of the audit of financial information of such entities included in the Consolidated 
+Financial Results of which we are the independent auditors. For the other entities included 
+in the Consolidated Financial Results, which have been audited by the other auditors, such 
+other auditors remain responsible for the direction, supervis ion and performance of the audit 
+carried out by them. We remain solely responsible for our audit opinion. 
+Materiality is the magn itude of misstatements in the Consolidated Financial Results that, individually 
+or in aggregate, makes it probab le that the economic decisions of a reasonably knowledgeable user 
+of the Consolidated Financial Results may be influenced. We consider quantitative materiality and 
+qualitative factors in (i) planning the scope of our audit work and in evaluating the results of our 
+work; and (ii) to evaluate the effect of any identified misstatements in the Consolidated Financial 
+Results. 
+We communicate with those charged with governance of the Parent and such other entities included 
+in the Consolidated Financial Results of which we are the independent auditors regarding, among 
+other matters, the planned scope and tim ing of the audit and significant audit findings, including any 
+significant deficiencies in internal financial controls that we identify during our audit. 
+~ ge 3 of 7 
+
+Deloitte 
+Haskins & Sells LLP 
+We also provide those charged with governance with a statement that we have complied with 
+relevant ethical requirements regarding independence, and to communicate with them all 
+relationships and other matters that may reasonably be thought to bear on our independence, and 
+where applicable, related safeguards. 
+We also performed procedures in accordance with the circular issued by the SEBI under Regulation 
+33(8) of the LODR Regulations, as amended, to the extent applicable. 
+Other Matter 
+We did not audit the interim consolidated financial information of a subsidiary included in the 
+Consolidated Financial Results, whose interim consolidated financial information reflects total assets 
+of Rs 6,440 million as at September 30, 2025, and revenue of Rs. 4,874 million and Rs 8,611 mill ion, 
+net profit after tax of Rs. 291 million and Rs 481 million and other comprehensive income of Rs. 4 
+million and Rs. 3 million, for the quarter and six months ended September 30, 2025, respectively, 
+and net cash outflows of Rs 50 million for the six months ended September 30, 2025 as considered 
+in the Consolidated Financial Results. The Consolidated Financial Results also include the Group's 
+share of net profit after tax of Rs. 99 million and Rs 195 million and other comprehensive 
+(loss)/income of Rs. 31 million and Rs. 5 million for the quarter and six months ended September 
+30, 2025, respectively, as considered in the Consolidated Financial Results, in respect of an associate 
+whose interim financial information has not been audited by us. These interim financial information 
+have been audited by other auditors and our opinion on the Consolidated Financial Results, in so far 
+as it relates to the amounts and disclosures included in respect of such subsidiary and associate, is 
+based solely on the reports of the other auditors. 
+Our report on the Consolidated Financial Results is not modified in respect of the above matter with 
+respect to our reliance on the work done and the reports of the other auditors. 
+Place: New Delhi 
+Date: November 03, 2025 
+For DELOITTE HASKINS & SELLS LLP 
+Chartered Accountants 
+(Firm's Registration No.117366W/W-100018) 
+Vijay Agarwal 
+Partner 
+(Membership No. 094468) 
+UDIN:2.S0~~'fn,gmmJc82t,3, 
+Page 4 of 7 
+
+Deloitte 
+Haskins & Sells LLP 
+Annex ure to Auditor's Report 
+List of entities: 
+1 Bharti Airtel Limited 
+Subsidiaries 
+2 Bharti Airtel Services Limited 37 
+3 Bharti Hexacom Limited 38 
+4 Bhart i Telemedia Limited 39 
+5 Airtel Limit ed 40 
+6 Nxtra Data Limit ed 41 
+7 Xtelify Limited 42 
+8 Indo Teleports Lim ited 43 
+9 Bharti Airtel (France) SAS 44 
+10 Bharti Airtel (Hong Kong) Limi ted 45 
+11 Bharti Airte l (UK) Lim ited 46 
+12 Bhart i Airtel (USA) Limited 47 
+13 Bharti Airtel International (Nethe rlands) 48 
+B.V. 
+14 Bhart i Int ernat ional (Singapore) Pte. Ltd. 49 
+15 Network i2i Limited 50 
+16 Airtel (Seyche lles) Limited 51 
+17 Airtel Congo S.A. 52 
+18 Airte l Gabon S.A. 53 
+19 Airtel Madagascar S.A. 54 
+20 Airtel Malawi Public Limi ted Company 55 
+21 Airte l Mobile Commerce B.V. 56 
+22 Airte l Mobi le Commerce Holdings B.V. 57 
+23 Bhart i Airte l Malawi Holdings B.V. 58 
+24 Bhart i Airtel Mali Holdings B.V. 59 
+25 Bharti Airte l Niger Holdings B.V. 60 
+26 Bhart i Airte l Nigeria B.V. 61 
+27 Bhart i Airtel RDC Hold ings B.V. 62 
+28 Airtel Mobile Commerce (Kenya) Limited 63 
+29 Airtel Mobile Commerce Limited 64 
+30 Airte l Mobile Commerce Madagascar S.A. 65 
+31 Airtel Mobi le Commerce Rwanda Ltd 66 
+32 Airtel Mobile Commerce (Seychelles) 67 
+Limited 
+33 Airtel Mobi le Commerce (Tanzan ia) Limited 68 
+34 Airtel Mobile Commerce Tchad S.A. 69 
+35 Bharti Airtel Rwanda Hold inas Limited 70 
+36 Airtel Money Transfer Limited 71 
+Airtel Money Tanzania Limited 
+Airte l Mobile Commerce Niger ia 
+Limited 
+Airtel Mobile Commerce (Seychel les) 
+B.V. 
+Airtel Mobile Commerce Conqo B.V. 
+Airte l Mobile Commerce Kenya B.V. 
+Airtel Mobile Commerce Uganda 
+Limited 
+Airtel Mobile Commerce Zamb ia 
+Limited 
+Airtel Money RDC S.A. 
+Airtel Money Niger S.A. 
+Airtel Money S.A. 
+Airtel Networks Kenya Limited 
+Airtel Networks Limit ed 
+Airtel Networks Zambia pie 
+Airtel Rwanda Limited 
+Airtel Tanzan ia Public Limited 
+Company 
+Airtel Tchad S.A. 
+Airtel Uganda Limited 
+Bharti Airtel Africa B.V. 
+Bharti Airtel Chad Holdings B.V. 
+Bharti Airtel Congo Holdings B.V. 
+Bharti Airtel Developers Forum 
+Lim ited 
+Bharti Airte l Gabon Holdings B.V. 
+Bhart i Airt el Kenya B.V. 
+Bharti Airtel Madagascar Hold ings 
+B.V. 
+Airt el Africa Mauritius Limited 
+Bhart i Airtel Holding (Maurit ius) 
+Limited 
+Bharti Airtel Overseas (Maur itius) 
+Limited 
+Airtel Africa pie 
+Airtel Mobile Commerce Nigeria B.V. 
+Bharti Airte l Emp loyees Welfare Trust 
+Bhart i Airtel Services B.V. 
+Bhart i Airte l Tanzania B.V. 
+Bharti Airtel Uganda Holdings B.V. 
+Bharti Airtel Zambia Holdinas B.V . 
+Celte l (MaLJ.l;ft1'i,1g,Jj l,IQfi;tioqs Limi ted 
+/Iv;-~ - c;>_~ 
+'/ © iv <.P 
+I 
+.._ C te d Ci) I 
+~ Ac o nt ts ~ 
+0
+0 -....___.«{e2 Page 5 of 7 :.~ o. ~ 
+
+Deloitte 
+Haskins & Sells LLP 
+72 Airte l Congo RDC S.A. 
+73 Celtel Niger S.A. 
+74 Channel Sea Management Company 
+(Mau rit ius) Limited# 
+75 Congo RDC Towers S.A. 
+76 Gabon Towers S.A.* 
+77 India n Ocean Telecom Lim ited 
+78 Mobile Commerce Congo S.A. 
+79 Montana Interna tional# 
+80 Partne rship I nvestments Sarlu 
+81 The Registered Trus tees of Airte l Money 
+Trust Fund 
+82 Airtel Africa Services (UK) Limited 
+83 Airte l Mobi le Commerce Serv ices Limited 
+84 SmartCas h Payment Serv ice Bank Limited 
+85 Airte l (M) Te lesonic Holdinos (UK) Limited 
+86 Airte l Africa Telesonic Holdings Limited 
+87 Airte l Africa Telesonic Limited 
+88 Airte l Money Trust Fund 
+89 Airte l Mobi le Comme rce Madagasca r B.V. 
+90 Airte l Mobile Commerce Malawi B.V. 
+91 Airte l Mobi le Commerce Rwanda B.V. 
+92 Airte l Mobi le Commerce Tchad B.V. 
+93 Airte l Mobi le Commerce Uganda B.V. 
+94 Airtel Mobi le Commerce Zambia B.V. 
+95 Airtel Internationa l LLP 
+96 Airte l Mobile Commerce DRC B.V. 
+97 Airte l Mobile Commerce Gabon B.V. 
+98 Airte l Mobile Commerce Niger B.V. 
+99 Airte l Money Kenya Lim ited 
+100 Network i2 i (UK) Lim ited 
+101 The Airtel Africa Employee Benefit Trus t 
+102 Airtel Congo Telesonic Hold ings (UK) 
+Limited 
+103 Airtel DRC Telesonic Holdi ngs (UK) Limited 
+104 Airtel Gabon Teleson ic Hold ings (UK) 
+Limited 
+105 Airtel Kenya Teleson ic Hold ings (UK) 
+Limited 
+106 Airtel Madagascar Telesonic Holdings (UK) 
+Limited 
+107 Airte l Niger Telesonic Holdings (UK) Lim ited 
+108 Airte l Nigeria Teleson ic Holdings (UK) 
+Limited 
+109 Airte l Rwanda Telesonic Hold ings (UK) 
+Lim ited 
+110 Airte l Seychel les Telesonic Holdings 
+(UK) Lim ited 
+111 Airtel Tanzania Telesonic Holdings 
+(UK) Lim ited 
+112 Airte l Uganda Teleson ic Holdings (UK) 
+Limited 
+113 Airte l Zambia Telesonic Hold ings (UK) 
+Limited 
+114 Airtel Tchad Telesonic Holdings (UK) 
+Limi ted 
+115 Airte l (M) Teleson ic Limited 
+116 Airte l Kenva Telesonic Limited 
+117 Airte l Nigeria Telesonic Limited 
+118 Airte l Rwanda Telesonic Limited 
+119 Airte l Telesonic Uoanda Limited 
+120 Airtel Zambia Telesonic Limited 
+121 Airtel (Sevchelles) Telesonic Limited 
+122 Nxtra Africa Data Holdi ngs Limited 
+123 Nxtra Congo Data Hold ings (UK) 
+Limited 
+124 Nxtra DRC Data Holdinqs (UK) Limited 
+125 Nxtra Gabon Data Holdings (UK) 
+Limited 
+126 Nxtra Kenya Data Holdings (UK) 
+Limited 
+127 Airte l Mobi le Commerce Tanzania B.V. 
+128 Nxtra Nigeria Data Holdings (UK) 
+Limited 
+129 Airtel Congo RDC Teleson ic S.A.U . 
+130 Nxtra Africa Data (Nigeria) Limited 
+131 Airtel Gabon Telesonic S.A. 
+132 Nxtra Africa Data (Kenya) Limited 
+133 Nxtra Africa Data (Nigeria) FZE 
+134 Beete l Teletech Lim ited 
+135 Beete l Teletech Singapore Private 
+Limited 
+136 Nxtra Africa Data (Kenya) SEZ 
+Limited 
+137 Indus Towers Limited 
+138 SmarTx Services Limited 
+139 Indus Towers Employees Welfare 
+Trust 
+140 Nxtra Afr ica Data RDC S.A. 
+141 Airte l Mobile Management Services 
+FZ-LLC 
+142 Airte l Money Limi ted" 
+Page 6 of 7 
+
+Deloitte 
+Haskins & Sells LLP 
+Joint Ventures & Associates 
+(Includin g their subsid iaries) 
+143 Airtel Payments Bank Lim ited 
+144 Bridqe Mobi le Pte Limited 
+145 RedDot Diqital Limited 
+146 Bharti Airtel Ghana Holdings B.V. 
+147 Millicom Ghana Company Limited$ 
+148 Hughes Communications India Private 
+Limited 
+149 Seyche lles Cable Systems Company 
+Lim ited 
+150 Robi Axiata PLC 
+151 Lave lle Networks Private Limited 
+# In process of remova l from register of companie s 
+* Under dissolut ion 
+$ Under liquidation 
+" Incorporated during the six month s ended September 30, 2025 
+152 MAWEZI RDC S.A. 
+153 HCIL Netcom India Private Limited 
+154 HCIL COMTEL PRIVATE LIMITED 
+155 Dixon Electro Appliances Private 
+Limited 
+156 Rventures PLC 
+157 SmartPay Limited 
+158 AxEnTec PLC 
+159 Oneweb I ndia Comm unications 
+Private Lim ited 
+Page 7 of 7 
+
+Deloitte 
+Haskins & Sells LLP 
+Chartered Accountants 
+7th Floor Building 10 
+Tower B 
+DLF Cyber City Complex 
+DLF City Phase II 
+Gurugram-122 002 
+Haryana, India 
+Tel: +91 124 679 2000 
+Fax: +91 124 679 2012 
+INDEPENDENT AUDITOR'S REPORT ON AUDIT OF INTERIM STANDALONE FINANCIAL 
+RESULTS 
+TO THE BOARD OF DIRECTORS OF 
+BHARTI AIRTEL LIMITED 
+Opinion 
+We have audited the accompanying Statement of Audited Standalone Financial Results for the 
+quarter and six months ended September 30, 2025 of BHARTI AIRTEL LIMITED ("the Company "), 
+("the Standalone Financial Results"), being submitted by the Company pursuant to the requirements 
+of Regulation 33 and Regulation 52 of the SEBI (Listing Oblig ations and Disclosure Requirements) 
+Regulations, 2015, as amended ("the LODR Regulations"). 
+In our opinion and to the best of our information and accordi ng to the explanation s given to us, the 
+Standalone Financial Results: 
+(i) are presented in accordance with the requirements of the LODR Regulations; and 
+(ii) give a true and fair view in conformity with the recognition and measurement principles 
+laid down in the Ind ian Accounting Standard 34 "Interim Financial Reporting" ("Ind AS 
+34"), prescribed und er Sect ion 133 of the Companies Act, 2013 ("Act"), read with 
+relevant ru les issued thereunder and other accounting principles generally accepted in 
+India of the net profit and other comprehe nsive income and other financial info rmation 
+of th e Company for the quart er and six months ended September 30, 2025. 
+Basis for Opinion 
+We conducted our aud it in accordance with the Standards on Auditing (''SAs") specified under Section 
+143(10) of the Act. Our responsibilities under those Standards are further described in Auditor's 
+Responsib iliti es for Audit of the Standalone Finan cial Results sect ion of our report below . We are 
+independent of the Company in accordanc e with the Code of Ethics issued by the Institute of 
+Charte red Accountants of India ("ICAI") tog eth er with the ethica l requirements that are releva nt to 
+our audit of the Standa lone Financial Results under th e provision s of the Act and the Rules made 
+thereunder, and we have fulfi lled our other ethical respo nsibilitie s in accordance with these 
+requirement s and the ICAI's Code of Ethi cs. We believe that the audit evidence obtained by us is 
+suffi cient and appro priate to provide a basis for our audit opinion. 
+Responsibilities of Management and Those Charged with Governance for the Standalone 
+Financial Results 
+This Standa lone Financial Results are the responsibi lity of the Company's management and have 
+been approv ed by the Board of Directors for issuance . The Standalone Financial Results have been 
+compiled from the Audited Interim Condensed Standalone Financia l Statements for the quarter and 
+six months ended September 30, 2025, t he Audited Interim Condensed Standa lone Financia l 
+Statements for the quarter ended June 30, 2025 and the Audit ed Standa lone Financia l Statements 
+for the year ended March 31, 2025. This respon sibility includes th e preparation and presentation of 
+th e Standalon e Financia l Results that give a true and fair view of the net profit/(loss) and oth er 
+comprehensive income/(loss) and other financial info rm ation in accordance with the recog nition and 
+measurement princip les laid dow n in Ind AS 34 prescri bed unde r Section 133 of the Act read wit h 
+relevant rules issued thereunder and other accounting principles generally accepted in India and in 
+compliance with the LODR Regulations . 
+Regd. Office: One Interna tional Center, Tower 3, 31st floor, Senapati Ba pat Marg, Elphinstone Roa 
+Deloitte Haskins & Sells LLP is registered with Limited Liability having LLP identificat ion No: AAB-87 
+Page 1 of 3 
+, Maharashtra, India. 
+
+Deloitte 
+Haskins & Sells LLP 
+The responsibility of Board of Directors includ es maintena nce of adequate account ing reco rds in 
+accordance with the provisions of the Act for safegua rding the assets of the Compa ny and for 
+prevent ing and detecting frauds and other irregu larities; selection and application of appropriate 
+accounting policies; making judgment s and estimates that are reasonable and prudent; and the 
+design, impl emen t ation and maintenance of adequate interna l finan cial controls that were operating 
+effectively for ensu rin g the accuracy and completeness of the accoun tin g records, relevant to the 
+preparation and presentation of the Standalone Financ ial Results that give a t rue and fair view and 
+are free from mate rial misstatement, whether due to fraud or error . 
+In preparing the Standalone Financia l Results, the management and the Boar d of Directors are 
+responsible for assessing the Company's ability, to continu e as a going conce rn, disclosing, as 
+app licable, matters related to goi ng concern and using the going concern basis of accounti ng unless 
+th e Board of Directors eithe r intends to liquid ate the Company or to cease operations, or has no 
+realistic alternative but to do so. 
+Th e Board of Directors is also responsible for oversee ing the financial reporting process of the 
+Company. 
+Auditor's Responsibilities for the audit of the Standalone Financial Results 
+Our object ives are to obta in reasonable assurance about whet her the Standa lone Financial Results 
+as a whole are free from mate rial misstatement, whether due to fraud or error, and to issue an 
+aud ito r's report th at include s our opinion. Reasonable assurance is a high leve l of assurance, but is 
+not a guara ntee that an aud it conducted in accordance with SAs wi ll always detect a material 
+misstate ment when it exists. Misstatements can arise from fraud or error and are considered 
+material if, individually or in the aggregate, they could reasonably be expected to influence the 
+eco nomi c decisions of users taken on the basis of thi s Standalone Financial Resu lts. 
+As part of an audit in accordance with SAs, we exerc ise professio nal judgment and maintain 
+profess ional skepticism thro ughout the audit. We also: 
+• Iden t ify and assess the risks of material misstatement of the Standalone Financial Results, 
+whet her due to fraud or error, design and perfo rm aud it procedures responsive to those 
+risks, and obtain audit evide nce that is suffic ient and app ropriate to provide a basis for our 
+opinion. The risk of not detecting a materia l misstate ment resul tin g from fraud is higher 
+than for one resulting from error, as fraud may involv e collusion, forgery, intentional 
+omissions, misrepresentat ions, or the over rid e of internal control. 
+• Obtain an understanding of internal financial contro ls releva nt to the audit in order to design 
+audit procedures that are appropr iate in the circums tan ces, but not for the purpose of 
+expressing an opinion on the effect iveness of the Company's int erna l fin ancia l controls. 
+• Evaluate the appropriateness of accounting policies used and th e reasonable ness of 
+account ing estimat es made by the management and approved by the Board of Directors. 
+• Evaluate th e appropriateness and reasonableness of disclosures made by the Board of 
+Directors in terms of the requirements specified under the LODR Regulations. 
+• Conclude on the appropria teness of the Board of Directors' use of the going concern basis of 
+accounting and, based on the audit evidence obtained, whether a material uncertainty exists 
+related to events or conditio ns that may cast significant doubt on the abil ity of the Company 
+to continue as a going concern. If we conclude that a material uncertainty exists, we are 
+required to draw attention in our aud itor's report to the related disclosures in the Standalone 
+Financial Results or, if such disclosures are inadequate, to modify our opinio n . Our 
+conclusions are based on the audit evidence obtained up to the date of our audito r's re port . 
+However, fu ture events or conditions may cause the Company to cease to continue as a 
+going concern . 
+• Evaluat e the overall presentation, structure and cont ent of the Standalone Financia l Results, 
+includin g the disclosures, and whether the Standalone Fi 19::!:!=J:::::.~l repr esen t the 
+under lyin g transactions and eve nts in a manner that achie n. 
+Page 2 of 3 
+
+Deloitte 
+Haskins & Sells LLP 
+Materiality is th e magnitude of misstatements in t he Standalone Financia l Results that, individually 
+or in aggregate, makes it probable that the economic decisions of a reasonably knowledgeab le user 
+of the Standalone Financial Results may be influenced. We consider quantitativ e materiality and 
+qualitative factors in (i) planning the scope of our audit work and in eval uating the resu lts of ou r 
+work; and (ii) to evaluate the effect of any identified misstatements in the Standalone Financial 
+Results. 
+We communicate with those charged with governance regarding, among other matters, the planned 
+scope and timing of the audit and signif icant audit finding s, including any significant deficiencies in 
+internal financia l contro ls that we identify during our audit. 
+We also provide those charged with governance with a statement that we have comp lied wit h 
+relevant eth ical requirements regarding independence, and to communicat e with them all 
+relationships and othe r matters that may reasonably be thought to bear on our indepe ndence, and 
+where applicable, related safeguards. 
+Place: New Delhi 
+Date : November 03, 2025 
+For DELOITTE HASKINS & SELLS LLP 
+Chartered Accountants 
+(Firm' s Registration No.117366W/W - 100018) 
+Vijay Agarwal 
+Partne r 
+(Membership No. 094468) 
+UDIN: l.CS0~'l'l&'l>BrYltv\'J"8Z.2. \f 2.. "f 
+Page 3 of 3 

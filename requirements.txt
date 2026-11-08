@@ -1,0 +1,3 @@
+bse==3.3.4
+mthrottle==0.0.2
+pypdf==7.0.0
