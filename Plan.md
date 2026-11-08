@@ -166,9 +166,9 @@ Rejected:
 
 Rough size: 12 companies × 4 quarters × 2 kinds ≈ **100 documents**.
 
-**Actual (Nov 8, after removing cover letters, Kotak and L&T): 126 filings.** ⚠️ Cover-letter-only filings (a 1–10k-char letter saying "accessible at the link below") are rejected as `cover_letter_only`: transcripts under 10k chars, results under 15k. Kotak and L&T were dropped for this reason; HDFC and LIC lose some results the same way. Say so in the README, and use it for unanswerable questions on Day 5.
+**Actual (Nov 8, after removing cover letters, Kotak, L&T and duplicates): 91 filings.** ⚠️ Cover-letter-only filings (a 1–10k-char letter saying "accessible at the link below") are rejected as `cover_letter_only`: transcripts under 10k chars, results under 15k. Kotak and L&T were dropped for this reason; HDFC and LIC lose some results the same way. Say so in the README, and use it for unanswerable questions on Day 5.
 
-⚠️ **Most quarters have *two* result files**: the `Result` filing and the board-meeting outcome often carry the same financial statements under different `NEWSID`s. Kept on purpose for now. Decide on Day 2 whether duplicate chunks hurt retrieval (they will crowd the top-5 with the same table) and dedupe by text similarity if so.
+✅ **Duplicates removed (Nov 8):** BSE often files the same PDF twice under two `NEWSID`s (as `Result` *and* as `Outcome of Board Meeting`). 35 of 126 files were byte-identical. The collector now hashes the extracted text (sha256, stored in the sidecar) and skips a filing whose text already exists, keeping the `Result`-category copy first, then the earliest. Near-duplicates (same statements, different cover page) can still exist; check on Day 2 if the same table crowds your top-5.
 
 - ⚠️ **Exclude "audio recording" announcements.** They mention "earnings call" too, but their PDF is just a link to the audio
 - **Tune the patterns from your own data.** Print every `Company Update` headline for 2 companies, read them, *then* write the patterns. Don't guess the wording
