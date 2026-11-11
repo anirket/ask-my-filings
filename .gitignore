@@ -9,3 +9,5 @@ collector/
 runs.jsonl
 announcements.json
 data.py
+
+.vscode
