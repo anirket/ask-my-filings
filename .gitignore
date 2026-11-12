@@ -1,6 +1,8 @@
 SESSION-CONTEXT.md
 .env
 .venv/
+.venv-312/
+vector-store/
 __pycache__/
 .cache/
 
