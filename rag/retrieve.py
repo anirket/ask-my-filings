@@ -1,7 +1,7 @@
 from qdrant_client.models import Fusion, FusionQuery, Prefetch, SparseVector
 from rag.config import COLLECTION_NAME, PREFETCH_LIMIT
 from rag.embed import embed_query
-from rag.store import client
+from rag.qdrant import client
 
 
 

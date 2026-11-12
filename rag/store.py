@@ -1,21 +1,11 @@
-import os
-from dotenv import load_dotenv
-from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, Distance, SparseVectorParams, Modifier, PointStruct, SparseVector
 from rag.config import COLLECTION_NAME, BATCH
 from rag.embed import dense_embedding_model, embed_chunks
 from rag.chunk import chunk_all
+from rag.qdrant import client
 import uuid
 
 
-
-load_dotenv()
-
-client = QdrantClient(
-    url="https://6674d2ff-891b-441a-b6d2-2a5bc8fe6e71.us-west-1-0.aws.cloud.qdrant.io",
-    api_key=os.getenv("QDRANT_API_KEY"),
-    timeout=60
-)
 def delete_collection():
    if client.collection_exists(collection_name=COLLECTION_NAME):
         client.delete_collection(collection_name=COLLECTION_NAME)
