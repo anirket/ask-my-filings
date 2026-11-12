@@ -34,19 +34,19 @@
 
 **What you end up with:**
 
-- **`ask-my-filings`**: public repo, live URL, README leading with the metrics table
+- **`ask-my-filings`**: public repo, README leading with the metrics table
 - **A corpus you can top up with one command** (re-run in January for Q3) when Week 12 needs it for the fine-tuning dataset
 - **`EVAL.md`**: the four metrics, the chunking decision and why, and the RAG-vs-long-context verdict
 
 **Done when:**
 
 - [ ] The backfill is re-runnable over any date window, and running it twice changes nothing
-- [ ] Live URL, works for a stranger
+- [ ] ~~Live URL~~ — dropped Nov 13; deployment is Week 9's subject
 - [ ] recall@5, MRR, faithfulness and refusal rate written down for your final config
 - [ ] The RAG-vs-long-context verdict, with ₹ and latency alongside accuracy
 - [ ] You can defend your chunk size, your top-k and your index choice with reference to how filings are actually structured
 
-**6 days, Nov 9 → Nov 14.** Nov 9–13 are weekday evenings at ~3.5 hrs; Nov 14 is close-out only.
+**6 days, Nov 9 → Nov 14.** Nov 9–13 are weekday evenings at ~3.5 hrs. **Friday carries the whole remaining build; Saturday is Udemy.** Deploy is dropped — Week 9 covers it.
 
 > ⚠️ **The plan grew about 30% after it was written** — the filing-kind classification, the PDF download-and-extract step, the bge gotchas. Since there's no backup day, **the order of sacrifice is fixed in advance: deploy slips before the eval does, and the eval never slips.**
 
@@ -83,7 +83,7 @@ Guess before you measure. Being wrong is the interesting part, and "I expected 0
 | **Embeddings** | Local, `fastembed` + `BAAI/bge-small-en-v1.5` | Free, no second API key, ONNX rather than PyTorch — which is what saves you on Day 4's RAM ceiling |
 | **Answering model** | `claude-haiku-5-5` | Same as every other week. Cost comparisons stay comparable |
 | **Index** | Qdrant gives you HNSW — no choice to make. Day 3 is about knowing *why*, and whether you're even hitting the index | Hiring guides name "HNSW vs IVFFlat", but that's a pgvector/FAISS question. Yours is: below `full_scan_threshold` Qdrant does exact search, so at a few thousand chunks the index may be doing nothing. Find out, then say so |
-| **Deploy** | Day 4, thin and early — Render | You have three repos and zero live URLs. Deploy before it's finished, then keep pushing to it. Cloud Run comes in Week 9 |
+| **Deploy** | **Dropped** *(Nov 13)* | Week 9 is the deployment week — Docker, Cloud Run, a load test. Nothing ships to a URL before then |
 | **Reranker + self-correcting retry** | **Moved to Week 6 Day 1** *(Nov 12)* | Both need a measured before/after to mean anything. Week 6 reopens this codebase with Friday's numbers already in `EVAL.md` as the baseline |
 
 ```
@@ -122,9 +122,9 @@ ask-my-filings/
 | 1 (Mon Nov 9) | **The pipeline** | A re-runnable collector that backfilled 4 quarters for 11 companies |
 | 2 (Tue Nov 10) | **Chunks** | RAG understood, and a chunking strategy you chose on purpose |
 | 3 (Wed Nov 11) | **Retrieval** | Question in, relevant chunks out, in Qdrant, with an index you can defend |
-| 4 (Thu Nov 12) | **Live** | Answers with citations, deployed at a URL a stranger can open |
+| 4 (Thu Nov 12) | **Answers** | Answers with citations. ⚠️ Slipped to Friday; deploy dropped |
 | 5 (Fri Nov 13) | **The number** | 30 labelled questions, four metrics, and the long-context verdict |
-| 6 (Sat Nov 14) | **Close out** | `EVAL.md`, README and the scoreboard — the week's numbers where someone else can read them |
+| 6 (Sat Nov 14) | **Udemy** | The Week 3 catch-up. No project work — Friday carries the build |
 
 ---
 
@@ -304,28 +304,39 @@ Ask ten questions by hand. Read what comes back. Are the right chunks in the top
 - ⚠️ **Make refusal a first-class path.** If the chunks don't support an answer, the correct output is "not disclosed in the filings I have." Six of your 30 questions test exactly this
 - Thin page: question box, answer, cited snippet on hover. Twenty minutes for you; don't spend more
 
-### Phase 2: Deploy · ~1.75 hrs
+### ~~Phase 2: Deploy~~ — dropped *(Nov 13)*
 
-Render, free tier, FastAPI. Qdrant on their free cloud cluster.
+Not deferred, dropped. **Deployment is Week 9's subject** — Docker, Cloud Run, a load test — so the skill isn't skipped, just not practised here. The consequence to accept knowingly: no live URL for any project until late December.
 
-⚠️ **RAM is the likely deploy killer.** Free tiers are ~512 MB and PyTorch alone can exceed that. OOM crashes on boot look like mysterious restarts. `fastembed` is the fix, which you've already chosen.
-
-⚠️ **`QdrantClient(path=…)` is embedded mode** — Render's disk is ephemeral, so the index vanishes on restart. Use Qdrant Cloud's free cluster, or rebuild on boot.
-
-- **Deploy Your Python API to Render in 5 Mins** (pixegami · Oct 2025 · 12 min · hands-on): https://www.youtube.com/watch?v=tLd5GsixfU4
-- **Qdrant Cloud Overview** (Qdrant · Oct 2025 · 4 min): https://www.youtube.com/watch?v=PLTlJyrSkng
-
-⚠️ **Deploy it even though it isn't finished.** Three repos, zero live URLs, and both hiring sources named that as a primary signal.
-
-⚠️ **If you're two hours in and fighting it, stop.** Nov 14 has room. Day 5 does not move.
+⚠️ **Still worth 10 minutes: fix the import chain.** `chunk.py` loads the bge tokenizer at import, `store.py` imports `chunk_all`, and `retrieve.py` imports `client` from `store` — so anything that imports `retrieve` drags `transformers` and the whole chunking stack into memory. Move `client` into its own `rag/qdrant.py`. That's not a deploy concern, it's why a one-question script takes seconds to start.
 
 ---
 
-## Day 5 (Fri Nov 13): The number · ~3.5 hrs
+## Day 5 (Fri Nov 13): The number — and everything else · the whole evening
 
 **Mission:** stop guessing whether retrieval works. **This is the day the week is for.**
 
 **Done when:** `EVAL.md` has recall@5, MRR, faithfulness and refusal rate, plus the long-context verdict.
+
+> **Friday is now the whole project** *(Nov 13)*: Day 4 Phase 1 and Day 5 together, deploy cut, Saturday reserved for Udemy. That is ~5.25 hours against a work evening, so **you will probably not finish — and that's fine if you run it in the right order.**
+>
+> **Write `EVAL.md` as you go, not at the end.** Every number goes in the moment you have it. A half-finished `EVAL.md` with three real metrics is a shipped week; a terminal full of numbers at midnight is not.
+
+### The order, and why
+
+**Do the two retrieval-only metrics *before* building the answer path.** recall@5 and MRR need nothing you don't already have — retrieval works as of tonight. Faithfulness and refusal need answers. So bank the headline numbers first, while you're fresh and before anything new can break.
+
+| # | Task | ~ | Needs |
+|---|---|---|---|
+| 1 | Write the 30 questions | 1.25h | nothing — do it even if tired |
+| 2 | **recall@5 + MRR** | 40m | retrieval only ✅ already works |
+| 3 | Day 4 Phase 1 — answer with citations | 1.75h | — |
+| 4 | Faithfulness + refusal rate | 30m | step 3 |
+| 5 | Long-context baseline | 45m | step 1 |
+| 6 | Chunking fix + re-run | 30m | step 2 |
+| 7 | README | 30m | — |
+
+Stopping after step 2 still gives you a measured retrieval system. Stopping after step 4 gives you the full four-metric table. Steps 5–7 are the polish.
 
 ### Phase 1: Write 30 questions · ~1.25 hrs
 
@@ -359,21 +370,30 @@ Cheap now the harness exists. Stuff whole filings into a long-context model, run
 
 ---
 
-## Day 6 (Sat Nov 14): Close out · ~2 hrs
+## Day 6 (Sat Nov 14): Udemy catch-up
 
-**Mission:** make the week's numbers exist outside your terminal.
+**No project work.** Udemy Week 1 day 5, then Week 2 day 1 if the day allows — the catch-up that's been sliding since Week 3.
 
-**Done when:** `EVAL.md` and the README are written, and the scoreboard's Actual column is filled.
+Everything else landed on Friday or moved out:
 
-> ⚠️ **Shrunk on Nov 12.** Reranking and the self-correcting retry moved to **Week 6 Day 1** — you reopen this codebase then for `filing-lens` and the MCP server, Friday's numbers will be sitting there as the baseline to measure a delta against, and a row added in Week 6 reads identically in a README. Collector hardening (retries, failure drill, ~45 min) is unscheduled; low-stakes now that nothing runs unattended.
+| Was | Now |
+|---|---|
+| Deploy | **Dropped** — Week 9 is the deployment week |
+| Rerank + self-correcting retry | **Week 6 Day 1 (Nov 24)**, ~3 hrs, with its own resources |
+| Collector hardening *(retries, failure drill, ~45 min)* | Unscheduled — low-stakes now that nothing runs unattended |
+| `EVAL.md`, README, scoreboard | **Friday**, written as the numbers arrive |
 
-- **`EVAL.md`** — the metrics table across every config you ran, the chunking decision and why, the index finding (*are* you hitting HNSW?), the prefix result, the long-context verdict with ₹ cached and uncached
-- **README** — lead with the metrics table and the live URL, not "this is a RAG project". State your chunk size and top-k and defend both. Note the **GPL-3.0** dependency, the cover-letter exclusion rule, and how to re-run the backfill over a window with **the January Q3 pull called out**
-- **Scoreboard** — fill the Actual column. See how wrong you were
+⚠️ **If Friday fell short, Saturday is the backstop for `EVAL.md` — not for Udemy.** Numbers that exist only in your terminal are not a shipped project. Udemy has slipped a week before and can slip again; the week's only output cannot.
 
-If Thursday overran, deploy lands here too. That still fits.
+### Before you fly
 
-⚠️ **Numbers that exist only in your terminal are not a shipped project.** If you do one thing on Saturday, it's `EVAL.md`.
+Nothing runs while you're away, by design — so there's nothing to check. Just make sure the README says how to re-run the backfill over a window, with the January Q3 pull called out. Future-you in two months is the one who needs that sentence.
+
+### On the trip (Nov 15–17)
+
+- The rest of the Udemy catch-up — passive video on a phone is exactly what travel time is for
+- **5 applications + 2 outreach.** They were meant to go out this week and didn't. A hotel evening with nothing to build is the right slot
+- Plan Week 5 on the 17th
 
 ### Before you fly
 
