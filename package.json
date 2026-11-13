@@ -1,0 +1,24 @@
+{
+  "name": "ask-my-filings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirket/ask-my-filings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anirket/ask-my-filings/issues"
+  },
+  "homepage": "https://github.com/anirket/ask-my-filings#readme",
+  "devDependencies": {
+    "promptfoo": "0.125.1"
+  }
+}

@@ -11,5 +11,10 @@ collector/
 runs.jsonl
 announcements.json
 data.py
+.vscode/
+node_modules/
 
 .vscode
+node_modules/
+.promptfoo/
+output/

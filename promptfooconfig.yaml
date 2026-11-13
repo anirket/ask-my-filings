@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: "ask-my-filings eval: recall@5, MRR, refusal, citations, faithfulness"
+
+prompts:
+  - "{{query}}"
+
+providers:
+  - file://evals/answer_provider.py   # returns answerable, answer, cited and the 5 retrieved chunks
+
+tests: file://evals/questions.yaml
+
+defaultTest:
+  options:
+    provider: anthropic:messages:claude-haiku-5-5   # the judge for the rubric below
+  assert:
+    - type: python                      # recall@5 and MRR, from the chunks
+      value: file://evals/assert_retrieval.py
+    - type: python                      # refusal, answer contains expected, citation validity
+      value: file://evals/assert_answer.py
+    - type: llm-rubric
+      metric: faithfulness
+      value: |
+        The output is JSON with the fields answerable, answer, cited and chunks (each chunk has a chunk_id and text).
+        If answerable is false, PASS: a refusal makes no claims.
+        Otherwise PASS only if EVERY factual claim in "answer" (numbers, names, dates, comparisons) is directly
+        supported by the text of the chunks. FAIL if any claim is absent from the chunks or contradicts them,
+        even if it happens to be true in the real world.

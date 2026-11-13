@@ -1,0 +1,262 @@
+# 30 questions: 24 answerable (q01-q24), 6 unanswerable (q25-q30).
+# expected_contains: a SHORT string that appears verbatim in the extracted .txt (pypdf output,
+#   not what the PDF looks like: "Q2" is often extracted as "02", numbers get stray spaces).
+#   Check with:  grep -o "your string" data/filings/TICKER/QUARTER/result-*.txt
+#   It is matched against retrieved chunk text, so it survives re-chunking (chunk_ids don't).
+# answerable: false  ->  leave expected_* empty; the correct behaviour is to refuse.
+# structure: table | note | prose | none
+#   table = figure in a financial-results table, note = a stated figure/ratio/notice in a
+#   results filing, prose = something management said on an earnings call.
+
+# ============ TABLE (8) ============
+- vars:
+    query: "What were Bajaj Finance's assets under management as of 30 September 2026?"
+    expected_ticker: BAJFINANCE
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "584,624"
+  metadata: { id: q01, answerable: true, structure: table }
+
+- vars:
+    query: "What was TCS's consolidated revenue from operations in the quarter ended September 2026?"
+    expected_ticker: TCS
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "73,188"
+  metadata: { id: q02, answerable: true, structure: table }
+
+- vars:
+    query: "How much profit did TCS make for the period in the September 2026 quarter on a consolidated basis?"
+    expected_ticker: TCS
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "13,934"
+  metadata: { id: q03, answerable: true, structure: table }
+
+- vars:
+    query: "What was Reliance Industries' consolidated revenue from operations for the quarter ended September 2026?"
+    expected_ticker: RELIANCE
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "332,861"
+  metadata: { id: q04, answerable: true, structure: table }
+
+- vars:
+    query: "What was Reliance's profit after tax in the September 2026 quarter?"
+    expected_ticker: RELIANCE
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "29,250"
+  metadata: { id: q05, answerable: true, structure: table }
+
+- vars:
+    query: "What profit did TCS report for the quarter ended September 2025?"
+    expected_ticker: TCS
+    expected_quarter: FY26-Q2
+    expected_kind: result
+    expected_contains: "12,131"
+  metadata: { id: q06, answerable: true, structure: table }
+
+- vars:
+    query: "What was NSE's consolidated profit for the period from continuing operations in the September 2026 quarter?"
+    expected_ticker: NSE
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "2,575.89"
+  metadata: { id: q07, answerable: true, structure: table }
+
+- vars:
+    query: "What was Jio Platforms' revenue from operations in the quarter ended September 2026?"
+    expected_ticker: JPL
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "4,881"
+  metadata: { id: q08, answerable: true, structure: table }
+
+# ============ NOTE / STATED FIGURE IN A RESULTS FILING (6) ============
+- vars:
+    query: "How much interim dividend per share did TCS declare for FY2026-27 at its October 2026 board meeting?"
+    expected_ticker: TCS
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "INR 12 per Equity Share"
+  metadata: { id: q09, answerable: true, structure: note }
+
+- vars:
+    query: "What was State Bank of India's provision coverage ratio including AUCA as of 30 September 2026?"
+    expected_ticker: SBIN
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "91.83%"
+  metadata: { id: q10, answerable: true, structure: note }
+
+- vars:
+    query: "What was ICICI Bank's total capital adequacy ratio at September 30, 2026?"
+    expected_ticker: ICICIBANK
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "16.68%"
+  metadata: { id: q11, answerable: true, structure: note }
+
+- vars:
+    query: "What was Bharti Airtel's consolidated EBITDA for the September 2026 quarter?"
+    expected_ticker: BHARTIARTL
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "35,240"
+  metadata: { id: q12, answerable: true, structure: note }
+
+- vars:
+    query: "How did LIC's solvency ratio change in the half year ended September 2026?"
+    expected_ticker: LICI
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "2.35 from 2.13"
+  metadata: { id: q13, answerable: true, structure: note }
+
+- vars:
+    query: "What profit after tax did LIC report for the half year ended September 2026?"
+    expected_ticker: LICI
+    expected_quarter: FY27-Q2
+    expected_kind: result
+    expected_contains: "25,568"
+  metadata: { id: q14, answerable: true, structure: note }
+
+# ============ PROSE: EARNINGS-CALL TRANSCRIPTS (10) ============
+- vars:
+    query: "What revenue growth guidance did Infosys give for the year after its Q2 FY27 results?"
+    expected_ticker: INFY
+    expected_quarter: FY27-Q2
+    expected_kind: transcript
+    expected_contains: "1% to 2%"
+  metadata: { id: q15, answerable: true, structure: prose }
+
+- vars:
+    query: "What operating margin range did Infosys management guide to for the year?"
+    expected_ticker: INFY
+    expected_quarter: FY27-Q2
+    expected_kind: transcript
+    expected_contains: "20% to 22%"
+  metadata: { id: q16, answerable: true, structure: prose }
+
+- vars:
+    query: "What did State Bank of India say its gross NPA ratio was in the September 2026 quarter?"
+    expected_ticker: SBIN
+    expected_quarter: FY27-Q2
+    expected_kind: transcript
+    expected_contains: "1.39%"
+  metadata: { id: q17, answerable: true, structure: prose }
+
+- vars:
+    query: "What did SBI management say about domestic net interest margin for the quarter?"
+    expected_ticker: SBIN
+    expected_quarter: FY27-Q2
+    expected_kind: transcript
+    expected_contains: "3.11%"
+  metadata: { id: q18, answerable: true, structure: prose }
+
+- vars:
+    query: "How large was TCS's total contract value for the September 2026 quarter, according to management?"
+    expected_ticker: TCS
+    expected_quarter: FY27-Q2
+    expected_kind: transcript
+    expected_contains: "US$9.6"
+  metadata: { id: q19, answerable: true, structure: prose }
+
+- vars:
+    query: "How much deposit growth did HDFC Bank say it had in the quarter?"
+    expected_ticker: HDFCBANK
+    expected_quarter: FY27-Q2
+    expected_kind: transcript
+    expected_contains: "1,57,000"
+  metadata: { id: q20, answerable: true, structure: prose }
+
+- vars:
+    query: "What net interest income did ICICI Bank report on its Q2 FY27 earnings call?"
+    expected_ticker: ICICIBANK
+    expected_quarter: FY27-Q2
+    expected_kind: transcript
+    expected_contains: "25,339"
+  metadata: { id: q21, answerable: true, structure: prose }
+
+- vars:
+    query: "What was Bharti Airtel's ARPU for the quarter, as described by management on the Q1 FY27 call?"
+    expected_ticker: BHARTIARTL
+    expected_quarter: FY27-Q1
+    expected_kind: transcript
+    expected_contains: "Rs.264"
+  metadata: { id: q22, answerable: true, structure: prose }
+
+- vars:
+    query: "What ARPU did Reliance's management mention for its telecom business on the Q2 FY27 call?"
+    expected_ticker: RELIANCE
+    expected_quarter: FY27-Q2
+    expected_kind: transcript
+    expected_contains: "218.8"
+  metadata: { id: q23, answerable: true, structure: prose }
+
+- vars:
+    query: "How much did LIC's net VNB margin improve to on the call after FY2026 results?"
+    expected_ticker: LICI
+    expected_quarter: FY27-Q1
+    expected_kind: transcript
+    expected_contains: "21.2%"
+  metadata: { id: q24, answerable: true, structure: prose }
+
+# ============ UNANSWERABLE (6): the correct behaviour is to refuse ============
+# Each topic was grep-checked against the whole corpus and is absent.
+
+# plausible-sounding, but not in any TCS filing (airlines appear only as clients)
+- vars:
+    query: "What did TCS say about its plans to acquire a European airline?"
+    expected_ticker: ""
+    expected_quarter: ""
+    expected_kind: ""
+    expected_contains: ""
+  metadata: { id: q25, answerable: false, structure: none }
+
+# 'cryptocurrency' / 'bitcoin' appear in zero files
+- vars:
+    query: "How much cryptocurrency exposure does HDFC Bank have on its balance sheet?"
+    expected_ticker: ""
+    expected_quarter: ""
+    expected_kind: ""
+    expected_contains: ""
+  metadata: { id: q26, answerable: false, structure: none }
+
+# a quarter we do not hold (no Dec-2026 quarter filings exist yet)
+- vars:
+    query: "What were Bajaj Finance's assets under management at 31 December 2026?"
+    expected_ticker: ""
+    expected_quarter: ""
+    expected_kind: ""
+    expected_contains: ""
+  metadata: { id: q27, answerable: false, structure: none }
+
+# NSE has one result filing and no earnings-call transcript
+- vars:
+    query: "What did NSE management say on its earnings call about the outlook for transaction charges?"
+    expected_ticker: ""
+    expected_quarter: ""
+    expected_kind: ""
+    expected_contains: ""
+  metadata: { id: q28, answerable: false, structure: none }
+
+# segment not broken out ('Latin America' appears in no Infosys filing)
+- vars:
+    query: "What was Infosys's revenue from its Latin America business in Q2 FY27?"
+    expected_ticker: ""
+    expected_quarter: ""
+    expected_kind: ""
+    expected_contains: ""
+  metadata: { id: q29, answerable: false, structure: none }
+
+# a company we do not hold (Kotak was dropped; 'Kotak Mahindra Bank' appears in no file,
+# only analysts from Kotak Securities do, which makes this a good hard negative)
+- vars:
+    query: "What was Kotak Mahindra Bank's net interest margin in Q2 FY27?"
+    expected_ticker: ""
+    expected_quarter: ""
+    expected_kind: ""
+    expected_contains: ""
+  metadata: { id: q30, answerable: false, structure: none }
