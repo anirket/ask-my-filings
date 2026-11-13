@@ -1,7 +1,15 @@
+# INDEX CHOICE (measured Nov 13, 2026, on the FILINGS_CTX_PERIOD collection)
+# Qdrant only offers HNSW (the exact-vs-IVFFlat choice belongs to pgvector/FAISS), so the real question is
+# whether the index matters at our size. 6,439 chunks = ~9.7 MB of dense vectors, just under Qdrant's
+# 10,000 KB indexing/full-scan threshold. Forcing exact search (SearchParams(exact=True)) returned the same
+# top-5 as the default on 30/30 queries at the same latency (median ~260 ms, almost all network round trip
+# to the cloud cluster), so at this size the index changes nothing: search is effectively exact.
+# I chose Qdrant for built-in hybrid search (dense + BM25 fused with RRF in one query)
+
 from qdrant_client.models import VectorParams, Distance, SparseVectorParams, Modifier, PointStruct, SparseVector
 from rag.config import COLLECTION_NAME, BATCH
 from rag.embed import dense_embedding_model, embed_chunks
-from rag.chunk import chunk_all
+from rag.chunk import chunk_all, context_header
 from rag.qdrant import client
 import uuid
 
@@ -32,7 +40,7 @@ def load():
     for start in range(0, len(chunks), BATCH):
         batch = chunks[start: start + BATCH]
 
-        texts = [c.page_content for c in batch]
+        texts = [context_header(c.metadata) + "\n" + c.page_content for c in batch]  # header is embedded, not stored
         dense_embedding, sparse_embedding = embed_chunks(texts=texts)
 
         client.upsert(

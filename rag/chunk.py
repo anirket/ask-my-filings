@@ -1,5 +1,6 @@
 import json
 import random
+from rag.config import COMPANY_NAMES, QUARTER_PERIOD
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 from pathlib import Path
@@ -18,6 +19,14 @@ text_splitter = RecursiveCharacterTextSplitter(
     length_function=get_size,
     add_start_index=True
 )
+
+KIND_LABEL = {"result": "quarterly financial results", "transcript": "earnings call transcript"}
+def context_header(meta):
+    """One line saying which company and document a chunk came from.
+    It is added to the text that gets EMBEDDED; the stored chunk text is unchanged."""
+    return (f"{COMPANY_NAMES[meta['ticker']]} ({meta['ticker']}) | {meta['quarter']}, "
+            f"quarter ended {QUARTER_PERIOD[meta['quarter']]} | {KIND_LABEL[meta['kind']]}")
+
 
 def chunk_filing(txt_path, meta_path):
     content = txt_path.read_text(encoding='utf-8')
