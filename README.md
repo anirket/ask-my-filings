@@ -83,9 +83,9 @@ PROMPTFOO_PYTHON=.venv/bin/python npx promptfoo eval --no-cache -o output/eval.j
 
 `app.py` is a FastAPI app (`POST /ask`, `GET /health`, the page in `static/`). For a Render web service:
 
-- Build command `pip install -r requirements-deploy.txt` (the query path only: no collector, chunking or tokenizer packages).
+- Build command `pip install -r requirements-deploy.txt && python -c "import rag.embed"`. The first part installs the query path only (no collector, chunking or tokenizer packages); the second downloads the two embedding models (~64 MB) during the build, so they ship with the service instead of being fetched on every cold start.
 - Start command `uvicorn app:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips='*'`. Behind Render's proxy the app would otherwise see the proxy's address for every visitor; these flags make uvicorn take the real client IP from `X-Forwarded-For`. `'*'` means "trust that header from any sender", which is only safe because the app is reachable only through Render's proxy. Render's docs on which `X-Forwarded-For` entry is authoritative were not conclusive when I checked, so treat per-IP limiting as best-effort.
-- Environment: `ANTHROPIC_API_KEY`, `QDRANT_URL`, `QDRANT_API_KEY`, and `PYTHON_VERSION` set to a 3.12 release.
+- Environment: `ANTHROPIC_API_KEY`, `QDRANT_URL`, `QDRANT_API_KEY`, `PYTHON_VERSION` set to a 3.12 release, and `FASTEMBED_CACHE_PATH` set to a folder inside the project (e.g. `/opt/render/project/src/.fastembed_cache`, gitignored) so the models downloaded at build time are the ones used at runtime. That path is Render's usual repo location; confirm it in the build logs.
 - The app only reads the existing Qdrant index; it never builds or deletes it.
 - The URL is public and spends your Anthropic credit. `slowapi` limits each client IP to 10 questions a minute and the whole service to 200 an hour (a ceiling that does not depend on knowing anyone's IP), and questions are capped at 300 characters. Also set a spend limit in the Anthropic console. Free-tier memory (~512 MB) and cold starts (two models load at import) are the things to watch.
 

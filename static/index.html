@@ -4,55 +4,127 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ask My Filings</title>
+<meta name="description" content="Ask questions about Indian company quarterly results and earnings calls. Answers cite the exact passage, or say they don't know.">
 <style>
   :root {
-    --bg: #f7f7f5; --card: #ffffff; --text: #1c1c1a; --muted: #6b6b66; --line: #e2e1dc;
-    --accent: #1f5fbf; --ok: #1a7f4b; --warn: #a15c00; --cited-bg: #eaf2ff;
+    --bg: #f6f5f1; --surface: #ffffff; --surface-2: #faf9f6; --text: #191917; --muted: #6a6963; --line: #e4e2db;
+    --accent: #3b4fd9; --accent-2: #7a4fd9; --accent-soft: #eceefe; --ok: #137a4a; --ok-soft: #e3f5ec;
+    --warn: #96560a; --warn-soft: #fbefdc; --shadow: 0 1px 2px rgba(25,25,23,.04), 0 8px 24px rgba(25,25,23,.06);
+    --skeleton-a: #ece9e2; --skeleton-b: #f6f4ee;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #151514; --card: #1e1e1c; --text: #ecece8; --muted: #9a9a93; --line: #34342f;
-            --accent: #6aa3ff; --ok: #4cc38a; --warn: #e0a24a; --cited-bg: #1b2a44; }
+    :root {
+      --bg: #121214; --surface: #1b1b1f; --surface-2: #202026; --text: #ededf0; --muted: #9a9aa6; --line: #2d2d35;
+      --accent: #8a98ff; --accent-2: #b08aff; --accent-soft: #23264a; --ok: #4cc38a; --ok-soft: #14301f;
+      --warn: #e6a64f; --warn-soft: #3a2a12; --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+      --skeleton-a: #25252c; --skeleton-b: #2f2f38;
+    }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
-  h1 { font-size: 22px; margin: 0 0 4px; }
-  .sub { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
-  form { display: flex; gap: 8px; }
-  input[type=text] { flex: 1; min-width: 0; padding: 10px 12px; font: inherit; color: var(--text);
-    background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
-  button { padding: 10px 16px; font: inherit; color: #fff; background: var(--accent); border: 0; border-radius: 8px; cursor: pointer; }
-  button:disabled { opacity: .5; cursor: default; }
-  .examples { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
-  .examples button { background: var(--card); color: var(--muted); border: 1px solid var(--line); padding: 4px 10px; font-size: 13px; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-top: 16px; }
-  .label { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 0 0 6px; }
-  .badge { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 99px; border: 1px solid currentColor; margin-left: 8px; }
-  .answered { color: var(--ok); } .refused { color: var(--warn); }
-  .answer { font-size: 17px; margin: 0; white-space: pre-wrap; }
-  .meta { color: var(--muted); font-size: 13px; margin-top: 8px; }
-  .chunk { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin-top: 8px; }
-  .chunk.cited { background: var(--cited-bg); border-color: var(--accent); }
-  .chunk .head { font-size: 14px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
-  .chunk .rank { font-weight: 600; }
-  .cite-tag { color: var(--accent); font-size: 12px; font-weight: 600; }
-  .chunk pre { white-space: pre-wrap; word-break: break-word; font: 13px/1.45 ui-monospace, monospace; margin: 8px 0 0; color: var(--muted); }
-  details summary { cursor: pointer; font-size: 13px; color: var(--accent); margin-top: 6px; }
-  .error { color: var(--warn); }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 780px; margin: 0 auto; padding: 40px 16px 80px; }
+
+  /* header */
+  .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+             color: var(--muted); font-weight: 600; }
+  .eyebrow::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), var(--accent-2)); }
+  h1 { font-size: clamp(30px, 6vw, 44px); line-height: 1.08; letter-spacing: -.025em; margin: 10px 0 10px; font-weight: 750; }
+  h1 span { background: linear-gradient(120deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lede { color: var(--muted); max-width: 60ch; margin: 0 0 20px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px; padding: 0; list-style: none; }
+  .stats li { font-size: 13px; color: var(--muted); border: 1px solid var(--line); background: var(--surface); padding: 3px 11px; border-radius: 99px; }
+  .stats b { color: var(--text); font-weight: 650; }
+
+  /* ask box */
+  form { display: flex; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 6px; box-shadow: var(--shadow); }
+  form:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent), var(--shadow); }
+  input[type=text] { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--text); font: inherit; padding: 10px 12px; }
+  input::placeholder { color: var(--muted); }
+  button.ask { border: 0; border-radius: 10px; padding: 0 20px; font: inherit; font-weight: 650; color: #fff; cursor: pointer;
+               background: linear-gradient(120deg, var(--accent), var(--accent-2)); transition: transform .12s, opacity .12s; }
+  button.ask:hover { transform: translateY(-1px); }
+  button.ask:disabled { opacity: .55; cursor: progress; transform: none; }
+  .examples { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; }
+  .examples button { font: inherit; font-size: 13px; color: var(--muted); background: transparent; border: 1px dashed var(--line);
+                     border-radius: 99px; padding: 4px 12px; cursor: pointer; transition: color .12s, border-color .12s, background .12s; }
+  .examples button:hover { color: var(--text); border-color: var(--accent); background: var(--accent-soft); }
+
+  /* result cards */
+  #out { margin-top: 28px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-top: 14px; box-shadow: var(--shadow); }
+  .label { display: flex; align-items: center; gap: 10px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+           color: var(--muted); font-weight: 650; margin: 0 0 8px; }
+  .asked { font-size: 18px; font-weight: 600; margin: 0; letter-spacing: -.01em; }
+  .answer { font-size: 19px; line-height: 1.5; margin: 0; white-space: pre-wrap; letter-spacing: -.005em; }
+  .pill { font-size: 12px; font-weight: 650; letter-spacing: .02em; text-transform: none; padding: 2px 10px; border-radius: 99px; }
+  .pill.answered { color: var(--ok); background: var(--ok-soft); }
+  .pill.refused { color: var(--warn); background: var(--warn-soft); }
+  .meta { color: var(--muted); font-size: 13px; margin: 10px 0 0; }
+
+  .chunks-head { display: flex; justify-content: space-between; align-items: baseline; margin: 26px 2px 0; }
+  .chunks-head h2 { font-size: 15px; margin: 0; font-weight: 650; }
+  .chunks-head span { color: var(--muted); font-size: 13px; }
+  .chunk { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--line); border-radius: 12px;
+           padding: 12px 16px; margin-top: 10px; }
+  .chunk.cited { border-left-color: var(--accent); background: linear-gradient(90deg, var(--accent-soft), var(--surface) 55%); }
+  .chunk .head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+  .rank { width: 24px; height: 24px; border-radius: 50%; display: inline-grid; place-items: center; font-size: 12px; font-weight: 700;
+          background: var(--surface-2); border: 1px solid var(--line); color: var(--muted); }
+  .cited .rank { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .who { font-weight: 650; font-size: 14px; }
+  .chip { font-size: 12px; color: var(--muted); background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 0 7px; }
+  .cite-tag { margin-left: auto; font-size: 11px; font-weight: 750; letter-spacing: .08em; color: var(--accent); }
+  .chunk pre { white-space: pre-wrap; word-break: break-word; margin: 10px 0 0; color: var(--muted);
+               font: 12.5px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .cited pre { color: var(--text); }
+  .chunk details summary { cursor: pointer; font-size: 13px; color: var(--accent); margin-top: 8px; list-style: none; font-weight: 600; }
+  .chunk details summary::-webkit-details-marker { display: none; }
+  .chunk .src { color: var(--muted); font-size: 12px; margin-top: 8px; }
+
+  .error { background: var(--warn-soft); color: var(--warn); border-radius: 12px; padding: 14px 16px; margin: 0; }
+
+  /* loading */
+  .status { display: flex; align-items: center; gap: 12px; padding: 14px 18px; background: var(--surface); border: 1px solid var(--line);
+            border-radius: 14px; box-shadow: var(--shadow); }
+  .spinner { width: 18px; height: 18px; border-radius: 50%; border: 2.5px solid var(--line); border-top-color: var(--accent); animation: spin .8s linear infinite; flex: none; }
+  .status .phase { font-weight: 600; }
+  .status .elapsed { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; }
+  .steps { display: flex; gap: 6px; margin: 12px 2px 0; }
+  .steps i { flex: 1; height: 3px; border-radius: 3px; background: var(--line); overflow: hidden; position: relative; }
+  .steps i.on::after, .steps i.done::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--accent), var(--accent-2)); }
+  .steps i.on::after { animation: fill 2.2s ease-out forwards; transform-origin: left; }
+  .skeleton { border-radius: 8px; background: linear-gradient(90deg, var(--skeleton-a) 25%, var(--skeleton-b) 50%, var(--skeleton-a) 75%);
+              background-size: 200% 100%; animation: shimmer 1.4s infinite linear; }
+  .sk-line { height: 14px; margin-top: 10px; } .sk-title { height: 12px; width: 120px; }
+
+  .fade { animation: rise .45s ease both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes shimmer { to { background-position: -200% 0; } }
+  @keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(.92); } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition: none !important; } }
+  @media (max-width: 520px) { main { padding-top: 28px; } button.ask { padding: 0 14px; } .card { padding: 16px; } }
 </style>
 </head>
 <body>
 <main>
-  <h1>Ask my filings</h1>
-  <p class="sub">Quarterly results and earnings calls of 11 Indian large caps, FY26-Q2 to FY27-Q2. Answers come only from the retrieved chunks, or it says it does not know.</p>
+  <div class="eyebrow">RAG over company filings</div>
+  <h1>Ask my <span>filings</span></h1>
+  <p class="lede">Questions about quarterly results and earnings calls of 11 Indian large caps. Every answer comes from retrieved passages you can inspect, or it says it doesn't know.</p>
+  <ul class="stats">
+    <li><b>91</b> filings</li><li><b>11</b> companies</li><li><b>6,439</b> searchable chunks</li><li>FY26-Q2 to FY27-Q2</li>
+  </ul>
 
   <form id="form">
-    <input id="q" type="text" maxlength="300" placeholder="e.g. What were Bajaj Finance's assets under management as of 30 September 2026?" autocomplete="off" required>
-    <button id="go" type="submit">Ask</button>
+    <input id="q" type="text" maxlength="300" autocomplete="off" required
+           placeholder="Ask about revenue, guidance, NPAs, ARPU..." aria-label="Your question">
+    <button class="ask" id="go" type="submit">Ask</button>
   </form>
   <div class="examples" id="examples"></div>
 
-  <div id="out"></div>
+  <div id="out" aria-live="polite"></div>
 </main>
 
 <script>
@@ -62,73 +134,133 @@ const EXAMPLES = [
   "What was ICICI Bank's total capital adequacy ratio at September 30, 2026?",
   "How much cryptocurrency exposure does HDFC Bank have on its balance sheet?",
 ];
+const PHASES = ["Searching the filings", "Reading the closest passages", "Writing a cited answer"];
+const NAMES = {
+  RELIANCE: "Reliance Industries", BHARTIARTL: "Bharti Airtel", JPL: "Jio Platforms", HDFCBANK: "HDFC Bank", ICICIBANK: "ICICI Bank",
+  SBIN: "State Bank of India", TCS: "Tata Consultancy Services", BAJFINANCE: "Bajaj Finance", LICI: "LIC", INFY: "Infosys", NSE: "NSE",
+};
 const q = document.getElementById("q"), go = document.getElementById("go"), out = document.getElementById("out");
-
-EXAMPLES.forEach(text => {
-  const b = document.createElement("button");
-  b.type = "button"; b.textContent = text.length > 52 ? text.slice(0, 50) + "…" : text; b.title = text;
-  b.onclick = () => { q.value = text; ask(); };
-  document.getElementById("examples").appendChild(b);
-});
-
-document.getElementById("form").onsubmit = e => { e.preventDefault(); ask(); };
 
 function el(tag, cls, text) {
   const n = document.createElement(tag);
   if (cls) n.className = cls;
-  if (text !== undefined) n.textContent = text;   // textContent only: filing text is never parsed as HTML
+  if (text !== undefined) n.textContent = text;     // textContent only: filing text is never parsed as HTML
   return n;
 }
 
+EXAMPLES.forEach(text => {
+  const b = el("button", "", text.length > 56 ? text.slice(0, 54) + "…" : text);
+  b.type = "button"; b.title = text;
+  b.onclick = () => { q.value = text; ask(); };
+  document.getElementById("examples").appendChild(b);
+});
+document.getElementById("form").onsubmit = e => { e.preventDefault(); ask(); };
+
+/* ---------- loading state ---------- */
+let timer = null;
+function showLoading() {
+  const status = el("div", "status fade");
+  const phase = el("span", "phase", PHASES[0] + "…");
+  const elapsed = el("span", "elapsed", "0.0s");
+  status.append(el("div", "spinner"), phase, elapsed);
+
+  const steps = el("div", "steps");
+  PHASES.forEach(() => steps.append(el("i")));
+  steps.children[0].className = "on";
+
+  const ans = el("div", "card fade");
+  ans.append(el("div", "skeleton sk-title"), el("div", "skeleton sk-line"), el("div", "skeleton sk-line"));
+  ans.lastChild.style.width = "70%";
+  const list = [];
+  for (let i = 0; i < 3; i++) {
+    const c = el("div", "chunk fade");
+    c.append(el("div", "skeleton sk-title"), el("div", "skeleton sk-line"), el("div", "skeleton sk-line"));
+    list.push(c);
+  }
+  out.replaceChildren(status, steps, ans, ...list);
+
+  const t0 = performance.now(); let stage = 0;
+  clearInterval(timer);
+  timer = setInterval(() => {
+    const s = (performance.now() - t0) / 1000;
+    elapsed.textContent = s.toFixed(1) + "s" + (s > 8 ? " · still working, the first question can be slow" : "");
+    const next = Math.min(PHASES.length - 1, Math.floor(s / 1.6));
+    if (next !== stage) {
+      steps.children[stage].className = "done"; stage = next; steps.children[stage].className = "on";
+      phase.textContent = PHASES[stage] + "…";
+    }
+  }, 100);
+  return t0;
+}
+
+/* ---------- ask ---------- */
 async function ask() {
   const question = q.value.trim();
   if (question.length < 3) return;
-  go.disabled = true; out.replaceChildren(el("p", "sub", "Searching the filings…"));
+  go.disabled = true; q.blur();
+  const t0 = showLoading();
   try {
     const res = await fetch("/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question }) });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.detail || "Request failed");
-    render(data);
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(data.detail || (res.status === 422 ? "Please ask a question between 3 and 300 characters." : "Something went wrong. Try again."));
+    clearInterval(timer);
+    render(data, (performance.now() - t0) / 1000);
   } catch (err) {
-    out.replaceChildren(el("p", "error", err.message));
+    clearInterval(timer);
+    out.replaceChildren(el("p", "error fade", err.message));
   } finally { go.disabled = false; }
 }
 
-function render(d) {
+/* ---------- render ---------- */
+function render(d, seconds) {
   const cited = new Set(d.cited);
   const nodes = [];
 
-  const qCard = el("div", "card");
-  qCard.append(el("p", "label", "Question"), el("p", "answer", d.question));
+  const qCard = el("div", "card fade");
+  qCard.append(el("p", "label", "You asked"), el("p", "asked", d.question));
   nodes.push(qCard);
 
-  const aCard = el("div", "card");
-  const label = el("p", "label", "Model answer");
-  label.append(el("span", "badge " + (d.answerable ? "answered" : "refused"), d.answerable ? "answered" : "refused"));
+  const aCard = el("div", "card fade");
+  aCard.style.animationDelay = ".08s";
+  const label = el("p", "label", "Answer");
+  label.append(el("span", "pill " + (d.answerable ? "answered" : "refused"), d.answerable ? "Answered from the filings" : "Not in the filings"));
   aCard.append(label, el("p", "answer", d.answer));
-  aCard.append(el("p", "meta", `${d.cited.length} chunk(s) cited`));
+  aCard.append(el("p", "meta", d.answerable
+    ? `Based on ${d.cited.length} cited passage${d.cited.length === 1 ? "" : "s"} · ${seconds.toFixed(1)}s`
+    : `It would rather say so than guess · ${seconds.toFixed(1)}s`));
   nodes.push(aCard);
 
-  const cCard = el("div", "card");
-  cCard.append(el("p", "label", `Retrieved chunks (top ${d.chunks.length}, in rank order)`));
-  d.chunks.forEach(c => {
-    const box = el("div", "chunk" + (cited.has(c.chunk_id) ? " cited" : ""));
-    const head = el("div", "head");
-    head.append(el("span", "rank", "#" + c.rank), el("span", "", `${c.ticker} · ${c.quarter} · ${c.kind}`));
-    if (cited.has(c.chunk_id)) head.append(el("span", "cite-tag", "CITED"));
-    box.append(head);
-    const text = c.text.trim();
-    box.append(el("pre", "", text.length > 280 ? text.slice(0, 280) + "…" : text));
-    if (text.length > 280) {
-      const det = el("details"); det.append(el("summary", "", "show full chunk"), el("pre", "", text));
+  const head = el("div", "chunks-head fade");
+  head.style.animationDelay = ".16s";
+  head.append(el("h2", "", "What it retrieved"), el("span", "", `top ${d.chunks.length} passages, best match first`));
+  nodes.push(head);
+
+  d.chunks.forEach((c, i) => {
+    const isCited = cited.has(c.chunk_id);
+    const box = el("div", "chunk fade" + (isCited ? " cited" : ""));
+    box.style.animationDelay = (0.2 + i * 0.06) + "s";
+
+    const row = el("div", "head");
+    row.append(el("span", "rank", c.rank), el("span", "who", NAMES[c.ticker] || c.ticker),
+               el("span", "chip", c.quarter), el("span", "chip", c.kind === "result" ? "results" : "earnings call"));
+    if (isCited) row.append(el("span", "cite-tag", "CITED"));
+    box.append(row);
+
+    const text = c.text.trim(), short = text.length > 260;
+    box.append(el("pre", "", short ? text.slice(0, 260) + "…" : text));
+    if (short) {
+      const det = el("details");
+      det.append(el("summary", "", "Show full passage"), el("pre", "", text));
+      const sum = det.firstChild;
+      det.addEventListener("toggle", () => { sum.textContent = det.open ? "Hide full passage" : "Show full passage"; });
       box.append(det);
     }
-    box.append(el("div", "meta", c.headline));
-    cCard.append(box);
+    box.append(el("div", "src", c.headline));
+    nodes.push(box);
   });
-  nodes.push(cCard);
 
   out.replaceChildren(...nodes);
+  out.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 </script>
 </body>

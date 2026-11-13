@@ -18,3 +18,4 @@ node_modules/
 node_modules/
 .promptfoo/
 output/
+.fastembed_cache/
