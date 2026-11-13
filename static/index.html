@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ask My Filings</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --card: #ffffff; --text: #1c1c1a; --muted: #6b6b66; --line: #e2e1dc;
+    --accent: #1f5fbf; --ok: #1a7f4b; --warn: #a15c00; --cited-bg: #eaf2ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151514; --card: #1e1e1c; --text: #ecece8; --muted: #9a9a93; --line: #34342f;
+            --accent: #6aa3ff; --ok: #4cc38a; --warn: #e0a24a; --cited-bg: #1b2a44; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
+  form { display: flex; gap: 8px; }
+  input[type=text] { flex: 1; min-width: 0; padding: 10px 12px; font: inherit; color: var(--text);
+    background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+  button { padding: 10px 16px; font: inherit; color: #fff; background: var(--accent); border: 0; border-radius: 8px; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  .examples { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .examples button { background: var(--card); color: var(--muted); border: 1px solid var(--line); padding: 4px 10px; font-size: 13px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-top: 16px; }
+  .label { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 0 0 6px; }
+  .badge { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 99px; border: 1px solid currentColor; margin-left: 8px; }
+  .answered { color: var(--ok); } .refused { color: var(--warn); }
+  .answer { font-size: 17px; margin: 0; white-space: pre-wrap; }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 8px; }
+  .chunk { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin-top: 8px; }
+  .chunk.cited { background: var(--cited-bg); border-color: var(--accent); }
+  .chunk .head { font-size: 14px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+  .chunk .rank { font-weight: 600; }
+  .cite-tag { color: var(--accent); font-size: 12px; font-weight: 600; }
+  .chunk pre { white-space: pre-wrap; word-break: break-word; font: 13px/1.45 ui-monospace, monospace; margin: 8px 0 0; color: var(--muted); }
+  details summary { cursor: pointer; font-size: 13px; color: var(--accent); margin-top: 6px; }
+  .error { color: var(--warn); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ask my filings</h1>
+  <p class="sub">Quarterly results and earnings calls of 11 Indian large caps, FY26-Q2 to FY27-Q2. Answers come only from the retrieved chunks, or it says it does not know.</p>
+
+  <form id="form">
+    <input id="q" type="text" maxlength="300" placeholder="e.g. What were Bajaj Finance's assets under management as of 30 September 2026?" autocomplete="off" required>
+    <button id="go" type="submit">Ask</button>
+  </form>
+  <div class="examples" id="examples"></div>
+
+  <div id="out"></div>
+</main>
+
+<script>
+const EXAMPLES = [
+  "What were Bajaj Finance's assets under management as of 30 September 2026?",
+  "What revenue growth guidance did Infosys give for the year after its Q2 FY27 results?",
+  "What was ICICI Bank's total capital adequacy ratio at September 30, 2026?",
+  "How much cryptocurrency exposure does HDFC Bank have on its balance sheet?",
+];
+const q = document.getElementById("q"), go = document.getElementById("go"), out = document.getElementById("out");
+
+EXAMPLES.forEach(text => {
+  const b = document.createElement("button");
+  b.type = "button"; b.textContent = text.length > 52 ? text.slice(0, 50) + "…" : text; b.title = text;
+  b.onclick = () => { q.value = text; ask(); };
+  document.getElementById("examples").appendChild(b);
+});
+
+document.getElementById("form").onsubmit = e => { e.preventDefault(); ask(); };
+
+function el(tag, cls, text) {
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (text !== undefined) n.textContent = text;   // textContent only: filing text is never parsed as HTML
+  return n;
+}
+
+async function ask() {
+  const question = q.value.trim();
+  if (question.length < 3) return;
+  go.disabled = true; out.replaceChildren(el("p", "sub", "Searching the filings…"));
+  try {
+    const res = await fetch("/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question }) });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.detail || "Request failed");
+    render(data);
+  } catch (err) {
+    out.replaceChildren(el("p", "error", err.message));
+  } finally { go.disabled = false; }
+}
+
+function render(d) {
+  const cited = new Set(d.cited);
+  const nodes = [];
+
+  const qCard = el("div", "card");
+  qCard.append(el("p", "label", "Question"), el("p", "answer", d.question));
+  nodes.push(qCard);
+
+  const aCard = el("div", "card");
+  const label = el("p", "label", "Model answer");
+  label.append(el("span", "badge " + (d.answerable ? "answered" : "refused"), d.answerable ? "answered" : "refused"));
+  aCard.append(label, el("p", "answer", d.answer));
+  aCard.append(el("p", "meta", `${d.cited.length} chunk(s) cited`));
+  nodes.push(aCard);
+
+  const cCard = el("div", "card");
+  cCard.append(el("p", "label", `Retrieved chunks (top ${d.chunks.length}, in rank order)`));
+  d.chunks.forEach(c => {
+    const box = el("div", "chunk" + (cited.has(c.chunk_id) ? " cited" : ""));
+    const head = el("div", "head");
+    head.append(el("span", "rank", "#" + c.rank), el("span", "", `${c.ticker} · ${c.quarter} · ${c.kind}`));
+    if (cited.has(c.chunk_id)) head.append(el("span", "cite-tag", "CITED"));
+    box.append(head);
+    const text = c.text.trim();
+    box.append(el("pre", "", text.length > 280 ? text.slice(0, 280) + "…" : text));
+    if (text.length > 280) {
+      const det = el("details"); det.append(el("summary", "", "show full chunk"), el("pre", "", text));
+      box.append(det);
+    }
+    box.append(el("div", "meta", c.headline));
+    cCard.append(box);
+  });
+  nodes.push(cCard);
+
+  out.replaceChildren(...nodes);
+}
+</script>
+</body>
+</html>

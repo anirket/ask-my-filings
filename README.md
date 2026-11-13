@@ -73,14 +73,26 @@ cp .env.example .env            # ANTHROPIC_API_KEY, QDRANT_URL, QDRANT_API_KEY
 
 python -m rag.store             # chunk, embed and index into Qdrant (a few minutes)
 python -m rag.answer            # ask the questions in rag/answer.py
+uvicorn app:app --reload        # web UI at http://localhost:8000: question, retrieved chunks (cited ones marked), model answer
 PROMPTFOO_PYTHON=.venv/bin/python npx promptfoo eval --no-cache -o output/eval.json
 ```
 
 `--no-cache` matters: promptfoo caches provider output, so after re-indexing you would otherwise score stale results.
 
+### Deploying (not deployed yet; untested on Render)
+
+`app.py` is a FastAPI app (`POST /ask`, `GET /health`, the page in `static/`). For a Render web service:
+
+- Build command `pip install -r requirements-deploy.txt` (the query path only: no collector, chunking or tokenizer packages).
+- Start command `uvicorn app:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips='*'`. Behind Render's proxy the app would otherwise see the proxy's address for every visitor; these flags make uvicorn take the real client IP from `X-Forwarded-For`. `'*'` means "trust that header from any sender", which is only safe because the app is reachable only through Render's proxy. Render's docs on which `X-Forwarded-For` entry is authoritative were not conclusive when I checked, so treat per-IP limiting as best-effort.
+- Environment: `ANTHROPIC_API_KEY`, `QDRANT_URL`, `QDRANT_API_KEY`, and `PYTHON_VERSION` set to a 3.12 release.
+- The app only reads the existing Qdrant index; it never builds or deletes it.
+- The URL is public and spends your Anthropic credit. `slowapi` limits each client IP to 10 questions a minute and the whole service to 200 an hour (a ceiling that does not depend on knowing anyone's IP), and questions are capped at 300 characters. Also set a spend limit in the Anthropic console. Free-tier memory (~512 MB) and cold starts (two models load at import) are the things to watch.
+
 ## Layout
 
 ```
+app.py      FastAPI app + static/index.html (the UI)
 rag/        chunk.py (the chunking decision) · embed.py · store.py (index + the index-choice note) · retrieve.py · answer.py
 evals/      questions.yaml · answer_provider.py · assert_retrieval.py (recall@5, MRR) · assert_answer.py (refusal, citations)
 data/       the filings
